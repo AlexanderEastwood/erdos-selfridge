@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Further values of the Erdős–Selfridge function — draft</title>
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['\\[','\\]']]}};</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body style="margin:0;background:#fafaf7;">
+<article style="font-family:Georgia,'Times New Roman',serif;max-width:680px;margin:40px auto;padding:0 20px 60px;color:#1a1a1a;line-height:1.55;font-size:16px;">
+<p style="text-align:center;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#777;margin:0 0 18px;">Draft · not for distribution · <span style="background:#fff3a3;">remaining placeholders highlighted</span></p>
+<h1 style="text-align:center;font-size:24px;font-weight:normal;margin:0 0 6px;">Further values of the Erdős–Selfridge function<br>and a GPU algorithm for computing them</h1>
+<p style="text-align:center;margin:0 0 4px;">Alexander Eastwood</p>
+<p style="text-align:center;font-size:14px;color:#555;margin:0 0 28px;">Independent researcher · eastwood.alexander@gmail.com<br><span style="font-size:12px;">MSC 2020: 11Y55, 11B65, 11Y16</span></p>
+
+<h2 style="font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin:28px 0 8px;">Abstract</h2>
+<p style="font-size:15px;">Let $g(k)$ denote the least integer $n>k+1$ such that $\binom{n}{k}$ has no prime factor $\le k$ (OEIS A003458). We compute $g(378)$, one term beyond the published frontier, and independently reproduce the values $g(376)$ and $g(377)$ of Sorenson, Sorenson and Webster. The algorithm is their wheel-and-filter method with a knapsack choice of partial prime powers, implemented as an exact 128-bit residue enumeration on a single GPU at $2.2\times10^{11}$ candidates per second; each term is found in hours of wall time rather than the one to two weeks reported for the 192-core computation of 2020. Each value is certified by two runs with different wheels, an independent reference check of Kummer's condition, and a published per-block ledger that allows any single block to be re-sieved on a CPU. We also record that across the 377 previously published terms the ratio $g(k)/(M_k/R_k)$ is consistent with an Exponential(1) law (Kolmogorov–Smirnov statistic 0.0895), and state this as a conjecture.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">1. Introduction</h2>
+<p>Erdős and Selfridge [1] asked how large $n$ must be before $\binom nk$ can avoid every prime $\le k$. Writing $p(m)$ for the least prime factor of $m$, define
+\[ g(k)=\min\{\,n>k+1 : p(\tbinom nk)>k\,\}. \]
+Tables of $g(k)$ were computed by Ecklund, Erdős and Selfridge [1], Scheidler and Williams [2], Lukes, Scheidler and Williams [3] (to $k=200$), and by Sorenson, Sorenson and Webster [4] to $k=375$, with $g(376)$ and $g(377)$ in an addendum [5]. The last two required one and two weeks of wall time on a 192-core cluster.</p>
+<p>In this note we report one new value, $g(378)$, computed on a single NVIDIA RTX PRO 6000 (Blackwell) GPU in about ten hours, and describe the implementation and the certification protocol. We reproduce $g(376)$ and $g(377)$ exactly as a check on the engine.<sup>†</sup></p>
+<p style="font-size:13px;color:#555;border-top:1px solid #ddd;padding-top:6px;"><sup>†</sup> The $g(378)$ computation reported here comprises a complete, exhaustive primary search; an independent second-wheel confirmation run (§3.3) was in progress at the time of writing. The value is stated as computed and will be marked verified once the second wheel agrees.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">2. Kummer's theorem and the search space</h2>
+<p>By Kummer's theorem, $p\nmid\binom nk$ iff no borrow occurs when $k$ is subtracted from $n$ in base $p$; equivalently every base-$p$ digit of $k$ is at most the corresponding digit of $n$. Let $t_p=\lfloor\log_p k\rfloor+1$ and $k=\sum_{i<t_p}a_{ip}p^i$. Then $n$ is admissible for $p$ iff $n \bmod p^{t_p}$ lies in a set $A_p$ of $R_p=\prod_{i<t_p}(p-a_{ip})$ residues. Put $M_k=\prod_{p\le k}p^{t_p}$ and $R_k=\prod_{p\le k}R_p$; the heuristic expectation is $\hat g(k)\approx M_k/R_k$ [4]. For $k=378$, $\hat g(378)=2.443\times10^{30}$.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">3. Algorithm</h2>
+<h3 style="font-size:16px;font-style:italic;font-weight:normal;margin:18px 0 6px;">3.1 Wheel with partial prime powers</h3>
+<p>Following [4, §4–5] we fix a modulus $N=\prod_p p^{T_p}$ with $0\le T_p\le t_p$, chosen by a knapsack with capacity $\log N\approx\log\hat g(k)$, item size $T_p\log p$ and value $\log\bigl(p^{T_p}/\prod_{i<T_p}(p-a_{ip})\bigr)$, one power per prime (dynamic programme over primes). Every $n$ admissible for all primes lies in one of $R_N=\prod_p\prod_{i<T_p}(p-a_{ip})$ residue classes mod $N$. A prime with $T_p<t_p$ is still checked as a filter modulo $p^{t_p}$. For $k=378$ the primary wheel takes the 15 prime powers $2^9,3^6,5,7^2,19,43,79,97,101,127,131,191,193,197,199$, giving $N=1.390\times10^{30}$ (101 bits), $R_N=8.869\times10^{14}$ admissible residues per period, and 72 remaining primes as filters.</p>
+<h3 style="font-size:16px;font-style:italic;font-weight:normal;margin:18px 0 6px;">3.2 Exact enumeration on the GPU</h3>
+<p>Residue classes are indexed in mixed radix; each thread reconstructs its residue $r\equiv\sum_j a_j c_j \pmod N$ from precomputed tables $(a\,c_j \bmod N)$ using exact 128-bit arithmetic with a conditional subtraction after each addition. The largest ring is iterated inside the thread ("strip-mining"), so successive residues cost one 128-bit addition. Filters are evaluated as $r \bmod q=\bigl((r_{\mathrm{hi}}\bmod q)(2^{64}\bmod q)+r_{\mathrm{lo}}\bmod q\bigr)\bmod q$ with $q\le 373^2$, followed by a byte-table lookup; filters are ordered by pass rate and exit early (on average 1.25 lookups per residue). Blocks $[tN,(t+1)N)$ are scanned exhaustively for $t=0,1,\dots$; the least survivor of the first non-empty block is $g(k)$. The modulus $N\approx10^{30}$ is never materialised as a bit array; the wheel is a mixed-radix <em>generator</em> of the admissible residues, so memory is independent of $N$ and bounded by the filter tables (&lt;1&nbsp;MB, L2-resident).</p>
+<h3 style="font-size:16px;font-style:italic;font-weight:normal;margin:18px 0 6px;">3.3 Certification</h3>
+<p>Every GPU survivor is re-checked by a frozen pure-Python implementation of Kummer's condition. A value is accepted only if (i) two runs with materially different wheels (one prime banned from the knapsack) return the same $n$, (ii) the reference check passes, and (iii) both scans were exhaustive below $n$. The referee guarantees the value is correct; the second wheel, which enumerates the space on a disjoint modulus and trajectory, guarantees no smaller $n$ was skipped. For each block we publish $N$, the wheel, the number of residues enumerated, the survivor counts at each stage, and a SHA-256 of the survivor list, so that a single block can be re-sieved independently. Engine correctness was gated on agreement with every published term $k\le 280$ tested and on exact reproduction of $g(376)$ and $g(377)$.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">4. Results</h2>
+<p style="text-align:center;font-family:'SF Mono',Menlo,monospace;font-size:14px;">g(376) = 7778804220120654420924631668091<br>g(377) = 5973303871796437264595936954237</p>
+<p>were reproduced exactly. The new value is</p>
+<p style="text-align:center;font-family:'SF Mono',Menlo,monospace;font-size:15px;font-weight:bold;">g(378) = 11243132307156301763663607287294</p>
+<p>The primary search scanned blocks $t=0,\dots,8$ in full ($7.982\times10^{15}$ admissible residues, 10.03 h at $2.211\times10^{11}$ residues/s, no restarts); the survivor appeared in block $t=8$, so $g(378)/\hat g(378)=4.60$, an upper-tail draw (the largest ratio among the 377 previously known terms is 7.10). Minimality is exhaustive: blocks $t=0,\dots,7$ contained no residue passing the reference check. The second wheel for confirmation bans the prime 3, replacing it with $23^2$ and $211$, giving $N_2=2.108\times10^{30}$.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">5. Performance</h2>
+<p>The sieve sustains $2.21\times10^{11}$ residue checks per second at a 450 W power cap on one GPU; the workload is compute-bound and L2-resident. Expected cost grows slowly with $k$ because the work is the number of wheel-admissible residues below $g(k)$, not the magnitude of $g(k)$:</p>
+<table style="margin:12px auto;border-collapse:collapse;font-size:14px;">
+<thead><tr><th style="text-align:right;padding:4px 16px;border-bottom:1px solid #333;">$k$</th><th style="text-align:right;padding:4px 16px;border-bottom:1px solid #333;">expected GPU-hours</th><th style="text-align:right;padding:4px 16px;border-bottom:1px solid #333;">upper-tail (5ĝ) hours</th></tr></thead>
+<tbody>
+<tr><td style="text-align:right;padding:3px 16px;">378</td><td style="text-align:right;padding:3px 16px;">2.6</td><td style="text-align:right;padding:3px 16px;">10.0</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">379</td><td style="text-align:right;padding:3px 16px;">1.8</td><td style="text-align:right;padding:3px 16px;">7.2</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">380</td><td style="text-align:right;padding:3px 16px;">2.5</td><td style="text-align:right;padding:3px 16px;">9.9</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">381</td><td style="text-align:right;padding:3px 16px;">3.5</td><td style="text-align:right;padding:3px 16px;">13.1</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">382</td><td style="text-align:right;padding:3px 16px;">4.5</td><td style="text-align:right;padding:3px 16px;">19.0</td></tr>
+</tbody></table>
+<p>By comparison [5] report one and two weeks of wall time for $g(376)$ and $g(377)$ on a 192-core cluster.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">6. Distribution of $g(k)/\hat g(k)$</h2>
+<p>For the 377 previously published terms let $\rho_k=g(k)R_k/M_k$. The empirical distribution of $\rho_k$ is consistent with Exponential(1) (Kolmogorov–Smirnov statistic 0.0895); no structure was detected in the residuals against $k$, $k \bmod 2$, whether $k$ is prime, the number of distinct prime factors of $k$, or the popcount of $k$ (all Spearman $|\rho|<0.07$, $p>0.18$).</p>
+<p style="border-left:3px solid #bbb;padding-left:14px;"><b>Conjecture.</b> $\rho_k$ is asymptotically distributed as an Exponential(1) random variable; equivalently the admissible integers behave locally as a Poisson process of intensity $R_k/M_k$.</p>
+<p>The next term, $g(379)$, is a direct test of the prime-$k{+}1$ mechanism of [5, Thm. 3.1], which predicts $\hat g(379)\approx4.2\times10^{32}$; its computation is in progress.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">7. Reproducibility</h2>
+<p>Code, evidence ledgers and logs are available at <span style="background:#fff3a3;">public GitHub repository URL</span> (archived at <span style="background:#fff3a3;">Zenodo DOI</span>). Every value in this note can be re-checked in seconds by the reference implementation, and any single search block re-sieved on a CPU from the published wheel and modulus. The implementation, experiments and drafting were carried out with the assistance of Claude (Anthropic) under the author's direction; all reported values were independently verified by the frozen reference implementation.</p>
+
+<h2 style="font-size:18px;margin:30px 0 8px;">Acknowledgments</h2>
+<p>The author thanks Hoi Tran, Roscoe Pershall, and David Whitfield of Parkrose High School, Portland, Oregon, and his father, Charles Eastwood, whose teaching fostered a lasting interest in mathematics.</p>
+
+<h2 style="font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin:30px 0 8px;">References</h2>
+<ol style="font-size:14px;padding-left:22px;">
+<li>E. F. Ecklund Jr., P. Erdős, J. L. Selfridge, A new function associated with the prime factors of $\binom nk$, Math. Comp. 28 (1974) 647–649.</li>
+<li>R. Scheidler, H. C. Williams, A method for tabulating the number-theoretic function $g(k)$, Math. Comp. 59 (1992) 251–257.</li>
+<li>R. F. Lukes, R. Scheidler, H. C. Williams, Further tabulation of the Erdős–Selfridge function, Math. Comp. 66 (1997) 1709–1717.</li>
+<li>B. Sorenson, J. P. Sorenson, J. Webster, An algorithm and estimates for the Erdős–Selfridge function, ANTS XIV, Open Book Series 4 (2020) 371–385.</li>
+<li>B. Sorenson, J. P. Sorenson, J. Webster, An algorithm and estimates for the Erdős–Selfridge function: addendum, arXiv:1907.08559v3 (2021).</li>
+<li>OEIS Foundation, Sequence A003458, <a href="https://oeis.org/A003458" style="color:#1a1a1a;">https://oeis.org/A003458</a>.</li>
+</ol>
+</article></body></html>

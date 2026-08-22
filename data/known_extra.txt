@@ -1,0 +1,5 @@
+# Known terms of A003458 NOT in data/b003458.txt (375 terms).
+# Source: Sorenson & Webster, addendum 2021 (research/papers/sorenson_webster_addendum_2021.txt).
+# Format: k g(k)
+376 7778804220120654420924631668091
+377 5973303871796437264595936954237
