@@ -6,19 +6,22 @@ coefficient C(n, k) has no prime factor ≤ k. By Kummer's theorem this holds if
 prime p ≤ k, each base-p digit of k is ≤ the corresponding base-p digit of n.
 
 This repository accompanies the note *Further values of the Erdős–Selfridge function and a GPU
-algorithm for computing them* (`paper/`). It reproduces the published table and reports **g(378)**,
-one term beyond the previously published frontier of k = 377.
+algorithm for computing them* (`paper/`). It reproduces the published table and reports **four new terms, g(378) through g(381)**,
+beyond the previously published frontier of k = 377.
 
-## New value
+## New values (each independently verified: two wheels + frozen referee)
 
 ```
 g(378) = 11243132307156301763663607287294
+g(379) = 161870983573549868804425756301179
+g(380) = 10462825184429793014317942235516
+g(381) = 12870452058086999925869938534781
 ```
 
-Verify it in seconds with the reference implementation (pure Python, no GPU):
+Verify any of them in seconds with the reference implementation (pure Python, no GPU), e.g.:
 
 ```bash
-python ref/erdos_ref.py 378 --check 11243132307156301763663607287294
+python ref/erdos_ref.py 379 --check 161870983573549868804425756301179
 ```
 
 ## Layout
@@ -29,8 +32,8 @@ python ref/erdos_ref.py 378 --check 11243132307156301763663607287294
 | `sieve/gpu_sieve*.py` | GPU CRT-wheel sieves (CuPy/NVRTC). `gpu_sieve_v6.py` is the current engine; earlier versions kept for provenance. |
 | `harness/` | benchmark, gating, driver (`run_k.py`), evidence generation (`record_term.py`), analysis. |
 | `tests/` | agreement tests (referee & sieve vs OEIS b-file), enumeration-equivalence tests. |
-| `data/b003458.txt` | OEIS A003458 b-file (375 terms). `known_extra.txt` adds g(376), g(377) from the 2021 addendum. |
-| `evidence/NEW_TERMS.md` | per-block certification ledger for g(378): wheel, modulus, survivor counts per tier, SHA-256 per block. |
+| `data/b003458.txt` | OEIS A003458 b-file (375 terms, frozen). `known_extra.txt` adds g(376)-g(381); `b003458_1to381.txt` is the full merged table submitted to OEIS. |
+| `evidence/NEW_TERMS.md` | per-block certification ledger for g(378)-g(381): wheel, modulus, survivor counts per tier, SHA-256 per block. |
 | `paper/` | the accompanying note (LaTeX + HTML). |
 
 ## Method (brief)
