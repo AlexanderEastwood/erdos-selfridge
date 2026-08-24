@@ -13,7 +13,7 @@
 \begin{document}
 \begin{abstract}
 Let $g(k)$ denote the least integer $n>k+1$ such that $\binom{n}{k}$ has no prime factor $\le k$
-(OEIS A003458). We compute the six values $g(378),\dots,g(383)$, extending the published frontier, and
+(OEIS A003458). We compute the seven values $g(378),\dots,g(384)$, extending the published frontier, and
 independently reproduce the values $g(376)$ and $g(377)$ of Sorenson, Sorenson and Webster. The algorithm is
 their wheel-and-filter method with a knapsack choice of partial prime powers, implemented as an
 exact 128-bit residue enumeration on a single GPU at $2.2\times10^{11}$ candidates per second; each
@@ -35,7 +35,7 @@ Williams \cite{SW92}, Lukes, Scheidler and Williams \cite{LSW97} (to $k=200$), a
 Sorenson and Webster \cite{SSW20} to $k=375$, with $g(376)$ and $g(377)$ in an addendum
 \cite{SSW21}. The last two required one and two weeks of wall time on a 192-core cluster.
 
-In this note we report six new values, $g(378)$ through $g(383)$, computed on a single NVIDIA
+In this note we report seven new values, $g(378)$ through $g(384)$, computed on a single NVIDIA
 RTX PRO 6000 (Blackwell) GPU (from under an hour to about ten hours each), and describe the
 implementation and the certification protocol. We reproduce
 $g(376)$ and $g(377)$ exactly as a check on the engine.
@@ -106,6 +106,7 @@ $k$ & $g(k)$ \\
 381 & 12870452058086999925869938534781 \\
 382 & 33595253716498387794413412981758 \\
 383 & 540148968489634107903617360993663 \\
+384 & 347602760349418009297709548536219 \\
 \bottomrule
 \end{tabular}
 \end{center}
