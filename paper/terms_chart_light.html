@@ -2,28 +2,28 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Erdős–Selfridge g(k) — all known terms</title>
 <style>
- body{background:#0b1020;color:#eef2ff;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:34px 40px 50px;margin:0}
+ body{background:#ffffff;color:#1a2340;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:34px 40px 50px;margin:0}
  h1{font-size:26px;font-weight:800;letter-spacing:-.01em;margin:0}
- .sub{color:#9fb0d6;font-size:15px;margin-top:8px;max-width:840px;line-height:1.5}
+ .sub{color:#55607d;font-size:15px;margin-top:8px;max-width:840px;line-height:1.5}
  .wrap{max-width:1080px;margin:0 auto}
- .legend{display:flex;gap:22px;margin:20px 0 6px;font-size:13px;color:#9fb0d6;flex-wrap:wrap}
+ .legend{display:flex;gap:22px;margin:20px 0 6px;font-size:13px;color:#55607d;flex-wrap:wrap}
  .legend span{display:inline-flex;align-items:center;gap:8px}
  .dot{width:11px;height:11px;border-radius:50%}
- .ln{width:20px;height:0;border-top:2px dashed #7aa2ff;opacity:.8}
+ .ln{width:20px;height:0;border-top:2px dashed #2f5fd0;opacity:.8}
  svg{width:100%;height:auto;display:block;margin-top:4px}
- .gl{stroke:#1c2748;stroke-width:1}
- .axlab{fill:#6f7fa8;font-size:12px}
- .axtitle{fill:#9fb0d6;font-size:13px;font-weight:600}
- #tip{position:fixed;pointer-events:none;background:#0d1530;border:1px solid #2a3a66;border-radius:9px;padding:8px 11px;font-size:12px;color:#eef2ff;opacity:0;transition:opacity .08s;white-space:nowrap;z-index:9;box-shadow:0 6px 20px rgba(0,0,0,.18)}
- #tip b{color:#5ad1a8}
- .foot{color:#6f7fa8;font-size:12px;margin-top:16px}
+ .gl{stroke:#e8ebf3;stroke-width:1}
+ .axlab{fill:#8890a8;font-size:12px}
+ .axtitle{fill:#55607d;font-size:13px;font-weight:600}
+ #tip{position:fixed;pointer-events:none;background:#ffffff;border:1px solid #cdd4e6;border-radius:9px;padding:8px 11px;font-size:12px;color:#1a2340;opacity:0;transition:opacity .08s;white-space:nowrap;z-index:9;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+ #tip b{color:#0e9e6a}
+ .foot{color:#8890a8;font-size:12px;margin-top:16px}
 </style></head>
 <body><div class="wrap">
  <h1>Every known value of the Erdős–Selfridge function g(k)</h1>
  <div class="sub">Each dot is one answer in OEIS A003458 — how large a number you must reach before that counting pattern dodges every small prime. Height is the size of the answer (its digit count). The dashed curve is the mathematical model's prediction; the six green points are the new values computed here.</div>
  <div class="legend">
-   <span><span class="dot" style="background:#5f6f9c"></span>Previously known (k = 1&ndash;377)</span>
-   <span><span class="dot" style="background:#5ad1a8;width:14px;height:14px"></span>New &mdash; computed here (k = 378&ndash;383)</span>
+   <span><span class="dot" style="background:#9aa4c0"></span>Previously known (k = 1&ndash;377)</span>
+   <span><span class="dot" style="background:#0e9e6a;width:14px;height:14px"></span>New &mdash; computed here (k = 378&ndash;383)</span>
    <span><span class="ln"></span>Model prediction (M<sub>k</sub>/R<sub>k</sub>)</span>
  </div>
  <svg id="chart" viewBox="0 0 1080 560" role="img" aria-label="Digit-count of g(k) versus k for all 383 known terms"></svg>
@@ -44,10 +44,10 @@ for(let k=0;k<=400;k+=100){svg.appendChild(el('line',{class:'gl',x1:X(k),y1:mT,x
 const yt=el('text',{class:'axtitle',x:-(mT+ph/2),y:16,transform:'rotate(-90)','text-anchor':'middle'});yt.textContent='digits in g(k)';svg.appendChild(yt);
 const xt=el('text',{class:'axtitle',x:mL+pw/2,y:H-8,'text-anchor':'middle'});xt.textContent='k';svg.appendChild(xt);
 let d='';DATA.forEach(r=>{if(r.k<2)return; d+=(d?'L':'M')+X(r.k).toFixed(1)+' '+Y(r.lgh).toFixed(1)+' ';});
-svg.appendChild(el('path',{d,fill:'none',stroke:'#7aa2ff','stroke-width':2,'stroke-dasharray':'5 5','opacity':.6}));
-DATA.filter(r=>!r.new).forEach(r=>svg.appendChild(el('circle',{cx:X(r.k),cy:Y(r.lg),r:2.4,fill:'#5f6f9c','fill-opacity':.75})));
-DATA.filter(r=>r.new).forEach(r=>{svg.appendChild(el('circle',{cx:X(r.k),cy:Y(r.lg),r:5.5,fill:'#5ad1a8',stroke:'#0b1020','stroke-width':1.5}));
-  const off=(r.k%2)?-8:14; const t=el('text',{class:'axlab',x:X(r.k)+9,y:Y(r.lg)+off,fill:'#5ad1a8','font-size':11,'font-weight':700});t.textContent=r.k;svg.appendChild(t);});
+svg.appendChild(el('path',{d,fill:'none',stroke:'#2f5fd0','stroke-width':2,'stroke-dasharray':'5 5','opacity':.6}));
+DATA.filter(r=>!r.new).forEach(r=>svg.appendChild(el('circle',{cx:X(r.k),cy:Y(r.lg),r:2.4,fill:'#9aa4c0','fill-opacity':.75})));
+DATA.filter(r=>r.new).forEach(r=>{svg.appendChild(el('circle',{cx:X(r.k),cy:Y(r.lg),r:5.5,fill:'#0e9e6a',stroke:'#ffffff','stroke-width':1.5}));
+  const off=(r.k%2)?-8:14; const t=el('text',{class:'axlab',x:X(r.k)+9,y:Y(r.lg)+off,fill:'#0e9e6a','font-size':11,'font-weight':700});t.textContent=r.k;svg.appendChild(t);});
 const tip=document.getElementById('tip'); const pts=DATA.map(r=>({r,x:X(r.k),y:Y(r.lg)}));
 svg.addEventListener('mousemove',e=>{const b=svg.getBoundingClientRect();const sx=(e.clientX-b.left)/b.width*W,sy=(e.clientY-b.top)/b.height*H;
   let best=null,bd=1e9;for(const p of pts){const dd=(p.x-sx)*(p.x-sx)+(p.y-sy)*(p.y-sy);if(dd<bd){bd=dd;best=p;}}
