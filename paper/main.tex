@@ -2,7 +2,7 @@
 \usepackage{amsmath,amssymb,booktabs,hyperref,xcolor}
 \newcommand{\TODO}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
 \newcommand{\gk}{g(k)}
-\title[Further values of the Erd\H{o}s--Selfridge function]{Further values of the Erd\H{o}s--Selfridge function\\ and a GPU algorithm for computing them}
+\title[Further values of the Erd\H{o}s--Selfridge function]{Further values of the Erd\H{o}s--Selfridge function\\ and a GPU algorithm for computing them\thanks{This note was submitted to arXiv by Jonathan Webster as an enabling courtesy; he is not an author and claims no contribution to the results reported here.}}
 \author{Alexander Eastwood}
 \address{Independent researcher}
 \email{eastwood.alexander@gmail.com}
@@ -61,14 +61,22 @@ $2^9,3^6,5,7^2,19,43,79,97,101,127,131,191,193,197,199$, giving $N=1.390\times10
 as filters.
 
 \subsection{Exact enumeration on the GPU}
-Residue classes are indexed in mixed radix; each thread reconstructs its residue
+Residue classes are indexed in mixed radix; a thread reconstructs its residue
 $r\equiv\sum_j a_j c_j \pmod N$ from precomputed tables $(a\,c_j \bmod N)$ using exact 128-bit
-arithmetic with a conditional subtraction after each addition. The largest ring is iterated
-inside the thread (``strip-mining''), so successive residues cost one 128-bit addition.
+arithmetic with a conditional subtraction after each addition. A direct reconstruction of this
+kind costs $O(w)$ additions per residue, where $w$ is the number of wheel prime powers; to avoid
+paying that per residue we strip-mine the largest ring, holding the outer digits fixed so that
+successive residues along the ring cost a single incremental 128-bit addition. The reconstruction
+is then performed once per strip and amortised away ($\approx1.2$ additions per residue in the
+inner loop), recovering the amortised near-constant generation of the jump-table wheel of
+\cite{SSW20} on the hot dimension, while the outer dimensions remain index-addressable so that
+strips distribute across threads with no shared state.
 Filters are evaluated as $r \bmod q=\bigl((r_{\mathrm{hi}}\bmod q)(2^{64}\bmod q)+r_{\mathrm{lo}}\bmod q\bigr)\bmod q$
 with $q\le 373^2$, followed by a byte-table lookup; filters are ordered by pass rate and exit
-early (on average $1.25$ lookups per residue). Blocks $[tN,(t+1)N)$ are scanned exhaustively
-for $t=0,1,\dots$; the least survivor of the first non-empty block is $g(k)$.
+early ($\approx1.25$ lookups per residue amortised). Blocks $[tN,(t+1)N)$ are scanned
+\emph{exhaustively} for $t=0,1,\dots$: in contrast to the serial early-termination of
+\cite{SSW20}, a parallel scan evaluates every residue of a block concurrently and takes the
+minimum survivor, which we adopt for uniform per-thread work and a direct minimality guarantee.
 The modulus $N\approx10^{30}$ is never materialised as a bit array; the wheel is a mixed-radix
 \emph{generator} of the admissible residues, so memory is independent of $N$ and bounded by the
 filter tables ($<1$\,MB, L2-resident).
