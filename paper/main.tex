@@ -96,15 +96,17 @@ tested and on exact reproduction of $g(376)$ and $g(377)$.
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{terms_growth.pdf}
-\caption{All known values of $g(k)$, shown as the digit count $\log_{10}g(k)$ versus $k$. Grey: the
-$377$ previously published terms; green (labelled): the seven new values reported here
-($k=378,\dots,384$); dashed: the heuristic prediction $\hat g(k)=M_k/R_k$. The terms scatter about
-the prediction consistently with the Exponential$(1)$ law of \S\ref{sec:dist}.}
+\caption{The known values of $g(k)$ as the digit count $\log_{10}g(k)$ versus $k$. \emph{Left:} all
+$384$ terms; grey are the $377$ previously published, green the seven new values reported here, and
+the dashed curve is the heuristic prediction $\hat g(k)=M_k/R_k$; the shaded band marks the region
+enlarged at right. \emph{Right:} detail of the frontier ($k=356$--$384$), where the seven new
+values (labelled) are resolved, each tracking the prediction within the Exponential$(1)$ scatter of
+\S\ref{sec:dist}.}
 \label{fig:growth}
 \end{figure}
 
 The values $g(376)=7778804220120654420924631668091$ and
-$g(377)=5973303871796437264595936954237$ were reproduced exactly. The four new values are:
+$g(377)=5973303871796437264595936954237$ were reproduced exactly. The seven new values are:
 \begin{center}
 \begin{tabular}{rl}
 \toprule
@@ -124,10 +126,11 @@ Each was found by an exhaustive block search and independently confirmed by a se
 materially different wheel (the prime $3$ banned from the knapsack, so $N$, the CRT decomposition and
 the kernel all differ); the two runs return the same $n$ and their per-block survivor SHA-256 values
 agree. A from-scratch check of Kummer's condition passes for every prime $\le k$. Minimality is
-exhaustive: every wheel-admissible residue below $g(k)$ is examined. The searches ranged from a
-single block found in under an hour ($k=379,380,381$) to nine blocks over $10.03$ h for $k=378$,
-which drew $g(378)/\hat g(378)=4.60$ (an upper-tail draw; the largest ratio among the $377$
-previously known terms is $7.10$). By contrast $g(380)/\hat g(380)=0.07$ fell almost immediately, while $g(382)/\hat g(382)=6.74$ is the most extreme upper-tail draw in the table, requiring $13$ blocks.
+exhaustive: every wheel-admissible residue below $g(k)$ is examined. The ratios $g(k)/\hat g(k)$ for the seven terms span the full Exponential range, from
+$0.07$ ($k=380$, found almost immediately) to $6.74$ ($k=382$). The two extreme upper-tail draws,
+$k=378$ ($4.60$, nine blocks, $10.03$ h) and $k=382$ ($6.74$, thirteen blocks), dominate the wall
+time; the low-tail draws $k=379,380$ each fell in under an hour. The largest ratio among the $377$
+previously known terms is $7.10$, so nothing here is out of family.
 
 \section{Performance}
 The sieve sustains $2.21\times10^{11}$ residue checks per second at a 450\,W power cap on one GPU;
@@ -144,6 +147,8 @@ $k$ & expected GPU-hours & upper-tail ($5\hat g$) hours \\
 380 & 2.5 & 9.9 \\
 381 & 3.5 & 13.1 \\
 382 & 4.5 & 19.0 \\
+383 & 2.9 & 14.4 \\
+384 & 5.2 & 26.1 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -155,15 +160,18 @@ on a 192-core cluster.
 For the $377$ previously published terms let $\rho_k=g(k)R_k/M_k$. The empirical distribution of
 $\rho_k$ is consistent with Exponential$(1)$ (Kolmogorov--Smirnov statistic $0.0895$); no structure
 was detected in the residuals against $k$, $k \bmod 2$, whether $k$ is prime, the number of distinct
-prime factors of $k$, or the popcount of $k$ (all Spearman $|\rho|<0.07$, $p>0.18$).
+prime factors of $k$, or the popcount of $k$ (all Spearman $|\rho|<0.07$, $p>0.18$). The seven
+new terms are consistent with the same law, their $\rho_k$ ranging from $0.07$ ($k=380$) to
+$6.74$ ($k=382$).
 \begin{conjecture}
 $\rho_k$ is asymptotically distributed as an Exponential$(1)$ random variable; equivalently the
 admissible integers behave locally as a Poisson process of intensity $R_k/M_k$.
 \end{conjecture}
-The term $g(379)$ is a direct test of the prime-$k{+}1$ mechanism of \cite[Thm.~3.1]{SSW21}: the
-model predicts the expected value jumps by a factor $\approx171$ from $g(378)$ (to $\hat g(379)\approx
-4.2\times10^{32}$), while the observed ratio $g(379)/g(378)=14.4$, the difference being the
-Exponential-type scatter of $g(k)$ about $M_k/R_k$.
+Two of the new indices, $k=379$ and $k=383$, are prime, and each is a direct test of the
+prime-index mechanism of \cite[Thm.~3.1]{SSW21}, which predicts a large multiplicative jump into a
+prime index. Both show it: $g(379)/g(378)=14.4$ and $g(383)/g(382)=16.1$. For $k=379$ the model
+factor alone is $\approx171$ ($\hat g(379)\approx4.2\times10^{32}$); the gap between $171$ and the
+observed $14.4$ is the Exponential-type scatter of $g(k)$ about $M_k/R_k$.
 
 \section{Reproducibility}
 Code, evidence ledgers and logs are available at \url{https://github.com/AlexanderEastwood/erdos-selfridge}

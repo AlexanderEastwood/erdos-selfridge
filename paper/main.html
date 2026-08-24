@@ -34,11 +34,11 @@ Tables of $g(k)$ were computed by Ecklund, Erdős and Selfridge [1], Scheidler a
 <h2 style="font-size:18px;margin:30px 0 8px;">4. Results</h2>
 <figure style="margin:22px 0;text-align:center;">
 <img src="terms_growth.png" alt="Digit count of g(k) versus k for all known terms" style="max-width:100%;height:auto;border:1px solid #e6e9f2;border-radius:6px;">
-<figcaption style="font-size:13px;color:#555;margin-top:8px;text-align:left;"><b>Figure 1.</b> All known values of $g(k)$, as the digit count $\log_{10}g(k)$ versus $k$. Grey: the 377 previously published terms; green (labelled): the seven new values reported here ($k=378,\dots,384$); dashed: the heuristic prediction $\hat g(k)=M_k/R_k$. The terms scatter about the prediction consistently with the Exponential(1) law of §6. <a href="terms_chart.html" style="color:#1a1a1a;">[interactive version]</a></figcaption>
+<figcaption style="font-size:13px;color:#555;margin-top:8px;text-align:left;"><b>Figure 1.</b> <em>Left:</em> all 384 known values of $g(k)$ as the digit count $\log_{10}g(k)$ versus $k$ — grey are the 377 previously published, green the seven new values, dashed the prediction $\hat g(k)=M_k/R_k$; the shaded band marks the region enlarged at right. <em>Right:</em> detail of the frontier ($k=356$&ndash;384), where the seven new values (labelled) are resolved within the Exponential(1) scatter of §6. <a href="terms_chart.html" style="color:#1a1a1a;">[interactive version]</a></figcaption>
 </figure>
 
 <p style="text-align:center;font-family:'SF Mono',Menlo,monospace;font-size:14px;">g(376) = 7778804220120654420924631668091<br>g(377) = 5973303871796437264595936954237</p>
-<p>were reproduced exactly. The four new values are:</p>
+<p>were reproduced exactly. The seven new values are:</p>
 <table style="margin:12px auto;border-collapse:collapse;font-family:'SF Mono',Menlo,monospace;font-size:13px;">
 <thead><tr><th style="text-align:right;padding:4px 14px;border-bottom:1px solid #333;">k</th><th style="text-align:left;padding:4px 14px;border-bottom:1px solid #333;">g(k)</th></tr></thead>
 <tbody>
@@ -62,13 +62,15 @@ Tables of $g(k)$ were computed by Ecklund, Erdős and Selfridge [1], Scheidler a
 <tr><td style="text-align:right;padding:3px 16px;">380</td><td style="text-align:right;padding:3px 16px;">2.5</td><td style="text-align:right;padding:3px 16px;">9.9</td></tr>
 <tr><td style="text-align:right;padding:3px 16px;">381</td><td style="text-align:right;padding:3px 16px;">3.5</td><td style="text-align:right;padding:3px 16px;">13.1</td></tr>
 <tr><td style="text-align:right;padding:3px 16px;">382</td><td style="text-align:right;padding:3px 16px;">4.5</td><td style="text-align:right;padding:3px 16px;">19.0</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">383</td><td style="text-align:right;padding:3px 16px;">2.9</td><td style="text-align:right;padding:3px 16px;">14.4</td></tr>
+<tr><td style="text-align:right;padding:3px 16px;">384</td><td style="text-align:right;padding:3px 16px;">5.2</td><td style="text-align:right;padding:3px 16px;">26.1</td></tr>
 </tbody></table>
 <p>By comparison [5] report one and two weeks of wall time for $g(376)$ and $g(377)$ on a 192-core cluster.</p>
 
 <h2 style="font-size:18px;margin:30px 0 8px;">6. Distribution of $g(k)/\hat g(k)$</h2>
 <p>For the 377 previously published terms let $\rho_k=g(k)R_k/M_k$. The empirical distribution of $\rho_k$ is consistent with Exponential(1) (Kolmogorov–Smirnov statistic 0.0895); no structure was detected in the residuals against $k$, $k \bmod 2$, whether $k$ is prime, the number of distinct prime factors of $k$, or the popcount of $k$ (all Spearman $|\rho|\lt 0.07$, $p>0.18$).</p>
 <p style="border-left:3px solid #bbb;padding-left:14px;"><b>Conjecture.</b> $\rho_k$ is asymptotically distributed as an Exponential(1) random variable; equivalently the admissible integers behave locally as a Poisson process of intensity $R_k/M_k$.</p>
-<p>The term $g(379)$ is a direct test of the prime-$k{+}1$ mechanism of [5, Thm. 3.1]: the model predicts the expected value jumps by a factor $\approx171$ from $g(378)$ (to $\hat g(379)\approx4.2\times10^{32}$), while the observed ratio $g(379)/g(378)=14.4$, the difference being the Exponential-type scatter of $g(k)$ about $M_k/R_k$.</p>
+<p>Two of the new indices, $k=379$ and $k=383$, are prime, each a direct test of the prime-index mechanism of [5, Thm. 3.1], which predicts a large multiplicative jump into a prime index. Both show it: $g(379)/g(378)=14.4$ and $g(383)/g(382)=16.1$. For $k=379$ the model factor alone is $\approx171$ ($\hat g(379)\approx4.2\times10^{32}$); the gap to the observed 14.4 is the Exponential-type scatter of $g(k)$ about $M_k/R_k$.</p>
 
 <h2 style="font-size:18px;margin:30px 0 8px;">7. Reproducibility</h2>
 <p>Code, evidence ledgers and logs are available at <a href="https://github.com/AlexanderEastwood/erdos-selfridge" style="color:#1a1a1a;">https://github.com/AlexanderEastwood/erdos-selfridge</a> (archived at <a href="https://doi.org/10.5281/zenodo.22057210" style="color:#1a1a1a;">doi:10.5281/zenodo.22057210</a>). Every value in this note can be re-checked in seconds by the reference implementation, and any single search block re-sieved on a CPU from the published wheel and modulus. The implementation, experiments and drafting were carried out with the assistance of Claude (Anthropic) under the author's direction; all reported values were independently verified by the frozen reference implementation.</p>
