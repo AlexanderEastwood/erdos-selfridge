@@ -13,7 +13,7 @@
 \begin{document}
 \begin{abstract}
 Let $g(k)$ denote the least integer $n>k+1$ such that $\binom{n}{k}$ has no prime factor $\le k$
-(OEIS A003458). We compute the four values $g(378),\dots,g(381)$, extending the published frontier, and
+(OEIS A003458). We compute the five values $g(378),\dots,g(382)$, extending the published frontier, and
 independently reproduce the values $g(376)$ and $g(377)$ of Sorenson, Sorenson and Webster. The algorithm is
 their wheel-and-filter method with a knapsack choice of partial prime powers, implemented as an
 exact 128-bit residue enumeration on a single GPU at $2.2\times10^{11}$ candidates per second; each
@@ -35,7 +35,7 @@ Williams \cite{SW92}, Lukes, Scheidler and Williams \cite{LSW97} (to $k=200$), a
 Sorenson and Webster \cite{SSW20} to $k=375$, with $g(376)$ and $g(377)$ in an addendum
 \cite{SSW21}. The last two required one and two weeks of wall time on a 192-core cluster.
 
-In this note we report four new values, $g(378)$ through $g(381)$, computed on a single NVIDIA
+In this note we report five new values, $g(378)$ through $g(382)$, computed on a single NVIDIA
 RTX PRO 6000 (Blackwell) GPU (from under an hour to about ten hours each), and describe the
 implementation and the certification protocol. We reproduce
 $g(376)$ and $g(377)$ exactly as a check on the engine.
@@ -96,6 +96,7 @@ $k$ & $g(k)$ \\
 379 & 161870983573549868804425756301179 \\
 380 & 10462825184429793014317942235516 \\
 381 & 12870452058086999925869938534781 \\
+382 & 33595253716498387794413412981758 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -106,7 +107,7 @@ agree. A from-scratch check of Kummer's condition passes for every prime $\le k$
 exhaustive: every wheel-admissible residue below $g(k)$ is examined. The searches ranged from a
 single block found in under an hour ($k=379,380,381$) to nine blocks over $10.03$ h for $k=378$,
 which drew $g(378)/\hat g(378)=4.60$ (an upper-tail draw; the largest ratio among the $377$
-previously known terms is $7.10$). By contrast $g(380)/\hat g(380)=0.07$ fell almost immediately.
+previously known terms is $7.10$). By contrast $g(380)/\hat g(380)=0.07$ fell almost immediately, while $g(382)/\hat g(382)=6.74$ is the most extreme upper-tail draw in the table, requiring $13$ blocks.
 
 \section{Performance}
 The sieve sustains $2.21\times10^{11}$ residue checks per second at a 450\,W power cap on one GPU;

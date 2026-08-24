@@ -6,7 +6,7 @@ coefficient C(n, k) has no prime factor ≤ k. By Kummer's theorem this holds if
 prime p ≤ k, each base-p digit of k is ≤ the corresponding base-p digit of n.
 
 This repository accompanies the note *Further values of the Erdős–Selfridge function and a GPU
-algorithm for computing them* (`paper/`). It reproduces the published table and reports **four new terms, g(378) through g(381)**,
+algorithm for computing them* (`paper/`). It reproduces the published table and reports **five new terms, g(378) through g(382)**,
 beyond the previously published frontier of k = 377.
 
 ## New values (each independently verified: two wheels + frozen referee)
@@ -16,6 +16,7 @@ g(378) = 11243132307156301763663607287294
 g(379) = 161870983573549868804425756301179
 g(380) = 10462825184429793014317942235516
 g(381) = 12870452058086999925869938534781
+g(382) = 33595253716498387794413412981758
 ```
 
 Verify any of them in seconds with the reference implementation (pure Python, no GPU), e.g.:
