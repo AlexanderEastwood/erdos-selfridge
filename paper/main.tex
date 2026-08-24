@@ -1,5 +1,5 @@
 \documentclass[11pt]{amsart}
-\usepackage{amsmath,amssymb,booktabs,hyperref,xcolor}
+\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,xcolor}
 \newcommand{\TODO}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
 \newcommand{\gk}{g(k)}
 \title[Further values of the Erd\H{o}s--Selfridge function]{Further values of the Erd\H{o}s--Selfridge function\\ and a GPU algorithm for computing them\thanks{This note was submitted to arXiv by Jonathan Webster as an enabling courtesy; he is not an author and claims no contribution to the results reported here.}}
@@ -93,6 +93,16 @@ independently. Engine correctness was gated on agreement with every published te
 tested and on exact reproduction of $g(376)$ and $g(377)$.
 
 \section{Results}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{terms_growth.pdf}
+\caption{All known values of $g(k)$, shown as the digit count $\log_{10}g(k)$ versus $k$. Grey: the
+$377$ previously published terms; green (labelled): the seven new values reported here
+($k=378,\dots,384$); dashed: the heuristic prediction $\hat g(k)=M_k/R_k$. The terms scatter about
+the prediction consistently with the Exponential$(1)$ law of \S\ref{sec:dist}.}
+\label{fig:growth}
+\end{figure}
+
 The values $g(376)=7778804220120654420924631668091$ and
 $g(377)=5973303871796437264595936954237$ were reproduced exactly. The four new values are:
 \begin{center}
@@ -141,7 +151,7 @@ $k$ & expected GPU-hours & upper-tail ($5\hat g$) hours \\
 \noindent By comparison \cite{SSW21} report one and two weeks of wall time for $g(376)$ and $g(377)$
 on a 192-core cluster.
 
-\section{Distribution of $g(k)/\hat g(k)$}
+\section{Distribution of $g(k)/\hat g(k)$}\label{sec:dist}
 For the $377$ previously published terms let $\rho_k=g(k)R_k/M_k$. The empirical distribution of
 $\rho_k$ is consistent with Exponential$(1)$ (Kolmogorov--Smirnov statistic $0.0895$); no structure
 was detected in the residuals against $k$, $k \bmod 2$, whether $k$ is prime, the number of distinct
