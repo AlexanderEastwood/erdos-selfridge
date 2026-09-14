@@ -1,189 +1,114 @@
 \documentclass[11pt]{amsart}
-\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,xcolor}
-\newcommand{\TODO}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
-\newcommand{\gk}{g(k)}
-\title[Further values of the Erd\H{o}s--Selfridge function]{Further values of the Erd\H{o}s--Selfridge function\\ and a GPU algorithm for computing them\thanks{This note was submitted to arXiv by Jonathan Webster as an enabling courtesy; he is not an author and claims no contribution to the results reported here.}}
+\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,longtable}
+\title[Values of the Erd\H{o}s--Selfridge function through 400]{Further values of the Erd\H{o}s--Selfridge function\\and a GPU algorithm for computing them}
 \author{Alexander Eastwood}
 \address{Independent researcher}
-\email{eastwood.alexander@gmail.com}
-\subjclass[2020]{11Y55, 11B65, 11Y16}
-\keywords{Erd\H{o}s--Selfridge function, binomial coefficients, Kummer's theorem, wheel sieve, GPU computation}
-\date{\today}
-
+\date{September 14, 2026}
 \begin{document}
 \begin{abstract}
-Let $g(k)$ denote the least integer $n>k+1$ such that $\binom{n}{k}$ has no prime factor $\le k$
-(OEIS A003458). We compute the values $g(378),\dots,g(387)$, extending the published frontier, and
-independently reproduce the values $g(376)$ and $g(377)$ of Sorenson, Sorenson and Webster. The algorithm is
-their wheel-and-filter method with a knapsack choice of partial prime powers, implemented as an
-exact 128-bit residue enumeration on a single GPU at $2.2\times10^{11}$ candidates per second; each
-term is found in hours of wall time rather than the one to two weeks reported for the 192-core
-computation of 2020. Each value is certified by two runs with different wheels, an independent
-reference check of Kummer's condition, and a published per-block ledger that allows any single
-block to be re-sieved on a CPU. We also record that across the $377$ previously published terms the
-ratio $g(k)/(M_k/R_k)$ is consistent with an Exponential$(1)$ law (Kolmogorov--Smirnov statistic
-$0.0895$), and state this as a conjecture.
+We report $g(378),\ldots,g(400)$ for the Erd\H{o}s--Selfridge function, extending the
+Sorenson--Sorenson--Webster frontier of 377. A complete table through 400 and paired
+search records accompany this note. The computation uses partial-prime-power CRT
+wheels, strip-mined CUDA enumeration and residue filters. Fresh exact checks verify
+admissibility of all 400 values; checks of 108 completed block records support the
+recorded exhaustive searches for the 23 frontier terms. These record checks are
+distinguished from an independent exhaustive replay of minimality.
 \end{abstract}
 \maketitle
+\section{Definition and prior work}
+Define $g(k)=\min\{n>k+1:p(\binom nk)>k\}$, where $p(m)$ is the least prime factor
+of $m$. Earlier tables and algorithms appear in \cite{EES74,SW92,LSW97,SSW20,SSW21}.
+The 2021 addendum gives values through 377. Our complete data file preserves the
+389 entries in the OEIS b-file retrieved on September 14, 2026, and adds 390--400.
+Repository publication and OEIS editorial approval are separate events.
+\section{Wheel and GPU enumeration}
+By Kummer's theorem, $p\nmid\binom nk$ precisely when every base-$p$ digit of $k$
+is at most the corresponding digit of $n$. Write $t_p=\lfloor\log_p k\rfloor+1$
+and $k=\sum_{i<t_p}a_{ip}p^i$. The condition is periodic modulo $p^{t_p}$, with
+$\prod_{i<t_p}(p-a_{ip})$ admissible residues. Following \cite{SSW20}, choose partial
+prime powers $p^{T_p}$, $0\le T_p\le t_p$, by a knapsack strategy. They give
+\[
+N=\prod_p p^{T_p},\qquad R_N=\prod_p\prod_{i<T_p}(p-a_{ip}).
+\]
+CRT enumerates those $R_N$ wheel-admissible residues. A prime with $T_p<t_p$ remains
+in the residual filters. GPU threads reconstruct mixed-radix residues with exact
+128-bit integer arithmetic, then strip-mine one ring so successive candidates
+reuse the outer CRT work. Early residue filters reject most candidates; surviving
+candidates are checked by the frozen arbitrary-precision Python reference.
 
-\section{Introduction}
-Erd\H{o}s and Selfridge \cite{EES74} asked how large $n$ must be before $\binom nk$ can avoid every
-prime $\le k$. Writing $p(m)$ for the least prime factor of $m$, define
-\[ g(k)=\min\{\,n>k+1 : p(\tbinom nk)>k\,\}. \]
-Tables of $g(k)$ were computed by Ecklund, Erd\H{o}s and Selfridge \cite{EES74}, Scheidler and
-Williams \cite{SW92}, Lukes, Scheidler and Williams \cite{LSW97} (to $k=200$), and by Sorenson,
-Sorenson and Webster \cite{SSW20} to $k=375$, with $g(376)$ and $g(377)$ in an addendum
-\cite{SSW21}. The last two required one and two weeks of wall time on a 192-core cluster.
+Blocks $[tN,(t+1)N)$ are scanned in increasing $t$, and the minimum valid survivor
+in the first nonempty block is returned. The final confirmations for 397 and 399
+used word-mask filters retaining original candidate identities and compatible
+checkpoint coverage. The second run for each term uses a different wheel and
+modulus; these runs nevertheless share software components.
+\section{Verification scope}
+The release validator freshly checks all 400 witnesses with the frozen Kummer
+reference and with exact binomial coefficients: 17,391 prime-divisor tests.
+For 378--400 it checks 108 unique completed block records across 46 runs,
+including wheel-derived moduli and residue counts, consecutive blocks, survivor
+intervals and hashes, and the absence of earlier valid survivors in the lists.
+Repeated identical checkpoint rows are counted once. Reconstructed historical
+audit rows retain their provenance labels. The 397 confirmation includes reused
+completed coverage; it is not additional novel search work.
 
-In this note we report the new values $g(378)$ through $g(387)$, computed on a single NVIDIA
-RTX PRO 6000 (Blackwell) GPU (from under an hour to about ten hours each), and describe the
-implementation and the certification protocol. We reproduce
-$g(376)$ and $g(377)$ exactly as a check on the engine.
-
-\section{Kummer's theorem and the search space}
-By Kummer's theorem, $p\nmid\binom nk$ iff no borrow occurs when $k$ is subtracted from $n$ in base
-$p$; equivalently every base-$p$ digit of $k$ is at most the corresponding digit of $n$. Let
-$t_p=\lfloor\log_p k\rfloor+1$ and $k=\sum_{i<t_p}a_{ip}p^i$. Then $n$ is admissible for $p$ iff
-$n \bmod p^{t_p}$ lies in a set $A_p$ of $R_p=\prod_{i<t_p}(p-a_{ip})$ residues. Put
-$M_k=\prod_{p\le k}p^{t_p}$ and $R_k=\prod_{p\le k}R_p$; the heuristic expectation is
-$\hat g(k)\approx M_k/R_k$ \cite{SSW20}. For $k=378$, $\hat g(378)=2.443\times10^{30}$.
-
-\section{Algorithm}
-\subsection{Wheel with partial prime powers}
-Following \cite[\S4--5]{SSW20} we fix a modulus $N=\prod_p p^{T_p}$ with $0\le T_p\le t_p$, chosen
-by a knapsack with capacity $\log N\approx\log\hat g(k)$, item size $T_p\log p$ and value
-$\log\bigl(p^{T_p}/\prod_{i<T_p}(p-a_{ip})\bigr)$, one power per prime (dynamic programme over
-primes). Every $n$ admissible for all primes lies in one of $R_N=\prod_p\prod_{i<T_p}(p-a_{ip})$
-residue classes mod $N$. A prime with $T_p<t_p$ is still checked as a filter modulo $p^{t_p}$.
-For $k=378$ the primary wheel takes the $15$ prime powers
-$2^9,3^6,5,7^2,19,43,79,97,101,127,131,191,193,197,199$, giving $N=1.390\times10^{30}$
-($101$ bits), $R_N=8.869\times10^{14}$ admissible residues per period, and $72$ remaining primes
-as filters.
-
-\subsection{Exact enumeration on the GPU}
-Residue classes are indexed in mixed radix; a thread reconstructs its residue
-$r\equiv\sum_j a_j c_j \pmod N$ from precomputed tables $(a\,c_j \bmod N)$ using exact 128-bit
-arithmetic with a conditional subtraction after each addition. A direct reconstruction of this
-kind costs $O(w)$ additions per residue, where $w$ is the number of wheel prime powers; to avoid
-paying that per residue we strip-mine the largest ring, holding the outer digits fixed so that
-successive residues along the ring cost a single incremental 128-bit addition. The reconstruction
-is then performed once per strip and amortised away ($\approx1.2$ additions per residue in the
-inner loop), recovering the amortised near-constant generation of the jump-table wheel of
-\cite{SSW20} on the hot dimension, while the outer dimensions remain index-addressable so that
-strips distribute across threads with no shared state.
-Filters are evaluated as $r \bmod q=\bigl((r_{\mathrm{hi}}\bmod q)(2^{64}\bmod q)+r_{\mathrm{lo}}\bmod q\bigr)\bmod q$
-with $q\le 373^2$, followed by a byte-table lookup; filters are ordered by pass rate and exit
-early ($\approx1.25$ lookups per residue amortised). Blocks $[tN,(t+1)N)$ are scanned
-\emph{exhaustively} for $t=0,1,\dots$: in contrast to the serial early-termination of
-\cite{SSW20}, a parallel scan evaluates every residue of a block concurrently and takes the
-minimum survivor, which we adopt for uniform per-thread work and a direct minimality guarantee.
-The modulus $N\approx10^{30}$ is never materialised as a bit array; the wheel is a mixed-radix
-\emph{generator} of the admissible residues, so memory is independent of $N$ and bounded by the
-filter tables ($<1$\,MB, L2-resident).
-
-\subsection{Certification}\label{sec:cert}
-Every GPU survivor is re-checked by a frozen pure-Python implementation of Kummer's condition.
-A value is accepted only if (i) two runs with materially different wheels (one prime banned from
-the knapsack) return the same $n$, (ii) the reference check passes, and (iii) both scans were
-exhaustive below $n$. The referee guarantees the value is correct; the second wheel, which
-enumerates the space on a disjoint modulus and trajectory, guarantees no smaller $n$ was skipped.
-For each block we publish $N$, the wheel, the number of residues enumerated, the survivor counts at
-each stage, and a SHA-256 of the survivor list, so that a single block can be re-sieved
-independently. Engine correctness was gated on agreement with every published term $k\le 280$
-tested and on exact reproduction of $g(376)$ and $g(377)$.
-
+Witness checks establish admissibility, not minimality. Minimality relies on the
+correctness and completeness of the exhaustive enumeration and filtering.
+Two different wheels provide a cross-check, not a formal proof of implementation
+correctness. Survivor hashes authenticate the lists but do not certify that no
+candidate was omitted. No fresh exhaustive CPU or GPU replay was performed as
+part of this publication audit. Complete independent reproduction requires
+re-enumerating the recorded wheels.
 \section{Results}
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{terms_growth.pdf}
-\caption{The known values of $g(k)$ as the digit count $\log_{10}g(k)$ versus $k$. \emph{Left:} all
-$384$ terms; grey are the $377$ previously published, green the seven new values reported here, and
-the dashed curve is the heuristic prediction $\hat g(k)=M_k/R_k$; the shaded band marks the region
-enlarged at right. \emph{Right:} detail of the frontier ($k=356$--$386$), where the seven new
-values (labelled) are resolved, each tracking the prediction within the Exponential$(1)$ scatter of
-\S\ref{sec:dist}.}
-\label{fig:growth}
+\begin{longtable}{r r c}
+\toprule $k$ & $g(k)$ & Blocks: primary / confirm \\
+\midrule
+378 & 11243132307156301763663607287294 & 9 / 6 \\
+379 & 161870983573549868804425756301179 & 1 / 1 \\
+380 & 10462825184429793014317942235516 & 1 / 1 \\
+381 & 12870452058086999925869938534781 & 1 / 1 \\
+382 & 33595253716498387794413412981758 & 14 / 4 \\
+383 & 540148968489634107903617360993663 & 2 / 1 \\
+384 & 347602760349418009297709548536219 & 1 / 2 \\
+385 & 327295190388354179623724094491095 & 1 / 1 \\
+386 & 13244365243698813468350652166046 & 1 / 1 \\
+387 & 17088927744279024569389598842319 & 1 / 1 \\
+388 & 1379978640683593021393172825519 & 1 / 1 \\
+389 & 4171959526360182919803787001674199 & 2 / 1 \\
+390 & 1967924476778959819324408694516718 & 1 / 1 \\
+391 & 1407678907549820296859900034849791 & 2 / 3 \\
+392 & 2149910863290282683111595748554173 & 4 / 1 \\
+393 & 8221905832123087594889003885519 & 1 / 1 \\
+394 & 26940132483154282770968897574794 & 1 / 1 \\
+395 & 70422314661266035686410669061023 & 2 / 1 \\
+396 & 7350984493848874781629926017999 & 1 / 2 \\
+397 & 7282852096749166908452220090055597 & 5 / 5 \\
+398 & 358644756463853013270803607289823 & 2 / 1 \\
+399 & 1463367633345557449307696345739199 & 7 / 5 \\
+400 & 58305842808280308870124770403739 & 2 / 3 \\
+\bottomrule
+\end{longtable}
+\begin{figure}[ht]
+\centering\includegraphics[width=\linewidth]{terms_growth.pdf}
+\caption{All 400 values and detail for 356--400. Gray: 1--377; green: 378--400.
+The orange curve is $\log_{10}(M_k/R_k)$, where
+$M_k=\prod_{p\le k}p^{t_p}$ and $R_k=\prod_{p\le k}\prod_{i<t_p}(p-a_{ip})$.
+This density heuristic is not a bound or a minimality certificate.}
 \end{figure}
+\section{Reproduction}
+The complete table, paired records, source hashes and CPU validator are at
+\url{https://github.com/AlexanderEastwood/erdos-selfridge}.
+Run \texttt{python3 harness/verify\_release.py} for the release checks, and
+\texttt{python3 harness/replay\_release.py 399 confirmation} to print a fresh
+exhaustive GPU replay command. Adding \texttt{--execute} starts that scan; large
+terms may take days. The replay uses archived v9 for the recorded mathematical
+scope rather than reproducing historical timings. The last word-mask records
+also bind their source files by per-run SHA-256 manifests; older summaries do
+not have equally complete runtime manifests.
 
-The values $g(376)=7778804220120654420924631668091$ and
-$g(377)=5973303871796437264595936954237$ were reproduced exactly. The seven new values are:
-\begin{center}
-\begin{tabular}{rl}
-\toprule
-$k$ & $g(k)$ \\
-\midrule
-378 & 11243132307156301763663607287294 \\
-379 & 161870983573549868804425756301179 \\
-380 & 10462825184429793014317942235516 \\
-381 & 12870452058086999925869938534781 \\
-382 & 33595253716498387794413412981758 \\
-383 & 540148968489634107903617360993663 \\
-384 & 347602760349418009297709548536219 \\
-385 & 327295190388354179623724094491095 \\
-386 & 13244365243698813468350652166046 \\
-387 & 17088927744279024569389598842319 \\
-\bottomrule
-\end{tabular}
-\end{center}
-Each was found by an exhaustive block search and independently confirmed by a second run with a
-materially different wheel (the prime $3$ banned from the knapsack, so $N$, the CRT decomposition and
-the kernel all differ); the two runs return the same $n$ and their per-block survivor SHA-256 values
-agree. A from-scratch check of Kummer's condition passes for every prime $\le k$. Minimality is
-exhaustive: every wheel-admissible residue below $g(k)$ is examined. The ratios $g(k)/\hat g(k)$ for the seven terms span the full Exponential range, from
-$0.07$ ($k=380$, found almost immediately) to $6.74$ ($k=382$). The two extreme upper-tail draws,
-$k=378$ ($4.60$, nine blocks, $10.03$ h) and $k=382$ ($6.74$, thirteen blocks), dominate the wall
-time; the low-tail draws $k=379,380$ each fell in under an hour. The largest ratio among the $377$
-previously known terms is $7.10$, so nothing here is out of family.
-
-\section{Performance}
-The sieve sustains $2.21\times10^{11}$ residue checks per second at a 450\,W power cap on one GPU;
-the workload is compute-bound and L2-resident. Expected cost grows slowly with $k$ because the work
-is the number of wheel-admissible residues below $g(k)$, not the magnitude of $g(k)$:
-
-\begin{center}
-\begin{tabular}{rrr}
-\toprule
-$k$ & expected GPU-hours & upper-tail ($5\hat g$) hours \\
-\midrule
-378 & 2.6 & 10.0 \\
-379 & 1.8 & 7.2 \\
-380 & 2.5 & 9.9 \\
-381 & 3.5 & 13.1 \\
-382 & 4.5 & 19.0 \\
-383 & 2.9 & 14.4 \\
-384 & 5.2 & 26.1 \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\noindent By comparison \cite{SSW21} report one and two weeks of wall time for $g(376)$ and $g(377)$
-on a 192-core cluster.
-
-\section{Distribution of $g(k)/\hat g(k)$}\label{sec:dist}
-For the $377$ previously published terms let $\rho_k=g(k)R_k/M_k$. The empirical distribution of
-$\rho_k$ is consistent with Exponential$(1)$ (Kolmogorov--Smirnov statistic $0.0895$); no structure
-was detected in the residuals against $k$, $k \bmod 2$, whether $k$ is prime, the number of distinct
-prime factors of $k$, or the popcount of $k$ (all Spearman $|\rho|<0.07$, $p>0.18$). The seven
-new terms are consistent with the same law, their $\rho_k$ ranging from $0.07$ ($k=380$) to
-$6.74$ ($k=382$).
-\begin{conjecture}
-$\rho_k$ is asymptotically distributed as an Exponential$(1)$ random variable; equivalently the
-admissible integers behave locally as a Poisson process of intensity $R_k/M_k$.
-\end{conjecture}
-Two of the new indices, $k=379$ and $k=383$, are prime, and each is a direct test of the
-prime-index mechanism of \cite[Thm.~3.1]{SSW21}, which predicts a large multiplicative jump into a
-prime index. Both show it: $g(379)/g(378)=14.4$ and $g(383)/g(382)=16.1$. For $k=379$ the model
-factor alone is $\approx171$ ($\hat g(379)\approx4.2\times10^{32}$); the gap between $171$ and the
-observed $14.4$ is the Exponential-type scatter of $g(k)$ about $M_k/R_k$.
-
-\section{Reproducibility}
-Code, evidence ledgers and logs are available at \url{https://github.com/AlexanderEastwood/erdos-selfridge}
-(archived at \href{https://doi.org/10.5281/zenodo.22057210}{doi:10.5281/zenodo.22057210}). Every value in this note can be re-checked in seconds by the
-reference implementation, and any single search block re-sieved on a CPU from the published wheel
-and modulus. The implementation, experiments and drafting were carried out with the assistance of
-Claude (Anthropic) under the author's direction; all reported values were independently verified by
-the frozen reference implementation.
-
+No cross-hardware timing comparison or new distributional conclusion is claimed
+in this release. The earlier Zenodo archive predates this update. Computational
+development and drafting used AI assistance under the author's direction. This
+repository note does not assert arXiv publication or OEIS editorial acceptance.
 \section*{Acknowledgments}
 The author thanks Hoi Tran, Roscoe Pershall, and David Whitfield of Parkrose High School, Portland,
 Oregon, and his father, Charles Eastwood, whose teaching fostered a lasting interest in

@@ -1,0 +1,5132 @@
+{
+  "schema_version": 1,
+  "scope": "Captured completed search records, with two different wheels per term. Record consistency checks are not an independent exhaustive replay.",
+  "terms": [
+    {
+      "k": 378,
+      "n": "11243132307156301763663607287294",
+      "primary": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "1390243345488918710642394017280",
+        "block": 8,
+        "residues_per_block": 886908911616000,
+        "reported_residues_checked": 7982180204544000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "378",
+              "379"
+            ],
+            "sha256_survivors": "cf4c98846d083a163a00168221063550e48c3cc3d91ec79dc10cdf15dd63f10c",
+            "reconstructible": true,
+            "basis": "brute force over n=0..k+1 (the only survivors a completed block can hold)"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 5,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 6,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 7,
+            "residues_enumerated": 886908911616000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "reconstructible": true,
+            "basis": "proof: t>=1 so the block starts above k+1, and any survivor that were neither good nor <=k+1 would have been reported as a DISAGREEMENT"
+          },
+          {
+            "t": 8,
+            "residues_enumerated": 886908911616000,
+            "reconstructible": true,
+            "basis": "run recorded the complete good-survivor list; the remaining survivors are exactly the derivable n <= k+1",
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "11243132307156301763663607287294"
+            ],
+            "sha256_survivors": "6bc2d169a52f5ab3e75dca1661f97f2cc6ac924091119002ffca0f56d988cea0"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T11:49:11Z",
+          "audit_origin": {
+            "source": "reconstructed by harness/reconstruct_audit.py from overnight/2026-08-21/logs/k378_primary.log",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')",
+            "reconstructed": true,
+            "filter_primes": [
+              23,
+              211,
+              137,
+              139,
+              223,
+              103,
+              67,
+              227,
+              229,
+              233,
+              5,
+              239,
+              11,
+              83,
+              241,
+              107,
+              149,
+              151,
+              251,
+              31,
+              17,
+              109,
+              257,
+              29,
+              59,
+              263,
+              37,
+              157,
+              269,
+              13,
+              271,
+              41,
+              71,
+              277,
+              113,
+              281,
+              283,
+              163,
+              293,
+              89,
+              61,
+              167,
+              53,
+              73,
+              307,
+              311,
+              313,
+              47,
+              317,
+              173,
+              43,
+              331,
+              7,
+              337,
+              179,
+              181,
+              347,
+              349,
+              353,
+              359,
+              19,
+              79,
+              367,
+              97,
+              101,
+              373,
+              127,
+              131,
+              191,
+              193,
+              197,
+              199
+            ]
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "2107560498989903673324279534080",
+        "block": 5,
+        "residues_per_block": 1264666411008000,
+        "reported_residues_checked": 7587998466048000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "378",
+              "379"
+            ],
+            "sha256_survivors": "cf4c98846d083a163a00168221063550e48c3cc3d91ec79dc10cdf15dd63f10c"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 5,
+            "residues_enumerated": 1264666411008000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "11243132307156301763663607287294"
+            ],
+            "sha256_survivors": "6bc2d169a52f5ab3e75dca1661f97f2cc6ac924091119002ffca0f56d988cea0"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T11:49:11Z"
+        }
+      }
+    },
+    {
+      "k": 379,
+      "n": "161870983573549868804425756301179",
+      "primary": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "293341345898161847945545137646080",
+        "block": 0,
+        "residues_per_block": 717227384832000,
+        "reported_residues_checked": 717227384832000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 717227384832000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "379",
+              "161870983573549868804425756301179"
+            ],
+            "sha256_survivors": "8893f3ab3e850c90bb1e27418935c9d3d80ae1365e34e188b4eb344b32647b8e"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T17:10:32Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "212863610397980271005752232942080",
+        "block": 0,
+        "residues_per_block": 836765282304000,
+        "reported_residues_checked": 836765282304000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 836765282304000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "379",
+              "161870983573549868804425756301179"
+            ],
+            "sha256_survivors": "8893f3ab3e850c90bb1e27418935c9d3d80ae1365e34e188b4eb344b32647b8e"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T17:10:32Z"
+        }
+      }
+    },
+    {
+      "k": 380,
+      "n": "10462825184429793014317942235516",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ]
+        ],
+        "N": "85156063446315978707664113542656",
+        "block": 0,
+        "residues_per_block": 878757175296000,
+        "reported_residues_checked": 878757175296000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 878757175296000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "380",
+              "10462825184429793014317942235516",
+              "31308222042473219761075761917309"
+            ],
+            "sha256_survivors": "c1d7c5b500ebe27e8bd3ce6196ca122d0c26cde076eae4e8188691897a8a3a28"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T18:59:03Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            191,
+            1
+          ],
+          [
+            127,
+            1
+          ]
+        ],
+        "N": "33432564968187208796838834293248",
+        "block": 0,
+        "residues_per_block": 1324238243328000,
+        "reported_residues_checked": 1324238243328000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1324238243328000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "380",
+              "10462825184429793014317942235516",
+              "31308222042473219761075761917309"
+            ],
+            "sha256_survivors": "c1d7c5b500ebe27e8bd3ce6196ca122d0c26cde076eae4e8188691897a8a3a28"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T18:59:03Z"
+        }
+      }
+    },
+    {
+      "k": 381,
+      "n": "12870452058086999925869938534781",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            191,
+            1
+          ]
+        ],
+        "N": "30620421764160863734776859725312",
+        "block": 0,
+        "residues_per_block": 1735323512832000,
+        "reported_residues_checked": 1735323512832000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1735323512832000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "381",
+              "12870452058086999925869938534781"
+            ],
+            "sha256_survivors": "df3895f5b49479513d193d0fb1b0d4971273039e0e9841007a3e2948966a970c"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T21:47:14Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            191,
+            1
+          ]
+        ],
+        "N": "26588102848715811720320647745024",
+        "block": 0,
+        "residues_per_block": 1976340667392000,
+        "reported_residues_checked": 1976340667392000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1976340667392000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "381",
+              "12870452058086999925869938534781"
+            ],
+            "sha256_survivors": "df3895f5b49479513d193d0fb1b0d4971273039e0e9841007a3e2948966a970c"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-22/confirmations.jsonl",
+          "source_sha256": "cfc507bbb921155a193717899f52db51fdbcce5a37c9c72876388244cb17b5d4",
+          "recorded_at": "2026-08-22T21:47:14Z"
+        }
+      }
+    },
+    {
+      "k": 382,
+      "n": "33595253716498387794413412981758",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "2404745164724675162417030868480",
+        "block": 13,
+        "residues_per_block": 1373013251850240,
+        "reported_residues_checked": 19222185525903360,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "382",
+              "383"
+            ],
+            "sha256_survivors": "deb1b59a3d340c9dd3f19c7de464f4c66a133cd385b6c934641cc5baf2641711"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 5,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 6,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 7,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 8,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 9,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 10,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 11,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 12,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 13,
+            "residues_enumerated": 1373013251850240,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "33595253716498387794413412981758"
+            ],
+            "sha256_survivors": "f19c50ba46cc0af3b84e2aeb12264cebeff50f19bdd39300be46bf25dcbe1b4b"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T09:05:19Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "9326716706094028195086300517888",
+        "block": 3,
+        "residues_per_block": 7627851399168000,
+        "reported_residues_checked": 30511405596672000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 7627851399168000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "382",
+              "383"
+            ],
+            "sha256_survivors": "deb1b59a3d340c9dd3f19c7de464f4c66a133cd385b6c934641cc5baf2641711"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 7627851399168000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 7627851399168000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 7627851399168000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "33595253716498387794413412981758"
+            ],
+            "sha256_survivors": "f19c50ba46cc0af3b84e2aeb12264cebeff50f19bdd39300be46bf25dcbe1b4b"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T09:05:19Z"
+        }
+      }
+    },
+    {
+      "k": 383,
+      "n": "540148968489634107903617360993663",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "507401229756906459269993513249280",
+        "block": 1,
+        "residues_per_block": 1171676233728000,
+        "reported_residues_checked": 2343352467456000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 1171676233728000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "383"
+            ],
+            "sha256_survivors": "48b361d46638bfa4eee090c158a750a69c7beec3a62e703e2801125551b1b157"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 1171676233728000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "540148968489634107903617360993663"
+            ],
+            "sha256_survivors": "d483043f86e4db0df4a294d0097f6d08c341d28b8731ad9420cd904177d13519"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T15:48:04Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "792770920017992396582335544020480",
+        "block": 0,
+        "residues_per_block": 7420616146944000,
+        "reported_residues_checked": 7420616146944000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 7420616146944000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "383",
+              "540148968489634107903617360993663"
+            ],
+            "sha256_survivors": "8aa5876c3cca07fbc0c3d5ef74932c8f981bfa824c0063ded8199e317ceddcfe"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T15:48:04Z"
+        }
+      }
+    },
+    {
+      "k": 384,
+      "n": "347602760349418009297709548536219",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "863176701402862355515945996172115",
+        "block": 0,
+        "residues_per_block": 2600783255347200,
+        "reported_residues_checked": 2600783255347200,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 2600783255347200,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "384",
+              "347602760349418009297709548536219",
+              "519936030051374839409298379938734"
+            ],
+            "sha256_survivors": "131f6617497527f2c36fd6d079b73f6e97752ce0e305d0b81cc0a6b045847215"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T21:37:31Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            193,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "215224917739259654540907501208685",
+        "block": 1,
+        "residues_per_block": 2781393203635200,
+        "reported_residues_checked": 5562786407270400,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 2781393203635200,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "384"
+            ],
+            "sha256_survivors": "37b73510175057c633ebe4beb0a34917fa2a0696432db43a4eeb2c3ff83a4c3b"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 2781393203635200,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "347602760349418009297709548536219"
+            ],
+            "sha256_survivors": "48ca0529f9c2bba9bf9ca8ccde876acea0f2cc3dc8052d4f56a7f7f9c2415951"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-24/confirmations.jsonl",
+          "source_sha256": "e182f907e6d048b790382757129fdcfb6b4344199e48b02aa76964de4c16e3d9",
+          "recorded_at": "2026-08-24T21:37:31Z"
+        }
+      }
+    },
+    {
+      "k": 385,
+      "n": "327295190388354179623724094491095",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            193,
+            1
+          ]
+        ],
+        "N": "533600142685405819773493888542762",
+        "block": 0,
+        "residues_per_block": 3693894778828800,
+        "reported_residues_checked": 3693894778828800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 3693894778828800,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "385",
+              "327295190388354179623724094491095",
+              "412750758401231181743859289073593"
+            ],
+            "sha256_survivors": "6e6f37b3987b56a57a91ddb7ea7c8b5587fbdf3e269dd2a5aaec177b109a491d"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T03:51:37Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            193,
+            1
+          ]
+        ],
+        "N": "351518577408869236722822988186938",
+        "block": 0,
+        "residues_per_block": 3194719808716800,
+        "reported_residues_checked": 3194719808716800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 3194719808716800,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "385",
+              "327295190388354179623724094491095"
+            ],
+            "sha256_survivors": "e13bc6774d51d7b2451b5cc391b5ab2d2162466ca770cd6393dce7729f467904"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T03:51:37Z"
+        }
+      }
+    },
+    {
+      "k": 386,
+      "n": "13244365243698813468350652166046",
+      "primary": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ]
+        ],
+        "N": "189847373736085662993678309222468",
+        "block": 0,
+        "residues_per_block": 4108475105280000,
+        "reported_residues_checked": 4108475105280000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 4108475105280000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "386",
+              "13244365243698813468350652166046",
+              "31577915451404683477813434430391"
+            ],
+            "sha256_survivors": "8c565ec7a20771bb51152b8f2f2acbebc1b313fbd6235d1c102c7b98cacb01cf"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T12:43:13Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            97,
+            1
+          ],
+          [
+            43,
+            1
+          ]
+        ],
+        "N": "149652844703114785384430727685764",
+        "block": 0,
+        "residues_per_block": 7277870186496000,
+        "reported_residues_checked": 7277870186496000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 7277870186496000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "386",
+              "13244365243698813468350652166046",
+              "31577915451404683477813434430391"
+            ],
+            "sha256_survivors": "8c565ec7a20771bb51152b8f2f2acbebc1b313fbd6235d1c102c7b98cacb01cf"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T12:43:13Z"
+        }
+      }
+    },
+    {
+      "k": 387,
+      "n": "17088927744279024569389598842319",
+      "primary": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            97,
+            1
+          ]
+        ],
+        "N": "66225828047471742904771503217140",
+        "block": 0,
+        "residues_per_block": 7182149990400000,
+        "reported_residues_checked": 7182149990400000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 7182149990400000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "387",
+              "17088927744279024569389598842319",
+              "21829850751421844859543407088067"
+            ],
+            "sha256_survivors": "9582b3d9f40f920031f4b60a13cf14c878f94ba1303b5c341abd1fbf5cdff2f7"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T20:14:20Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            97,
+            1
+          ]
+        ],
+        "N": "17874543880773926725753862033364",
+        "block": 0,
+        "residues_per_block": 2872859996160000,
+        "reported_residues_checked": 2872859996160000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 2872859996160000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "387",
+              "17088927744279024569389598842319"
+            ],
+            "sha256_survivors": "2dadcebf51f482205a6a308b524db2be95b5bec53affea04b285995998f539f1"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-25/confirmations.jsonl",
+          "source_sha256": "217fbdb7ac182f899ffe78239abb567e18f5c82b30af6d926f78537d69aeb7e4",
+          "recorded_at": "2026-08-25T20:14:20Z"
+        }
+      }
+    },
+    {
+      "k": 388,
+      "n": "1379978640683593021393172825519",
+      "primary": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "N": "9213682412770065322553537130600",
+        "block": 0,
+        "residues_per_block": 6193770076569600,
+        "reported_residues_checked": 6193770076569600,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 6193770076569600,
+            "kernel_survivors": 4,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "388",
+              "389",
+              "1379978640683593021393172825519",
+              "9208778302533035870985628418519"
+            ],
+            "sha256_survivors": "4aca13ddaacfaf1ca47aa07dc7e268ce1949e337e0e1e6a05d5455ffa67ea2e2"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-26/confirmations.jsonl",
+          "source_sha256": "2740b057105c48e05cb7b80cdd45950f7a189645a8d731e58405f070099a5bc9",
+          "recorded_at": "2026-08-26T07:27:14Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "N": "4242271038973267486643355225600",
+        "block": 0,
+        "residues_per_block": 3417252456038400,
+        "reported_residues_checked": 3417252456038400,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 3417252456038400,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "388",
+              "389",
+              "1379978640683593021393172825519"
+            ],
+            "sha256_survivors": "29962ad05a3c3f7fe0d5ffa9214d459a52d2b462bd8df69a663106d9243e1b0b"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-26/confirmations.jsonl",
+          "source_sha256": "2740b057105c48e05cb7b80cdd45950f7a189645a8d731e58405f070099a5bc9",
+          "recorded_at": "2026-08-26T07:27:14Z"
+        }
+      }
+    },
+    {
+      "k": 389,
+      "n": "4171959526360182919803787001674199",
+      "primary": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "N": "4049106297665351373751527784327680",
+        "block": 1,
+        "residues_per_block": 3176079504998400,
+        "reported_residues_checked": 6352159009996800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 3176079504998400,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "389"
+            ],
+            "sha256_survivors": "b98880883fd8d975260f1807fa46a5156fcc4cc82bf6d657a417d8bb4e42cd55"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 3176079504998400,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "4171959526360182919803787001674199",
+              "4867660577319045756714160045638119"
+            ],
+            "sha256_survivors": "e0174671e44e931ef23984124330d9688eb59e9d551b88c3e55d04df29b835d8"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-26/confirmations.jsonl",
+          "source_sha256": "2740b057105c48e05cb7b80cdd45950f7a189645a8d731e58405f070099a5bc9",
+          "recorded_at": "2026-08-26T16:53:56Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "N": "4913963953477368172028553136320000",
+        "block": 0,
+        "residues_per_block": 4142712397824000,
+        "reported_residues_checked": 4142712397824000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 4142712397824000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "389",
+              "4171959526360182919803787001674199",
+              "4867660577319045756714160045638119"
+            ],
+            "sha256_survivors": "135fdc380dd0a9d01c4cc147004561e60964149abdd87bd293061cf4cb2e38d7"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-26/confirmations.jsonl",
+          "source_sha256": "2740b057105c48e05cb7b80cdd45950f7a189645a8d731e58405f070099a5bc9",
+          "recorded_at": "2026-08-26T16:53:56Z"
+        }
+      }
+    },
+    {
+      "k": 390,
+      "n": "1967924476778959819324408694516718",
+      "primary": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        "N": "4672045728075405431251762828070400",
+        "block": 0,
+        "residues_per_block": 6921902673100800,
+        "reported_residues_checked": 6921902673100800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 6921902673100800,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "390",
+              "1967924476778959819324408694516718",
+              "2194985542539267412409184290421223"
+            ],
+            "sha256_survivors": "42d9b499c1636d528bee3c4b49f2dbca260732764b0b994ba83a26691db6862a"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-27/confirmations.jsonl",
+          "source_sha256": "1b5a7b7d80a2e0f359c7d94aa568b6db1b4efa3ef5db88356747f6d8fa5dd074",
+          "recorded_at": "2026-08-27T03:46:35Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        "N": "2055700120353178389750775644350976",
+        "block": 0,
+        "residues_per_block": 4153141603860480,
+        "reported_residues_checked": 4153141603860480,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 4153141603860480,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "390",
+              "1967924476778959819324408694516718"
+            ],
+            "sha256_survivors": "ab6d661c4b96b28a0570b3ea7d2ef4ceab51d86836da29df3de3feab0e14044d"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-27/confirmations.jsonl",
+          "source_sha256": "1b5a7b7d80a2e0f359c7d94aa568b6db1b4efa3ef5db88356747f6d8fa5dd074",
+          "recorded_at": "2026-08-27T03:46:35Z"
+        }
+      }
+    },
+    {
+      "k": 391,
+      "n": "1407678907549820296859900034849791",
+      "primary": {
+        "wheel": [
+          [
+            5,
+            4
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "N": "904831125289817761158325392960000",
+        "block": 1,
+        "residues_per_block": 6662229590016000,
+        "reported_residues_checked": 13324459180032000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 6662229590016000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "391"
+            ],
+            "sha256_survivors": "a934c244755c66aebb0d6f9f5687038ffae8f00b00b28b4e17521016393f38b9"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 6662229590016000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "1407678907549820296859900034849791"
+            ],
+            "sha256_survivors": "19f2fbde785d07329a795aff6e89a90fff05b848fbae0d45614ef9e7edb7ec84"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-28/confirmations.jsonl",
+          "source_sha256": "7ce883a524361ea6ba5c9d9e231104f4ee5dd99984c450e9c68f6681c4419429",
+          "recorded_at": "2026-08-28T00:21:51Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "N": "474322000415083415849311627046400",
+        "block": 2,
+        "residues_per_block": 3997337754009600,
+        "reported_residues_checked": 11992013262028800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 3997337754009600,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "391"
+            ],
+            "sha256_survivors": "a934c244755c66aebb0d6f9f5687038ffae8f00b00b28b4e17521016393f38b9"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 3997337754009600,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 3997337754009600,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "1407678907549820296859900034849791"
+            ],
+            "sha256_survivors": "19f2fbde785d07329a795aff6e89a90fff05b848fbae0d45614ef9e7edb7ec84"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-28/confirmations.jsonl",
+          "source_sha256": "7ce883a524361ea6ba5c9d9e231104f4ee5dd99984c450e9c68f6681c4419429",
+          "recorded_at": "2026-08-28T00:21:51Z"
+        }
+      }
+    },
+    {
+      "k": 392,
+      "n": "2149910863290282683111595748554173",
+      "primary": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ]
+        ],
+        "N": "572444181305803073385879330240000",
+        "block": 3,
+        "residues_per_block": 11649318912000000,
+        "reported_residues_checked": 46597275648000000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 11649318912000000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "392"
+            ],
+            "sha256_survivors": "6ea2fdb3399f4d2e806beb01e9a3371bd622bed6a409acf3151818d738c370ec"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 11649318912000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 11649318912000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 11649318912000000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "2149910863290282683111595748554173",
+              "2250487814358833248009085000133548"
+            ],
+            "sha256_survivors": "bc5dcaa1bcfea186facb42460150112d06ce80990787f90b079eeffc234ae8db"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-30/confirmations.jsonl",
+          "source_sha256": "def2efd7ee63b31cbfadcdd74a05c1c9efa89ba3c7e9723e223f6f2e21a35f87",
+          "recorded_at": "2026-08-30T18:24:14Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ],
+          [
+            131,
+            1
+          ]
+        ],
+        "N": "2541652164997765645833304226265600",
+        "block": 0,
+        "residues_per_block": 34947956736000000,
+        "reported_residues_checked": 34947956736000000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 34947956736000000,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "392",
+              "2149910863290282683111595748554173",
+              "2250487814358833248009085000133548"
+            ],
+            "sha256_survivors": "79d4782f2592f1b7f33f4000ee07a4a1d82ee43ca061e9877b750476c0509eb5"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-30/confirmations.jsonl",
+          "source_sha256": "def2efd7ee63b31cbfadcdd74a05c1c9efa89ba3c7e9723e223f6f2e21a35f87",
+          "recorded_at": "2026-08-30T18:24:14Z"
+        }
+      }
+    },
+    {
+      "k": 393,
+      "n": "8221905832123087594889003885519",
+      "primary": {
+        "wheel": [
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ]
+        ],
+        "N": "362693641590699657183419728320000",
+        "block": 0,
+        "residues_per_block": 14333654827008000,
+        "reported_residues_checked": 14333654827008000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 14333654827008000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "393",
+              "8221905832123087594889003885519"
+            ],
+            "sha256_survivors": "8d7cefca5234b8edb413f1f7ab1a7c598d75f6bd895be1890d40c7ed14f10897"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-30/logs/k393_primary.log",
+          "source_sha256": "7441b6afbea074a130399bc6ede663533f30a6a3a9222f258da6662e6c623deb",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "8221905832123087594889003885519",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            223,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ],
+          [
+            197,
+            1
+          ]
+        ],
+        "N": "116935925891170154532871228070400",
+        "block": 0,
+        "residues_per_block": 6906215507558400,
+        "reported_residues_checked": 6906215507558400,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 6906215507558400,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "393",
+              "8221905832123087594889003885519"
+            ],
+            "sha256_survivors": "8d7cefca5234b8edb413f1f7ab1a7c598d75f6bd895be1890d40c7ed14f10897"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-08-31/logs/k393_confirm.log",
+          "source_sha256": "545e83762bec2eabccd873093d3385d0ec69b5661b8d40089005ad0fc8790342",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "8221905832123087594889003885519",
+        "engine": "gpu_sieve_v8"
+      }
+    },
+    {
+      "k": 394,
+      "n": "26940132483154282770968897574794",
+      "primary": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ]
+        ],
+        "N": "68120125577948666577596598720000",
+        "block": 0,
+        "residues_per_block": 7932907487232000,
+        "reported_residues_checked": 7932907487232000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 7932907487232000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "394",
+              "26940132483154282770968897574794"
+            ],
+            "sha256_survivors": "a30337c36cfd0947d26191d40c2223bba1f8b46ddb7db885e829a53baf0b1bcf"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-01/logs/k394_primary.log",
+          "source_sha256": "1b9238a823fc210e33f825e906dbf693fc78aea7543872f23139d79e9d9c3678",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "26940132483154282770968897574794",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            223,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            79,
+            1
+          ]
+        ],
+        "N": "49267420553132603178823918425600",
+        "block": 0,
+        "residues_per_block": 6346325989785600,
+        "reported_residues_checked": 6346325989785600,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 6346325989785600,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "394",
+              "26940132483154282770968897574794"
+            ],
+            "sha256_survivors": "a30337c36cfd0947d26191d40c2223bba1f8b46ddb7db885e829a53baf0b1bcf"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-01/logs/k394_confirm.log",
+          "source_sha256": "8ea601ff14809973e42112a1e5b2ac9e3544299fee24b14d78e10a060350abab",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "26940132483154282770968897574794",
+        "engine": "gpu_sieve_v8"
+      }
+    },
+    {
+      "k": 395,
+      "n": "70422314661266035686410669061023",
+      "primary": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "42734600299280201463109967500800",
+        "block": 1,
+        "residues_per_block": 10806643969228800,
+        "reported_residues_checked": 21613287938457600,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 10806643969228800,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "395"
+            ],
+            "sha256_survivors": "a3af7b3808c4cf72478d05c9bab9c0d47e31c1d2cb3a29e7481669f7ea278c4e"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 10806643969228800,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "70422314661266035686410669061023"
+            ],
+            "sha256_survivors": "ec0fa0a3ddae3e9567aaa9ee04cbad1173ffe49cc46d28c64bd46b179c572d0d"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-01/logs/k395_primary.log",
+          "source_sha256": "253a1d9b1e38ef94837597957f556ec877c3b920d1b5eb927ea1f431605d00a9",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "70422314661266035686410669061023",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            5,
+            4
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "N": "75018366142804227750011444160000",
+        "block": 0,
+        "residues_per_block": 16510150508544000,
+        "reported_residues_checked": 16510150508544000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 16510150508544000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "395",
+              "70422314661266035686410669061023"
+            ],
+            "sha256_survivors": "3ffd8ccd5f5ebe82ce4f7817bdc3c93170f0f8bafd016982b310d8fd6cb97ed2"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-03/logs/k395_confirm.log",
+          "source_sha256": "c000ffbb316e521fe7b1ebb7f96765e75380cbde6306df6bcb69ef003aeb3773",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "70422314661266035686410669061023",
+        "engine": "gpu_sieve_v8"
+      }
+    },
+    {
+      "k": 396,
+      "n": "7350984493848874781629926017999",
+      "primary": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ]
+        ],
+        "N": "12518216249284099418486758156800",
+        "block": 0,
+        "residues_per_block": 32438693442355200,
+        "reported_residues_checked": 32438693442355200,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 32438693442355200,
+            "kernel_survivors": 3,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "396",
+              "397",
+              "7350984493848874781629926017999"
+            ],
+            "sha256_survivors": "e1c1600f94e3ecfd7efbeeb7b24c95ca7c6e754b0f795360c56fc8cf6c242525"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-04/logs/k396_primary.log",
+          "source_sha256": "d0f5dcb03671abd85ad74ac345600737dd9546e6a98c521ba1a330c00820fa5e",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "7350984493848874781629926017999",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ]
+        ],
+        "N": "3884963663570927405737269772800",
+        "block": 1,
+        "residues_per_block": 12975477376942080,
+        "reported_residues_checked": 25950954753884160,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 12975477376942080,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "396",
+              "397"
+            ],
+            "sha256_survivors": "b7e74fe905174e6ab3bc0aaca17602f8144847dd611e3a935f9af87be158a719"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 12975477376942080,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "7350984493848874781629926017999"
+            ],
+            "sha256_survivors": "a640d2ae0b4feae344409fe04f428a40352e2a30a9f8e45331205efbd66cd0e4"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-06/logs/k396_confirm.log",
+          "source_sha256": "f1dccc9aa76c2a6a1053421f8a0dcc309515f5d55d5245fe8898a873c28bf499",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "7350984493848874781629926017999",
+        "engine": "gpu_sieve_v8"
+      }
+    },
+    {
+      "k": 397,
+      "n": "7282852096749166908452220090055597",
+      "completed_utc": "2026-09-14T07:56:58.990937+00:00",
+      "primary": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ]
+        ],
+        "N": "1464631301166239631962950704345600",
+        "block": 4,
+        "residues_per_block": 15801827328000000,
+        "reported_residues_checked": 79009136640000000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 15801827328000000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "397"
+            ],
+            "sha256_survivors": "1d2028ddcd746a7ee87dd0739d7435602b77d4908f96e27ebdad57b09aa27b69"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 15801827328000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 15801827328000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 15801827328000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 15801827328000000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "7282852096749166908452220090055597"
+            ],
+            "sha256_survivors": "159428299aeb25e33b54f946206e5c3f383455e5b428f8e17856757323a923c4"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-06/k397_resume.log",
+          "source_sha256": "d75604245ce5a9798a0918ff98ccb4e24f037576367dde2932c1d506adeb3a5a",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "7282852096749166908452220090055597",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            199,
+            1
+          ]
+        ],
+        "N": "1539740598661944228473871253286400",
+        "block": 4,
+        "residues_per_block": 17118646272000000,
+        "reported_residues_checked": 85593231360000000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 17118646272000000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "397"
+            ],
+            "sha256_survivors": "1d2028ddcd746a7ee87dd0739d7435602b77d4908f96e27ebdad57b09aa27b69"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 17118646272000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 17118646272000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 17118646272000000,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 17118646272000000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "7282852096749166908452220090055597"
+            ],
+            "sha256_survivors": "159428299aeb25e33b54f946206e5c3f383455e5b428f8e17856757323a923c4"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/es-masks-20260913/logs/k397_confirm.log",
+          "source_sha256": "76c978544059f1a217c917bde3d02c6f3d327867b9eeecf233429e98f32e2944",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "7282852096749166908452220090055597",
+        "engine": "gpu_sieve_v8_masks",
+        "engine_revision": {
+          "sieve/gpu_sieve_v8.py": "f8986b4727bdfd5e7084a3137ddc54d49eb056b176a026060655dd4d1f2b9d59",
+          "sieve/gpu_sieve_v8_masks.py": "1bce131d1cd5b200b96be41aa381d219a020fa1bd8c6ef2d509b62ed80ceace6",
+          "sieve/es_word_masks.py": "81944e031c96439256cb401a3db1e55ac84849b27f0bf6c0c0fe6e39c49d233f",
+          "harness/run_k_masks.py": "9f073ff7e3286b25d8bb5664b189a45da3d2b97ed13450f0bc9ccf64e3aa5271",
+          "ref/erdos_ref.py": "a2374d4ea0cecaed6f30b1a9f07d382eb62c3e31e8a99a70fdf4cd57f9b9c645"
+        },
+        "coverage_reused_residues": 26233006904538000
+      }
+    },
+    {
+      "k": 398,
+      "n": "358644756463853013270803607289823",
+      "primary": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "301758207777968969399401903910400",
+        "block": 1,
+        "residues_per_block": 4212817330176000,
+        "reported_residues_checked": 8425634660352000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 4212817330176000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "398"
+            ],
+            "sha256_survivors": "188c1fdca79d927f6e812133173fc41d3a4e57074de521020274caa9bb29af7d"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 4212817330176000,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "358644756463853013270803607289823"
+            ],
+            "sha256_survivors": "546fd7b5f4c59b5f7111dde9101d3fc3c1fdcbe3afc72dbdb9e2fc7fdab37a7a"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-01/checkpoints/k398_primary.json",
+          "source_sha256": "f6def860615296dc72a16d0d0a3bc6b61f89cc03ca860e388235998922d545ce",
+          "record_kind": "completed block checkpoint",
+          "idx_done": 4212817330176000,
+          "R": 4212817330176000
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            211,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "N": "580304245726863402691157507520000",
+        "block": 0,
+        "residues_per_block": 8425634660352000,
+        "reported_residues_checked": 8425634660352000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 8425634660352000,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "398",
+              "358644756463853013270803607289823"
+            ],
+            "sha256_survivors": "0ad612349be203418de8e630804fea7b2c0b2d4828fd58b685ef16f9bb94cb2f"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/398fix/k398_confirm_ban13.log",
+          "source_sha256": "4f6346ffe8aca6768987ca8e8c118c7de938504fccd47a1d216b358c36f1e005",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "358644756463853013270803607289823",
+        "engine": "gpu_sieve_v9"
+      }
+    },
+    {
+      "k": 399,
+      "n": "1463367633345557449307696345739199",
+      "completed_utc": "2026-09-14T02:22:05.256913+00:00",
+      "primary": {
+        "wheel": [
+          [
+            107,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "N": "242767881445433682148391005401600",
+        "block": 6,
+        "residues_per_block": 11908694063185920,
+        "reported_residues_checked": 83360858442301440,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "399"
+            ],
+            "sha256_survivors": "0f78540965a86402578f8188c826c1cb6c7ddcb608ae3a3201e532c7cacb6ce3"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 5,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 6,
+            "residues_enumerated": 11908694063185920,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 2,
+            "passed_ref_is_good": 2,
+            "survivors_n": [
+              "1463367633345557449307696345739199",
+              "1573574100332928967014609109796799"
+            ],
+            "sha256_survivors": "8a17f60d8fdb84bd8ffc51021076e55a4fb18444860a05eac95250da1db24f5f"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-06/k399_resume.log",
+          "source_sha256": "0a7fec7478429b72126cdcb0cf3d0d9d023e6a74c43a965667a1902f0b20df87",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "1463367633345557449307696345739199",
+        "engine": "gpu_sieve_v9"
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            223,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ]
+        ],
+        "N": "308509445876064002274283076160000",
+        "block": 4,
+        "residues_per_block": 17545724795289600,
+        "reported_residues_checked": 87728623976448000,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 17545724795289600,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "399"
+            ],
+            "sha256_survivors": "0f78540965a86402578f8188c826c1cb6c7ddcb608ae3a3201e532c7cacb6ce3"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 17545724795289600,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 17545724795289600,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 3,
+            "residues_enumerated": 17545724795289600,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 4,
+            "residues_enumerated": 17545724795289600,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "1463367633345557449307696345739199"
+            ],
+            "sha256_survivors": "8eefcdfcc23a2971cd6efcc22cd903a55b7e8b540f2dc51e016bd7dffc69fe9b"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/es-masks-20260913/logs/k399_confirm.log",
+          "source_sha256": "45237087d93cb50f810ed588e58c8daf8c2adc5151f3920b574d0f3ab0cafefe",
+          "record_kind": "FOUND terminal record"
+        },
+        "reported_g": "1463367633345557449307696345739199",
+        "engine": "gpu_sieve_v8_masks",
+        "engine_revision": {
+          "sieve/gpu_sieve_v8.py": "f8986b4727bdfd5e7084a3137ddc54d49eb056b176a026060655dd4d1f2b9d59",
+          "sieve/gpu_sieve_v8_masks.py": "1bce131d1cd5b200b96be41aa381d219a020fa1bd8c6ef2d509b62ed80ceace6",
+          "sieve/es_word_masks.py": "81944e031c96439256cb401a3db1e55ac84849b27f0bf6c0c0fe6e39c49d233f",
+          "harness/run_k_masks.py": "9f073ff7e3286b25d8bb5664b189a45da3d2b97ed13450f0bc9ccf64e3aa5271",
+          "ref/erdos_ref.py": "a2374d4ea0cecaed6f30b1a9f07d382eb62c3e31e8a99a70fdf4cd57f9b9c645"
+        },
+        "coverage_reused_residues": 0
+      }
+    },
+    {
+      "k": 400,
+      "n": "58305842808280308870124770403739",
+      "primary": {
+        "wheel": [
+          [
+            23,
+            2
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ]
+        ],
+        "N": "48009050199863333778130408171008",
+        "block": 1,
+        "residues_per_block": 25040394937958400,
+        "reported_residues_checked": 50080789875916800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 25040394937958400,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "400",
+              "401"
+            ],
+            "sha256_survivors": "3e573e12528032cfb8c654276826066ee9cd55ad4791e33459990c91ec7ecc99"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 25040394937958400,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "58305842808280308870124770403739"
+            ],
+            "sha256_survivors": "521fd5d33335dda9080b422bd6ad640c80ea39304e4c9fef2238557c37f109a8"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-11/confirmations.jsonl",
+          "source_sha256": "eaa4b197f69ebbfec0503ad5ad3cf236b6e5c78ab063c0f8f0b5163c0109831f",
+          "recorded_at": "2026-09-11T01:22:22Z",
+          "audit_origin": {
+            "source": "recorded live by harness/run_k.py",
+            "recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')"
+          }
+        }
+      },
+      "confirmation": {
+        "wheel": [
+          [
+            2,
+            9
+          ],
+          [
+            223,
+            1
+          ],
+          [
+            211,
+            1
+          ],
+          [
+            139,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            83,
+            1
+          ],
+          [
+            59,
+            1
+          ],
+          [
+            103,
+            1
+          ],
+          [
+            137,
+            1
+          ],
+          [
+            41,
+            1
+          ],
+          [
+            37,
+            1
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            101,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            1
+          ]
+        ],
+        "N": "20238219649469798549192969796096",
+        "block": 2,
+        "residues_per_block": 13712597227929600,
+        "reported_residues_checked": 41137791683788800,
+        "block_audit": [
+          {
+            "t": 0,
+            "residues_enumerated": 13712597227929600,
+            "kernel_survivors": 2,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [
+              "400",
+              "401"
+            ],
+            "sha256_survivors": "3e573e12528032cfb8c654276826066ee9cd55ad4791e33459990c91ec7ecc99"
+          },
+          {
+            "t": 1,
+            "residues_enumerated": 13712597227929600,
+            "kernel_survivors": 0,
+            "after_n_gt_k_plus_1": 0,
+            "passed_ref_is_good": 0,
+            "survivors_n": [],
+            "sha256_survivors": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "t": 2,
+            "residues_enumerated": 13712597227929600,
+            "kernel_survivors": 1,
+            "after_n_gt_k_plus_1": 1,
+            "passed_ref_is_good": 1,
+            "survivors_n": [
+              "58305842808280308870124770403739"
+            ],
+            "sha256_survivors": "521fd5d33335dda9080b422bd6ad640c80ea39304e4c9fef2238557c37f109a8"
+          }
+        ],
+        "provenance": {
+          "record": "overnight/2026-09-11/confirmations.jsonl",
+          "source_sha256": "eaa4b197f69ebbfec0503ad5ad3cf236b6e5c78ab063c0f8f0b5163c0109831f",
+          "recorded_at": "2026-09-11T01:22:22Z"
+        }
+      }
+    }
+  ]
+}

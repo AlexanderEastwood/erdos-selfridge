@@ -1,0 +1,8 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "include": ["harness/verify_release.py", "harness/replay_release.py", "paper/make_terms_growth.py", "tests/test_release.py"],
+  "exclude": ["node_modules", "**/__pycache__", ".Codex/worktrees", "data", "evidence", "overnight"],
+  "typeCheckingMode": "basic",
+  "pythonVersion": "3.11"
+}

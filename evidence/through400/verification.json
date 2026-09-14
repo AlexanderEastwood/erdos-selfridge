@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-14T19:01:03.422622+00:00",
+  "terms_checked": 400,
+  "exact_binomial_prime_divisor_checks": 17391,
+  "existing_oeis_terms_unchanged": 389,
+  "oeis_terms_added": [
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400
+  ],
+  "paired_wheel_terms": 23,
+  "complete_unique_block_records": 108,
+  "bfile_sha256": "fa89864667f269870c0f79b4f46ef1b912fce637843faf133f08bf85283c5129",
+  "runs_sha256": "bc03428c53e727a8affc43ae5ed3a21041f3de30f7c5affd052f446b515b35da",
+  "frozen_reference_sha256": "a2374d4ea0cecaed6f30b1a9f07d382eb62c3e31e8a99a70fdf4cd57f9b9c645",
+  "scope": "Fresh exact admissibility checks for all 400 values and consistency checks of captured completed block records for 378..400. No fresh exhaustive GPU or CPU minimality replay. Different wheels share implementation components; hashes authenticate lists, not omitted-candidate exclusions."
+}
