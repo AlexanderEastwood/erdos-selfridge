@@ -1,0 +1,3540 @@
+free now: 1216 MB   samples: 776
+window 0.00 h < 1.0 h -- too short to project (need 1.0 h of samples; sampler runs every 15 min)
+free now: 1214 MB   samples: 777
+window 0.25 h < 1.0 h -- too short to project (need 1.0 h of samples; sampler runs every 15 min)
+free now: 1214 MB   samples: 778
+window 0.50 h < 1.0 h -- too short to project (need 1.0 h of samples; sampler runs every 15 min)
+free now: 1211 MB   samples: 779
+window 0.75 h < 1.0 h -- too short to project (need 1.0 h of samples; sampler runs every 15 min)
+free now: 1207 MB   samples: 780
+rate over last 1.0 h (6 samples): +8.8 MB/h consumed
+  -> 700 MB warn  in 57.9 h
+  -> 500 MB FLOOR in 80.7 h
+free now: 1207 MB   samples: 781
+rate over last 1.3 h (7 samples): +7.4 MB/h consumed
+  -> 700 MB warn  in 68.4 h
+  -> 500 MB FLOOR in 95.3 h
+free now: 1206 MB   samples: 782
+rate over last 1.5 h (8 samples): +6.4 MB/h consumed
+  -> 700 MB warn  in 78.5 h
+  -> 500 MB FLOOR in 109.5 h
+free now: 1206 MB   samples: 783
+rate over last 1.8 h (9 samples): +5.8 MB/h consumed
+  -> 700 MB warn  in 87.0 h
+  -> 500 MB FLOOR in 121.4 h
+free now: 1208 MB   samples: 784
+rate over last 2.0 h (10 samples): +4.0 MB/h consumed
+  -> 700 MB warn  in 125.7 h
+  -> 500 MB FLOOR in 175.2 h
+free now: 1207 MB   samples: 785
+rate over last 2.3 h (11 samples): +3.8 MB/h consumed
+  -> 700 MB warn  in 133.0 h
+  -> 500 MB FLOOR in 185.4 h
+free now: 1207 MB   samples: 786
+rate over last 2.5 h (12 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 139.5 h
+  -> 500 MB FLOOR in 194.6 h
+free now: 1206 MB   samples: 787
+rate over last 2.8 h (13 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 140.8 h
+  -> 500 MB FLOOR in 196.5 h
+free now: 1205 MB   samples: 788
+rate over last 3.0 h (14 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 141.9 h
+  -> 500 MB FLOOR in 198.1 h
+free now: 1195 MB   samples: 789
+rate over last 3.3 h (15 samples): +6.5 MB/h consumed
+  -> 700 MB warn  in 76.3 h
+  -> 500 MB FLOOR in 107.2 h
+free now: 1194 MB   samples: 790
+rate over last 3.5 h (16 samples): +6.3 MB/h consumed
+  -> 700 MB warn  in 78.7 h
+  -> 500 MB FLOOR in 110.6 h
+free now: 1194 MB   samples: 791
+rate over last 3.8 h (17 samples): +5.9 MB/h consumed
+  -> 700 MB warn  in 83.1 h
+  -> 500 MB FLOOR in 116.8 h
+free now: 1189 MB   samples: 792
+rate over last 4.0 h (18 samples): +6.8 MB/h consumed
+  -> 700 MB warn  in 71.4 h
+  -> 500 MB FLOOR in 100.7 h
+free now: 1192 MB   samples: 793
+rate over last 4.3 h (19 samples): +5.6 MB/h consumed
+  -> 700 MB warn  in 88.0 h
+  -> 500 MB FLOOR in 123.7 h
+free now: 1192 MB   samples: 794
+rate over last 4.5 h (20 samples): +5.3 MB/h consumed
+  -> 700 MB warn  in 93.2 h
+  -> 500 MB FLOOR in 131.0 h
+free now: 1192 MB   samples: 795
+rate over last 4.8 h (21 samples): +5.1 MB/h consumed
+  -> 700 MB warn  in 97.1 h
+  -> 500 MB FLOOR in 136.5 h
+free now: 1192 MB   samples: 796
+rate over last 5.0 h (22 samples): +4.9 MB/h consumed
+  -> 700 MB warn  in 100.8 h
+  -> 500 MB FLOOR in 141.9 h
+free now: 1195 MB   samples: 797
+rate over last 5.3 h (23 samples): +4.0 MB/h consumed
+  -> 700 MB warn  in 122.6 h
+  -> 500 MB FLOOR in 172.2 h
+free now: 1194 MB   samples: 798
+rate over last 5.5 h (24 samples): +3.9 MB/h consumed
+  -> 700 MB warn  in 125.4 h
+  -> 500 MB FLOOR in 176.1 h
+free now: 1194 MB   samples: 799
+rate over last 5.8 h (25 samples): +3.8 MB/h consumed
+  -> 700 MB warn  in 129.2 h
+  -> 500 MB FLOOR in 181.5 h
+free now: 1194 MB   samples: 800
+rate over last 6.0 h (25 samples): +3.8 MB/h consumed
+  -> 700 MB warn  in 131.6 h
+  -> 500 MB FLOOR in 185.0 h
+free now: 1193 MB   samples: 801
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 145.1 h
+  -> 500 MB FLOOR in 203.9 h
+free now: 1193 MB   samples: 802
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 142.9 h
+  -> 500 MB FLOOR in 200.9 h
+free now: 1193 MB   samples: 803
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 161.6 h
+  -> 500 MB FLOOR in 227.1 h
+free now: 1193 MB   samples: 804
+rate over last 6.0 h (25 samples): +2.5 MB/h consumed
+  -> 700 MB warn  in 199.7 h
+  -> 500 MB FLOOR in 280.8 h
+free now: 1192 MB   samples: 805
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 203.7 h
+  -> 500 MB FLOOR in 286.5 h
+free now: 1192 MB   samples: 806
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 205.0 h
+  -> 500 MB FLOOR in 288.3 h
+free now: 1192 MB   samples: 807
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 209.3 h
+  -> 500 MB FLOOR in 294.4 h
+free now: 1191 MB   samples: 808
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 176.5 h
+  -> 500 MB FLOOR in 248.4 h
+free now: 1191 MB   samples: 809
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 179.7 h
+  -> 500 MB FLOOR in 252.8 h
+free now: 1191 MB   samples: 810
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 183.3 h
+  -> 500 MB FLOOR in 257.9 h
+free now: 1191 MB   samples: 811
+rate over last 5.8 h (24 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 190.6 h
+  -> 500 MB FLOOR in 268.3 h
+free now: 1190 MB   samples: 812
+rate over last 5.8 h (24 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 599.9 h
+  -> 500 MB FLOOR in 844.6 h
+free now: 1190 MB   samples: 813
+rate over last 5.8 h (24 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 704.5 h
+  -> 500 MB FLOOR in 992.0 h
+free now: 1190 MB   samples: 814
+rate over last 5.8 h (24 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 704.1 h
+  -> 500 MB FLOOR in 991.6 h
+free now: 1190 MB   samples: 815
+rate over last 5.8 h (24 samples): -0.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1189 MB   samples: 816
+rate over last 5.8 h (24 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 878.9 h
+  -> 500 MB FLOOR in 1238.3 h
+free now: 1193 MB   samples: 817
+rate over last 5.8 h (24 samples): -0.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 1193 MB   samples: 818
+rate over last 5.8 h (24 samples): -0.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 1185 MB   samples: 819
+rate over last 5.8 h (24 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 436.0 h
+  -> 500 MB FLOOR in 615.7 h
+free now: 1185 MB   samples: 820
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 281.7 h
+  -> 500 MB FLOOR in 397.9 h
+free now: 1185 MB   samples: 821
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 290.4 h
+  -> 500 MB FLOOR in 410.2 h
+free now: 1185 MB   samples: 822
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 290.2 h
+  -> 500 MB FLOOR in 410.0 h
+free now: 1184 MB   samples: 823
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 296.2 h
+  -> 500 MB FLOOR in 418.6 h
+free now: 1184 MB   samples: 824
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 289.7 h
+  -> 500 MB FLOOR in 409.5 h
+free now: 1183 MB   samples: 825
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 289.6 h
+  -> 500 MB FLOOR in 409.4 h
+free now: 1183 MB   samples: 826
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 286.4 h
+  -> 500 MB FLOOR in 404.9 h
+free now: 1183 MB   samples: 827
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 286.2 h
+  -> 500 MB FLOOR in 404.8 h
+free now: 1180 MB   samples: 828
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 222.6 h
+  -> 500 MB FLOOR in 315.3 h
+free now: 1180 MB   samples: 829
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 224.3 h
+  -> 500 MB FLOOR in 317.8 h
+free now: 1179 MB   samples: 830
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 224.2 h
+  -> 500 MB FLOOR in 317.7 h
+free now: 1179 MB   samples: 831
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 227.7 h
+  -> 500 MB FLOOR in 322.8 h
+free now: 1181 MB   samples: 832
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 276.7 h
+  -> 500 MB FLOOR in 391.7 h
+free now: 1181 MB   samples: 833
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 279.3 h
+  -> 500 MB FLOOR in 395.5 h
+free now: 1181 MB   samples: 834
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 285.6 h
+  -> 500 MB FLOOR in 404.4 h
+free now: 1181 MB   samples: 835
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 285.5 h
+  -> 500 MB FLOOR in 404.3 h
+free now: 1180 MB   samples: 836
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 288.2 h
+  -> 500 MB FLOOR in 408.2 h
+free now: 1180 MB   samples: 837
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 285.2 h
+  -> 500 MB FLOOR in 404.0 h
+free now: 1180 MB   samples: 838
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 287.9 h
+  -> 500 MB FLOOR in 407.9 h
+free now: 1180 MB   samples: 839
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 284.9 h
+  -> 500 MB FLOOR in 403.7 h
+free now: 1179 MB   samples: 840
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 287.4 h
+  -> 500 MB FLOOR in 407.4 h
+free now: 1179 MB   samples: 841
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 203.8 h
+  -> 500 MB FLOOR in 288.9 h
+free now: 1178 MB   samples: 842
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 200.7 h
+  -> 500 MB FLOOR in 284.7 h
+free now: 1177 MB   samples: 843
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 362.6 h
+  -> 500 MB FLOOR in 514.5 h
+free now: 1177 MB   samples: 844
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 362.4 h
+  -> 500 MB FLOOR in 514.3 h
+free now: 1177 MB   samples: 845
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 362.2 h
+  -> 500 MB FLOOR in 514.1 h
+free now: 1177 MB   samples: 846
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 362.0 h
+  -> 500 MB FLOOR in 513.9 h
+free now: 1176 MB   samples: 847
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 366.5 h
+  -> 500 MB FLOOR in 520.3 h
+free now: 1176 MB   samples: 848
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 366.1 h
+  -> 500 MB FLOOR in 519.9 h
+free now: 1176 MB   samples: 849
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 370.6 h
+  -> 500 MB FLOOR in 526.5 h
+free now: 1175 MB   samples: 850
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 370.4 h
+  -> 500 MB FLOOR in 526.3 h
+free now: 1175 MB   samples: 851
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 375.1 h
+  -> 500 MB FLOOR in 533.0 h
+free now: 1175 MB   samples: 852
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 569.8 h
+  -> 500 MB FLOOR in 809.8 h
+free now: 1175 MB   samples: 853
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 569.6 h
+  -> 500 MB FLOOR in 809.6 h
+free now: 1174 MB   samples: 854
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 558.2 h
+  -> 500 MB FLOOR in 793.5 h
+free now: 1174 MB   samples: 855
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 569.0 h
+  -> 500 MB FLOOR in 809.0 h
+free now: 1174 MB   samples: 856
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 384.0 h
+  -> 500 MB FLOOR in 546.2 h
+free now: 1173 MB   samples: 857
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 383.9 h
+  -> 500 MB FLOOR in 546.0 h
+free now: 1173 MB   samples: 858
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 378.6 h
+  -> 500 MB FLOOR in 538.6 h
+free now: 1173 MB   samples: 859
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 373.3 h
+  -> 500 MB FLOOR in 531.2 h
+free now: 1173 MB   samples: 860
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 368.3 h
+  -> 500 MB FLOOR in 524.1 h
+free now: 1172 MB   samples: 861
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 372.9 h
+  -> 500 MB FLOOR in 530.8 h
+free now: 1172 MB   samples: 862
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 367.9 h
+  -> 500 MB FLOOR in 523.7 h
+free now: 1166 MB   samples: 863
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 215.3 h
+  -> 500 MB FLOOR in 307.6 h
+free now: 1171 MB   samples: 864
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 357.9 h
+  -> 500 MB FLOOR in 509.8 h
+free now: 1171 MB   samples: 865
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 357.6 h
+  -> 500 MB FLOOR in 509.5 h
+free now: 1171 MB   samples: 866
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 362.0 h
+  -> 500 MB FLOOR in 515.9 h
+free now: 1170 MB   samples: 867
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 403.2 h
+  -> 500 MB FLOOR in 574.6 h
+free now: 1170 MB   samples: 868
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 402.9 h
+  -> 500 MB FLOOR in 574.3 h
+free now: 1170 MB   samples: 869
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 397.0 h
+  -> 500 MB FLOOR in 566.0 h
+free now: 1170 MB   samples: 870
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 402.5 h
+  -> 500 MB FLOOR in 573.9 h
+free now: 1169 MB   samples: 871
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 396.6 h
+  -> 500 MB FLOOR in 565.6 h
+free now: 1169 MB   samples: 872
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 396.2 h
+  -> 500 MB FLOOR in 565.2 h
+free now: 1169 MB   samples: 873
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 390.4 h
+  -> 500 MB FLOOR in 557.1 h
+free now: 1168 MB   samples: 874
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 395.8 h
+  -> 500 MB FLOOR in 564.8 h
+free now: 1168 MB   samples: 875
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 395.6 h
+  -> 500 MB FLOOR in 564.6 h
+free now: 1168 MB   samples: 876
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 395.4 h
+  -> 500 MB FLOOR in 564.4 h
+free now: 1167 MB   samples: 877
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 363.9 h
+  -> 500 MB FLOOR in 519.8 h
+free now: 1167 MB   samples: 878
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 368.5 h
+  -> 500 MB FLOOR in 526.4 h
+free now: 1158 MB   samples: 879
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 168.9 h
+  -> 500 MB FLOOR in 242.6 h
+free now: 1158 MB   samples: 880
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 165.5 h
+  -> 500 MB FLOOR in 237.8 h
+free now: 1157 MB   samples: 881
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 165.4 h
+  -> 500 MB FLOOR in 237.7 h
+free now: 1157 MB   samples: 882
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 166.4 h
+  -> 500 MB FLOOR in 239.1 h
+free now: 1157 MB   samples: 883
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 166.3 h
+  -> 500 MB FLOOR in 239.0 h
+free now: 1157 MB   samples: 884
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 165.1 h
+  -> 500 MB FLOOR in 237.4 h
+free now: 1156 MB   samples: 885
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 166.1 h
+  -> 500 MB FLOOR in 238.8 h
+free now: 1156 MB   samples: 886
+rate over last 5.8 h (24 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 252.2 h
+  -> 500 MB FLOOR in 362.7 h
+free now: 1156 MB   samples: 887
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 170.2 h
+  -> 500 MB FLOOR in 244.9 h
+free now: 1152 MB   samples: 888
+rate over last 5.8 h (24 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 140.6 h
+  -> 500 MB FLOOR in 202.8 h
+free now: 1153 MB   samples: 889
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 148.9 h
+  -> 500 MB FLOOR in 214.6 h
+free now: 1153 MB   samples: 890
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 148.8 h
+  -> 500 MB FLOOR in 214.5 h
+free now: 1153 MB   samples: 891
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 148.7 h
+  -> 500 MB FLOOR in 214.4 h
+free now: 1152 MB   samples: 892
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 148.6 h
+  -> 500 MB FLOOR in 214.4 h
+free now: 1152 MB   samples: 893
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 148.6 h
+  -> 500 MB FLOOR in 214.3 h
+free now: 1152 MB   samples: 894
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 149.3 h
+  -> 500 MB FLOOR in 215.4 h
+free now: 1150 MB   samples: 895
+rate over last 5.8 h (24 samples): +3.3 MB/h consumed
+  -> 700 MB warn  in 135.4 h
+  -> 500 MB FLOOR in 195.6 h
+free now: 1152 MB   samples: 896
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 156.5 h
+  -> 500 MB FLOOR in 225.8 h
+free now: 1152 MB   samples: 897
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 155.5 h
+  -> 500 MB FLOOR in 224.4 h
+free now: 1151 MB   samples: 898
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 155.4 h
+  -> 500 MB FLOOR in 224.3 h
+free now: 1151 MB   samples: 899
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 156.3 h
+  -> 500 MB FLOOR in 225.6 h
+free now: 1151 MB   samples: 900
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 161.0 h
+  -> 500 MB FLOOR in 232.5 h
+free now: 1151 MB   samples: 901
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 159.9 h
+  -> 500 MB FLOOR in 230.9 h
+free now: 1150 MB   samples: 902
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 336.3 h
+  -> 500 MB FLOOR in 485.7 h
+free now: 1150 MB   samples: 903
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 337.6 h
+  -> 500 MB FLOOR in 487.6 h
+free now: 1150 MB   samples: 904
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 333.0 h
+  -> 500 MB FLOOR in 481.1 h
+free now: 1149 MB   samples: 905
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 337.0 h
+  -> 500 MB FLOOR in 487.0 h
+free now: 1149 MB   samples: 906
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 336.8 h
+  -> 500 MB FLOOR in 486.8 h
+free now: 1149 MB   samples: 907
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 336.6 h
+  -> 500 MB FLOOR in 486.6 h
+free now: 1149 MB   samples: 908
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 340.7 h
+  -> 500 MB FLOOR in 492.6 h
+free now: 1148 MB   samples: 909
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 336.2 h
+  -> 500 MB FLOOR in 486.2 h
+free now: 1148 MB   samples: 910
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 331.9 h
+  -> 500 MB FLOOR in 480.0 h
+free now: 1148 MB   samples: 911
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 331.7 h
+  -> 500 MB FLOOR in 479.8 h
+free now: 1147 MB   samples: 912
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 516.0 h
+  -> 500 MB FLOOR in 746.8 h
+free now: 1147 MB   samples: 913
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 432.5 h
+  -> 500 MB FLOOR in 626.0 h
+free now: 1147 MB   samples: 914
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 432.3 h
+  -> 500 MB FLOOR in 625.8 h
+free now: 1090 MB   samples: 915
+rate over last 6.0 h (25 samples): +10.4 MB/h consumed
+  -> 700 MB warn  in 37.5 h
+  -> 500 MB FLOOR in 56.8 h
+free now: 1146 MB   samples: 916
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 424.8 h
+  -> 500 MB FLOOR in 615.3 h
+free now: 1146 MB   samples: 917
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 424.6 h
+  -> 500 MB FLOOR in 615.0 h
+free now: 1146 MB   samples: 918
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 417.7 h
+  -> 500 MB FLOOR in 605.2 h
+free now: 1144 MB   samples: 919
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 436.3 h
+  -> 500 MB FLOOR in 633.1 h
+free now: 1146 MB   samples: 920
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 445.9 h
+  -> 500 MB FLOOR in 645.9 h
+free now: 1142 MB   samples: 921
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 288.5 h
+  -> 500 MB FLOOR in 418.9 h
+free now: 1142 MB   samples: 922
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 285.2 h
+  -> 500 MB FLOOR in 414.3 h
+free now: 1142 MB   samples: 923
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 282.0 h
+  -> 500 MB FLOOR in 409.7 h
+free now: 1135 MB   samples: 924
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 165.2 h
+  -> 500 MB FLOOR in 241.2 h
+free now: 1132 MB   samples: 925
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 137.0 h
+  -> 500 MB FLOOR in 200.5 h
+free now: 1131 MB   samples: 926
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 136.2 h
+  -> 500 MB FLOOR in 199.4 h
+free now: 1131 MB   samples: 927
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 136.1 h
+  -> 500 MB FLOOR in 199.3 h
+free now: 1140 MB   samples: 928
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 269.2 h
+  -> 500 MB FLOOR in 391.6 h
+free now: 1139 MB   samples: 929
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 266.3 h
+  -> 500 MB FLOOR in 387.5 h
+free now: 1136 MB   samples: 930
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 196.6 h
+  -> 500 MB FLOOR in 286.8 h
+free now: 1135 MB   samples: 931
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 196.5 h
+  -> 500 MB FLOOR in 286.7 h
+free now: 1135 MB   samples: 932
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 194.9 h
+  -> 500 MB FLOOR in 284.4 h
+free now: 1135 MB   samples: 933
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 194.7 h
+  -> 500 MB FLOOR in 284.3 h
+free now: 1135 MB   samples: 934
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 196.1 h
+  -> 500 MB FLOOR in 286.3 h
+free now: 1134 MB   samples: 935
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 196.0 h
+  -> 500 MB FLOOR in 286.2 h
+free now: 1137 MB   samples: 936
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 257.0 h
+  -> 500 MB FLOOR in 374.7 h
+free now: 1137 MB   samples: 937
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 256.9 h
+  -> 500 MB FLOOR in 374.5 h
+free now: 1136 MB   samples: 938
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 254.2 h
+  -> 500 MB FLOOR in 370.7 h
+free now: 1139 MB   samples: 939
+rate over last 6.0 h (25 samples): -8.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 1138 MB   samples: 940
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 350.8 h
+  -> 500 MB FLOOR in 510.8 h
+free now: 1138 MB   samples: 941
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 346.0 h
+  -> 500 MB FLOOR in 503.8 h
+free now: 1138 MB   samples: 942
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 350.4 h
+  -> 500 MB FLOOR in 510.4 h
+free now: 1131 MB   samples: 943
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 203.6 h
+  -> 500 MB FLOOR in 298.1 h
+free now: 1134 MB   samples: 944
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 211.5 h
+  -> 500 MB FLOOR in 309.1 h
+free now: 1133 MB   samples: 945
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 288.9 h
+  -> 500 MB FLOOR in 422.3 h
+free now: 1133 MB   samples: 946
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 295.4 h
+  -> 500 MB FLOOR in 431.8 h
+free now: 1133 MB   samples: 947
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 295.2 h
+  -> 500 MB FLOOR in 431.6 h
+free now: 1133 MB   samples: 948
+rate over last 5.8 h (24 samples): -0.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1132 MB   samples: 949
+rate over last 5.8 h (24 samples): -0.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1132 MB   samples: 950
+rate over last 5.8 h (24 samples): -0.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1132 MB   samples: 951
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 310.3 h
+  -> 500 MB FLOOR in 454.1 h
+free now: 1131 MB   samples: 952
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 295.1 h
+  -> 500 MB FLOOR in 432.0 h
+free now: 1131 MB   samples: 953
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 495.4 h
+  -> 500 MB FLOOR in 725.4 h
+free now: 1130 MB   samples: 954
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 485.3 h
+  -> 500 MB FLOOR in 710.8 h
+free now: 1130 MB   samples: 955
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 484.9 h
+  -> 500 MB FLOOR in 710.4 h
+free now: 1130 MB   samples: 956
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 484.6 h
+  -> 500 MB FLOOR in 710.1 h
+free now: 1130 MB   samples: 957
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 475.0 h
+  -> 500 MB FLOOR in 696.2 h
+free now: 1129 MB   samples: 958
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 474.6 h
+  -> 500 MB FLOOR in 695.8 h
+free now: 1129 MB   samples: 959
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 304.5 h
+  -> 500 MB FLOOR in 446.5 h
+free now: 1128 MB   samples: 960
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 296.8 h
+  -> 500 MB FLOOR in 435.4 h
+free now: 1128 MB   samples: 961
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 296.6 h
+  -> 500 MB FLOOR in 435.2 h
+free now: 1128 MB   samples: 962
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 227.8 h
+  -> 500 MB FLOOR in 334.3 h
+free now: 1128 MB   samples: 963
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 225.6 h
+  -> 500 MB FLOOR in 331.1 h
+free now: 1127 MB   samples: 964
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 225.4 h
+  -> 500 MB FLOOR in 330.9 h
+free now: 1127 MB   samples: 965
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 223.2 h
+  -> 500 MB FLOOR in 327.8 h
+free now: 1127 MB   samples: 966
+rate over last 5.8 h (24 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 584.2 h
+  -> 500 MB FLOOR in 858.0 h
+free now: 1126 MB   samples: 967
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 340.6 h
+  -> 500 MB FLOOR in 500.3 h
+free now: 1126 MB   samples: 968
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 322.1 h
+  -> 500 MB FLOOR in 473.5 h
+free now: 1125 MB   samples: 969
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 313.7 h
+  -> 500 MB FLOOR in 461.1 h
+free now: 1125 MB   samples: 970
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 313.5 h
+  -> 500 MB FLOOR in 460.9 h
+free now: 1125 MB   samples: 971
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 313.2 h
+  -> 500 MB FLOOR in 460.7 h
+free now: 1125 MB   samples: 972
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 314.6 h
+  -> 500 MB FLOOR in 462.7 h
+free now: 1124 MB   samples: 973
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 314.3 h
+  -> 500 MB FLOOR in 462.5 h
+free now: 1124 MB   samples: 974
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 318.1 h
+  -> 500 MB FLOOR in 468.1 h
+free now: 1124 MB   samples: 975
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 321.9 h
+  -> 500 MB FLOOR in 473.7 h
+free now: 1123 MB   samples: 976
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 325.5 h
+  -> 500 MB FLOOR in 479.4 h
+free now: 1123 MB   samples: 977
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 321.2 h
+  -> 500 MB FLOOR in 473.1 h
+free now: 1123 MB   samples: 978
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 325.1 h
+  -> 500 MB FLOOR in 479.0 h
+free now: 1122 MB   samples: 979
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 324.9 h
+  -> 500 MB FLOOR in 478.7 h
+free now: 1122 MB   samples: 980
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 328.9 h
+  -> 500 MB FLOOR in 484.7 h
+free now: 1120 MB   samples: 981
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 271.1 h
+  -> 500 MB FLOOR in 400.1 h
+free now: 1120 MB   samples: 982
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 270.9 h
+  -> 500 MB FLOOR in 399.9 h
+free now: 1120 MB   samples: 983
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 270.7 h
+  -> 500 MB FLOOR in 399.8 h
+free now: 1116 MB   samples: 984
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 193.3 h
+  -> 500 MB FLOOR in 286.3 h
+free now: 1116 MB   samples: 985
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 209.8 h
+  -> 500 MB FLOOR in 310.7 h
+free now: 1116 MB   samples: 986
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 207.9 h
+  -> 500 MB FLOOR in 307.9 h
+free now: 1116 MB   samples: 987
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 206.1 h
+  -> 500 MB FLOOR in 305.2 h
+free now: 1115 MB   samples: 988
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 207.7 h
+  -> 500 MB FLOOR in 307.7 h
+free now: 1115 MB   samples: 989
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 207.5 h
+  -> 500 MB FLOOR in 307.5 h
+free now: 1118 MB   samples: 990
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 288.3 h
+  -> 500 MB FLOOR in 426.2 h
+free now: 1114 MB   samples: 991
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 203.7 h
+  -> 500 MB FLOOR in 302.1 h
+free now: 1120 MB   samples: 992
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 450.2 h
+  -> 500 MB FLOOR in 664.5 h
+free now: 1120 MB   samples: 993
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 449.9 h
+  -> 500 MB FLOOR in 664.1 h
+free now: 1120 MB   samples: 994
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 449.6 h
+  -> 500 MB FLOOR in 663.8 h
+free now: 1119 MB   samples: 995
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 449.2 h
+  -> 500 MB FLOOR in 663.5 h
+free now: 1119 MB   samples: 996
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 448.9 h
+  -> 500 MB FLOOR in 663.2 h
+free now: 1119 MB   samples: 997
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 448.6 h
+  -> 500 MB FLOOR in 662.9 h
+free now: 1118 MB   samples: 998
+rate over last 6.0 h (25 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 440.4 h
+  -> 500 MB FLOOR in 651.0 h
+free now: 1118 MB   samples: 999
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 440.1 h
+  -> 500 MB FLOOR in 650.7 h
+free now: 1120 MB   samples: 1000
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 1119 MB   samples: 1001
+rate over last 6.0 h (25 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 628.3 h
+  -> 500 MB FLOOR in 928.3 h
+free now: 1119 MB   samples: 1002
+rate over last 6.0 h (25 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 627.9 h
+  -> 500 MB FLOOR in 927.9 h
+free now: 1118 MB   samples: 1003
+rate over last 6.0 h (25 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 627.5 h
+  -> 500 MB FLOOR in 927.5 h
+free now: 1118 MB   samples: 1004
+rate over last 6.0 h (25 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 611.8 h
+  -> 500 MB FLOOR in 904.5 h
+free now: 1118 MB   samples: 1005
+rate over last 6.0 h (25 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 1117 MB   samples: 1006
+rate over last 6.0 h (25 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 1114 MB   samples: 1007
+rate over last 6.0 h (25 samples): +1.0 MB/h consumed
+  -> 700 MB warn  in 420.7 h
+  -> 500 MB FLOOR in 624.1 h
+free now: 1113 MB   samples: 1008
+rate over last 6.0 h (25 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 1113 MB   samples: 1009
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 750.6 h
+  -> 500 MB FLOOR in 1114.3 h
+free now: 1113 MB   samples: 1010
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 750.1 h
+  -> 500 MB FLOOR in 1113.7 h
+free now: 1112 MB   samples: 1011
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 749.5 h
+  -> 500 MB FLOOR in 1113.2 h
+free now: 1112 MB   samples: 1012
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 749.1 h
+  -> 500 MB FLOOR in 1112.7 h
+free now: 1112 MB   samples: 1013
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 726.3 h
+  -> 500 MB FLOOR in 1079.2 h
+free now: 1111 MB   samples: 1014
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 368.3 h
+  -> 500 MB FLOOR in 547.4 h
+free now: 1111 MB   samples: 1015
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 770.6 h
+  -> 500 MB FLOOR in 1145.6 h
+free now: 1110 MB   samples: 1016
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 248.4 h
+  -> 500 MB FLOOR in 369.5 h
+free now: 1110 MB   samples: 1017
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 248.3 h
+  -> 500 MB FLOOR in 369.3 h
+free now: 1110 MB   samples: 1018
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 250.7 h
+  -> 500 MB FLOOR in 373.1 h
+free now: 1110 MB   samples: 1019
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 250.6 h
+  -> 500 MB FLOOR in 372.9 h
+free now: 1109 MB   samples: 1020
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 253.1 h
+  -> 500 MB FLOOR in 376.8 h
+free now: 1109 MB   samples: 1021
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 252.9 h
+  -> 500 MB FLOOR in 376.6 h
+free now: 1109 MB   samples: 1022
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 252.8 h
+  -> 500 MB FLOOR in 376.4 h
+free now: 1108 MB   samples: 1023
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 195.7 h
+  -> 500 MB FLOOR in 291.6 h
+free now: 1108 MB   samples: 1024
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 211.3 h
+  -> 500 MB FLOOR in 314.9 h
+free now: 1108 MB   samples: 1025
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 213.0 h
+  -> 500 MB FLOOR in 317.6 h
+free now: 1107 MB   samples: 1026
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 212.9 h
+  -> 500 MB FLOOR in 317.4 h
+free now: 1107 MB   samples: 1027
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 212.7 h
+  -> 500 MB FLOOR in 317.3 h
+free now: 1107 MB   samples: 1028
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 210.7 h
+  -> 500 MB FLOOR in 314.3 h
+free now: 1106 MB   samples: 1029
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 210.5 h
+  -> 500 MB FLOOR in 314.2 h
+free now: 1106 MB   samples: 1030
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 307.3 h
+  -> 500 MB FLOOR in 458.6 h
+free now: 1106 MB   samples: 1031
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 324.1 h
+  -> 500 MB FLOOR in 483.9 h
+free now: 1105 MB   samples: 1032
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 302.6 h
+  -> 500 MB FLOOR in 451.9 h
+free now: 1105 MB   samples: 1033
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 302.4 h
+  -> 500 MB FLOOR in 451.7 h
+free now: 1105 MB   samples: 1034
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 310.3 h
+  -> 500 MB FLOOR in 463.6 h
+free now: 1105 MB   samples: 1035
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 314.4 h
+  -> 500 MB FLOOR in 469.8 h
+free now: 1104 MB   samples: 1036
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 323.0 h
+  -> 500 MB FLOOR in 482.7 h
+free now: 1104 MB   samples: 1037
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 318.3 h
+  -> 500 MB FLOOR in 475.8 h
+free now: 1104 MB   samples: 1038
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 318.0 h
+  -> 500 MB FLOOR in 475.6 h
+free now: 1103 MB   samples: 1039
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 331.4 h
+  -> 500 MB FLOOR in 495.7 h
+free now: 1103 MB   samples: 1040
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 331.4 h
+  -> 500 MB FLOOR in 495.7 h
+free now: 1103 MB   samples: 1041
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 331.1 h
+  -> 500 MB FLOOR in 495.5 h
+free now: 1103 MB   samples: 1042
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 326.4 h
+  -> 500 MB FLOOR in 488.5 h
+free now: 1102 MB   samples: 1043
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 330.6 h
+  -> 500 MB FLOOR in 495.0 h
+free now: 1102 MB   samples: 1044
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 325.9 h
+  -> 500 MB FLOOR in 488.1 h
+free now: 1102 MB   samples: 1045
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 325.7 h
+  -> 500 MB FLOOR in 487.8 h
+free now: 1101 MB   samples: 1046
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 325.4 h
+  -> 500 MB FLOOR in 487.6 h
+free now: 1101 MB   samples: 1047
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 325.2 h
+  -> 500 MB FLOOR in 487.3 h
+free now: 1100 MB   samples: 1048
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 320.3 h
+  -> 500 MB FLOOR in 480.3 h
+free now: 1096 MB   samples: 1049
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 208.5 h
+  -> 500 MB FLOOR in 313.8 h
+free now: 1096 MB   samples: 1050
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 208.4 h
+  -> 500 MB FLOOR in 313.6 h
+free now: 1096 MB   samples: 1051
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 208.2 h
+  -> 500 MB FLOOR in 313.5 h
+free now: 1095 MB   samples: 1052
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 208.0 h
+  -> 500 MB FLOOR in 313.3 h
+free now: 1095 MB   samples: 1053
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 207.9 h
+  -> 500 MB FLOOR in 313.2 h
+free now: 1095 MB   samples: 1054
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 207.7 h
+  -> 500 MB FLOOR in 313.0 h
+free now: 1094 MB   samples: 1055
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 205.8 h
+  -> 500 MB FLOOR in 310.1 h
+free now: 1097 MB   samples: 1056
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 297.9 h
+  -> 500 MB FLOOR in 447.9 h
+free now: 1097 MB   samples: 1057
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 301.5 h
+  -> 500 MB FLOOR in 453.4 h
+free now: 1097 MB   samples: 1058
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 297.5 h
+  -> 500 MB FLOOR in 447.5 h
+free now: 1096 MB   samples: 1059
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 290.1 h
+  -> 500 MB FLOOR in 436.4 h
+free now: 1096 MB   samples: 1060
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 289.9 h
+  -> 500 MB FLOOR in 436.2 h
+free now: 1096 MB   samples: 1061
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 293.3 h
+  -> 500 MB FLOOR in 441.4 h
+free now: 1096 MB   samples: 1062
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 293.0 h
+  -> 500 MB FLOOR in 441.2 h
+free now: 1095 MB   samples: 1063
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 292.8 h
+  -> 500 MB FLOOR in 441.0 h
+free now: 1095 MB   samples: 1064
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 278.5 h
+  -> 500 MB FLOOR in 419.7 h
+free now: 1094 MB   samples: 1065
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 278.3 h
+  -> 500 MB FLOOR in 419.5 h
+free now: 1094 MB   samples: 1066
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 278.1 h
+  -> 500 MB FLOOR in 419.3 h
+free now: 1094 MB   samples: 1067
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 277.9 h
+  -> 500 MB FLOOR in 419.1 h
+free now: 1093 MB   samples: 1068
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 277.7 h
+  -> 500 MB FLOOR in 418.9 h
+free now: 1093 MB   samples: 1069
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 277.5 h
+  -> 500 MB FLOOR in 418.7 h
+free now: 1093 MB   samples: 1070
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 277.3 h
+  -> 500 MB FLOOR in 418.5 h
+free now: 1093 MB   samples: 1071
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 277.1 h
+  -> 500 MB FLOOR in 418.3 h
+free now: 1092 MB   samples: 1072
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 279.9 h
+  -> 500 MB FLOOR in 422.8 h
+free now: 1092 MB   samples: 1073
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 510.8 h
+  -> 500 MB FLOOR in 771.7 h
+free now: 1091 MB   samples: 1074
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 510.4 h
+  -> 500 MB FLOOR in 771.3 h
+free now: 1091 MB   samples: 1075
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 510.1 h
+  -> 500 MB FLOOR in 770.9 h
+free now: 1091 MB   samples: 1076
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 509.7 h
+  -> 500 MB FLOOR in 770.5 h
+free now: 1090 MB   samples: 1077
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 520.6 h
+  -> 500 MB FLOOR in 787.3 h
+free now: 1090 MB   samples: 1078
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 520.3 h
+  -> 500 MB FLOOR in 786.9 h
+free now: 1090 MB   samples: 1079
+rate over last 6.0 h (25 samples): +0.8 MB/h consumed
+  -> 700 MB warn  in 519.9 h
+  -> 500 MB FLOOR in 786.6 h
+free now: 1085 MB   samples: 1080
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 197.7 h
+  -> 500 MB FLOOR in 300.2 h
+free now: 1086 MB   samples: 1081
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 212.5 h
+  -> 500 MB FLOOR in 322.6 h
+free now: 1086 MB   samples: 1082
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 212.4 h
+  -> 500 MB FLOOR in 322.5 h
+free now: 1085 MB   samples: 1083
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 212.2 h
+  -> 500 MB FLOOR in 322.3 h
+free now: 1085 MB   samples: 1084
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 210.1 h
+  -> 500 MB FLOOR in 319.2 h
+free now: 1085 MB   samples: 1085
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 206.8 h
+  -> 500 MB FLOOR in 314.3 h
+free now: 1085 MB   samples: 1086
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 206.7 h
+  -> 500 MB FLOOR in 314.2 h
+free now: 1084 MB   samples: 1087
+rate over last 5.8 h (24 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 214.6 h
+  -> 500 MB FLOOR in 326.2 h
+free now: 1087 MB   samples: 1088
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 313.6 h
+  -> 500 MB FLOOR in 475.6 h
+free now: 1087 MB   samples: 1089
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 313.4 h
+  -> 500 MB FLOOR in 475.4 h
+free now: 1087 MB   samples: 1090
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 313.1 h
+  -> 500 MB FLOOR in 475.1 h
+free now: 1086 MB   samples: 1091
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 312.9 h
+  -> 500 MB FLOOR in 474.9 h
+free now: 1086 MB   samples: 1092
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 312.7 h
+  -> 500 MB FLOOR in 474.7 h
+free now: 1086 MB   samples: 1093
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 317.0 h
+  -> 500 MB FLOOR in 481.3 h
+free now: 1084 MB   samples: 1094
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 259.9 h
+  -> 500 MB FLOOR in 395.2 h
+free now: 1084 MB   samples: 1095
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 272.5 h
+  -> 500 MB FLOOR in 414.5 h
+free now: 1075 MB   samples: 1096
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 127.5 h
+  -> 500 MB FLOOR in 195.6 h
+free now: 1074 MB   samples: 1097
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 128.2 h
+  -> 500 MB FLOOR in 196.6 h
+free now: 1074 MB   samples: 1098
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 128.1 h
+  -> 500 MB FLOOR in 196.5 h
+free now: 1074 MB   samples: 1099
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 128.0 h
+  -> 500 MB FLOOR in 196.4 h
+free now: 1074 MB   samples: 1100
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 127.1 h
+  -> 500 MB FLOOR in 195.2 h
+free now: 1073 MB   samples: 1101
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 127.8 h
+  -> 500 MB FLOOR in 196.3 h
+free now: 1073 MB   samples: 1102
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 127.7 h
+  -> 500 MB FLOOR in 196.2 h
+free now: 1073 MB   samples: 1103
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 168.8 h
+  -> 500 MB FLOOR in 259.3 h
+free now: 1072 MB   samples: 1104
+rate over last 5.8 h (24 samples): +2.5 MB/h consumed
+  -> 700 MB warn  in 151.7 h
+  -> 500 MB FLOOR in 233.3 h
+free now: 1072 MB   samples: 1105
+rate over last 5.8 h (24 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 152.7 h
+  -> 500 MB FLOOR in 234.8 h
+free now: 1070 MB   samples: 1106
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 139.1 h
+  -> 500 MB FLOOR in 214.3 h
+free now: 1070 MB   samples: 1107
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 139.0 h
+  -> 500 MB FLOOR in 214.2 h
+free now: 1070 MB   samples: 1108
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 138.9 h
+  -> 500 MB FLOOR in 214.1 h
+free now: 1069 MB   samples: 1109
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 142.0 h
+  -> 500 MB FLOOR in 219.0 h
+free now: 1069 MB   samples: 1110
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 141.9 h
+  -> 500 MB FLOOR in 218.9 h
+free now: 1069 MB   samples: 1111
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 141.8 h
+  -> 500 MB FLOOR in 218.7 h
+free now: 1068 MB   samples: 1112
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 115.0 h
+  -> 500 MB FLOOR in 177.5 h
+free now: 1068 MB   samples: 1113
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 115.5 h
+  -> 500 MB FLOOR in 178.4 h
+free now: 1068 MB   samples: 1114
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 114.8 h
+  -> 500 MB FLOOR in 177.3 h
+free now: 1067 MB   samples: 1115
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 114.8 h
+  -> 500 MB FLOOR in 177.3 h
+free now: 1067 MB   samples: 1116
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 114.7 h
+  -> 500 MB FLOOR in 177.2 h
+free now: 1067 MB   samples: 1117
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 114.6 h
+  -> 500 MB FLOOR in 177.1 h
+free now: 1066 MB   samples: 1118
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 123.5 h
+  -> 500 MB FLOOR in 190.9 h
+free now: 1058 MB   samples: 1119
+rate over last 6.0 h (25 samples): +4.4 MB/h consumed
+  -> 700 MB warn  in 81.9 h
+  -> 500 MB FLOOR in 127.7 h
+free now: 1057 MB   samples: 1120
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 120.3 h
+  -> 500 MB FLOOR in 187.7 h
+free now: 1057 MB   samples: 1121
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 120.2 h
+  -> 500 MB FLOOR in 187.6 h
+free now: 1056 MB   samples: 1122
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 120.1 h
+  -> 500 MB FLOOR in 187.6 h
+free now: 1056 MB   samples: 1123
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 120.0 h
+  -> 500 MB FLOOR in 187.5 h
+free now: 1056 MB   samples: 1124
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 119.9 h
+  -> 500 MB FLOOR in 187.4 h
+free now: 1056 MB   samples: 1125
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 119.9 h
+  -> 500 MB FLOOR in 187.3 h
+free now: 1055 MB   samples: 1126
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 119.8 h
+  -> 500 MB FLOOR in 187.2 h
+free now: 1055 MB   samples: 1127
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 120.4 h
+  -> 500 MB FLOOR in 188.2 h
+free now: 1052 MB   samples: 1128
+rate over last 6.0 h (25 samples): +3.3 MB/h consumed
+  -> 700 MB warn  in 105.0 h
+  -> 500 MB FLOOR in 164.7 h
+free now: 1052 MB   samples: 1129
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 104.4 h
+  -> 500 MB FLOOR in 163.8 h
+free now: 1051 MB   samples: 1130
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 111.5 h
+  -> 500 MB FLOOR in 175.0 h
+free now: 1051 MB   samples: 1131
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 111.4 h
+  -> 500 MB FLOOR in 174.9 h
+free now: 1051 MB   samples: 1132
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 112.0 h
+  -> 500 MB FLOOR in 175.8 h
+free now: 1051 MB   samples: 1133
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 111.9 h
+  -> 500 MB FLOOR in 175.7 h
+free now: 1050 MB   samples: 1134
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 112.4 h
+  -> 500 MB FLOOR in 176.6 h
+free now: 1050 MB   samples: 1135
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 112.3 h
+  -> 500 MB FLOOR in 176.5 h
+free now: 1049 MB   samples: 1136
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 111.5 h
+  -> 500 MB FLOOR in 175.3 h
+free now: 1049 MB   samples: 1137
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 112.0 h
+  -> 500 MB FLOOR in 176.2 h
+free now: 1049 MB   samples: 1138
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 113.2 h
+  -> 500 MB FLOOR in 178.0 h
+free now: 1049 MB   samples: 1139
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 113.1 h
+  -> 500 MB FLOOR in 178.0 h
+free now: 1048 MB   samples: 1140
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 113.0 h
+  -> 500 MB FLOOR in 177.9 h
+free now: 1048 MB   samples: 1141
+rate over last 6.0 h (25 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 112.9 h
+  -> 500 MB FLOOR in 177.8 h
+free now: 1044 MB   samples: 1142
+rate over last 6.0 h (25 samples): +3.8 MB/h consumed
+  -> 700 MB warn  in 91.7 h
+  -> 500 MB FLOOR in 145.0 h
+free now: 1043 MB   samples: 1143
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 145.1 h
+  -> 500 MB FLOOR in 229.6 h
+free now: 1047 MB   samples: 1144
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 201.9 h
+  -> 500 MB FLOOR in 318.4 h
+free now: 1046 MB   samples: 1145
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 201.8 h
+  -> 500 MB FLOOR in 318.3 h
+free now: 1046 MB   samples: 1146
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 199.6 h
+  -> 500 MB FLOOR in 315.0 h
+free now: 1046 MB   samples: 1147
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 201.4 h
+  -> 500 MB FLOOR in 317.9 h
+free now: 1045 MB   samples: 1148
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 201.3 h
+  -> 500 MB FLOOR in 317.8 h
+free now: 1045 MB   samples: 1149
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 199.2 h
+  -> 500 MB FLOOR in 314.6 h
+free now: 1045 MB   samples: 1150
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 197.0 h
+  -> 500 MB FLOOR in 311.3 h
+free now: 1044 MB   samples: 1151
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 193.1 h
+  -> 500 MB FLOOR in 305.3 h
+free now: 1044 MB   samples: 1152
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 243.9 h
+  -> 500 MB FLOOR in 385.9 h
+free now: 1043 MB   samples: 1153
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 243.6 h
+  -> 500 MB FLOOR in 385.6 h
+free now: 1043 MB   samples: 1154
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 240.4 h
+  -> 500 MB FLOOR in 380.6 h
+free now: 1042 MB   samples: 1155
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 234.4 h
+  -> 500 MB FLOOR in 371.3 h
+free now: 1042 MB   samples: 1156
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 234.2 h
+  -> 500 MB FLOOR in 371.1 h
+free now: 1042 MB   samples: 1157
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 228.5 h
+  -> 500 MB FLOOR in 362.2 h
+free now: 1041 MB   samples: 1158
+rate over last 5.8 h (24 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 228.2 h
+  -> 500 MB FLOOR in 362.0 h
+free now: 1041 MB   samples: 1159
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 239.1 h
+  -> 500 MB FLOOR in 379.4 h
+free now: 1040 MB   samples: 1160
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 217.3 h
+  -> 500 MB FLOOR in 345.1 h
+free now: 1040 MB   samples: 1161
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 212.4 h
+  -> 500 MB FLOOR in 337.4 h
+free now: 1039 MB   samples: 1162
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 209.9 h
+  -> 500 MB FLOOR in 333.5 h
+free now: 1039 MB   samples: 1163
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 209.7 h
+  -> 500 MB FLOOR in 333.3 h
+free now: 1039 MB   samples: 1164
+rate over last 5.8 h (24 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 205.0 h
+  -> 500 MB FLOOR in 326.1 h
+free now: 1038 MB   samples: 1165
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 360.3 h
+  -> 500 MB FLOOR in 573.3 h
+free now: 1038 MB   samples: 1166
+rate over last 5.8 h (24 samples): +0.9 MB/h consumed
+  -> 700 MB warn  in 359.9 h
+  -> 500 MB FLOOR in 572.9 h
+free now: 1038 MB   samples: 1167
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 215.7 h
+  -> 500 MB FLOOR in 343.5 h
+free now: 1037 MB   samples: 1168
+rate over last 5.8 h (24 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 208.4 h
+  -> 500 MB FLOOR in 332.1 h
+free now: 1028 MB   samples: 1169
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 107.3 h
+  -> 500 MB FLOOR in 172.6 h
+free now: 1028 MB   samples: 1170
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 106.0 h
+  -> 500 MB FLOOR in 170.6 h
+free now: 1028 MB   samples: 1171
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 105.2 h
+  -> 500 MB FLOOR in 169.5 h
+free now: 1027 MB   samples: 1172
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 105.1 h
+  -> 500 MB FLOOR in 169.4 h
+free now: 1027 MB   samples: 1173
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 105.6 h
+  -> 500 MB FLOOR in 170.2 h
+free now: 1027 MB   samples: 1174
+rate over last 5.8 h (24 samples): +3.1 MB/h consumed
+  -> 700 MB warn  in 105.5 h
+  -> 500 MB FLOOR in 170.1 h
+free now: 1026 MB   samples: 1175
+rate over last 5.8 h (24 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 109.1 h
+  -> 500 MB FLOOR in 175.9 h
+free now: 1022 MB   samples: 1176
+rate over last 6.0 h (25 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 89.0 h
+  -> 500 MB FLOOR in 144.3 h
+free now: 1022 MB   samples: 1177
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 93.0 h
+  -> 500 MB FLOOR in 150.7 h
+free now: 1022 MB   samples: 1178
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 92.9 h
+  -> 500 MB FLOOR in 150.6 h
+free now: 1022 MB   samples: 1179
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 93.7 h
+  -> 500 MB FLOOR in 152.0 h
+free now: 1021 MB   samples: 1180
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 93.2 h
+  -> 500 MB FLOOR in 151.1 h
+free now: 1021 MB   samples: 1181
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 94.0 h
+  -> 500 MB FLOOR in 152.5 h
+free now: 1021 MB   samples: 1182
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 93.4 h
+  -> 500 MB FLOOR in 151.7 h
+free now: 1021 MB   samples: 1183
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 93.8 h
+  -> 500 MB FLOOR in 152.3 h
+free now: 1024 MB   samples: 1184
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 121.5 h
+  -> 500 MB FLOOR in 196.5 h
+free now: 1024 MB   samples: 1185
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 121.4 h
+  -> 500 MB FLOOR in 196.4 h
+free now: 1023 MB   samples: 1186
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 122.1 h
+  -> 500 MB FLOOR in 197.5 h
+free now: 1023 MB   samples: 1187
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 121.9 h
+  -> 500 MB FLOOR in 197.4 h
+free now: 1023 MB   samples: 1188
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 121.8 h
+  -> 500 MB FLOOR in 197.3 h
+free now: 795 MB   samples: 1189
+rate over last 6.0 h (25 samples): +40.6 MB/h consumed
+  -> 700 MB warn  in 2.3 h
+  -> 500 MB FLOOR in 7.3 h
+free now: 790 MB   samples: 1190
+rate over last 6.0 h (25 samples): +41.3 MB/h consumed
+  -> 700 MB warn  in 2.2 h
+  -> 500 MB FLOOR in 7.0 h
+free now: 790 MB   samples: 1191
+rate over last 6.0 h (25 samples): +41.3 MB/h consumed
+  -> 700 MB warn  in 2.2 h
+  -> 500 MB FLOOR in 7.0 h
+free now: 798 MB   samples: 1192
+rate over last 6.0 h (25 samples): +39.9 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 793 MB   samples: 1193
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 793 MB   samples: 1194
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 793 MB   samples: 1195
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 792 MB   samples: 1196
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 792 MB   samples: 1197
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.3 h
+  -> 500 MB FLOOR in 7.4 h
+free now: 791 MB   samples: 1198
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.3 h
+  -> 500 MB FLOOR in 7.4 h
+free now: 791 MB   samples: 1199
+rate over last 6.0 h (25 samples): +39.2 MB/h consumed
+  -> 700 MB warn  in 2.3 h
+  -> 500 MB FLOOR in 7.4 h
+free now: 791 MB   samples: 1200
+rate over last 6.0 h (25 samples): +38.5 MB/h consumed
+  -> 700 MB warn  in 2.4 h
+  -> 500 MB FLOOR in 7.5 h
+free now: 837 MB   samples: 1201
+rate over last 6.0 h (25 samples): +30.8 MB/h consumed
+  -> 700 MB warn  in 4.5 h
+  -> 500 MB FLOOR in 10.9 h
+free now: 1056 MB   samples: 1202
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1056 MB   samples: 1203
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1056 MB   samples: 1204
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1055 MB   samples: 1205
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1055 MB   samples: 1206
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1054 MB   samples: 1207
+rate over last 6.0 h (25 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1054 MB   samples: 1208
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 1054 MB   samples: 1209
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 1053 MB   samples: 1210
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 1053 MB   samples: 1211
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 1053 MB   samples: 1212
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 1052 MB   samples: 1213
+rate over last 6.0 h (25 samples): -42.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1052 MB   samples: 1214
+rate over last 6.0 h (25 samples): -43.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 1052 MB   samples: 1215
+rate over last 6.0 h (25 samples): -43.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 1051 MB   samples: 1216
+rate over last 6.0 h (25 samples): -42.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1051 MB   samples: 1217
+rate over last 6.0 h (25 samples): -42.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1050 MB   samples: 1218
+rate over last 5.8 h (24 samples): -44.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1050 MB   samples: 1219
+rate over last 5.8 h (24 samples): -44.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 1050 MB   samples: 1220
+rate over last 5.8 h (24 samples): -44.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 1049 MB   samples: 1221
+rate over last 5.8 h (24 samples): -44.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 1049 MB   samples: 1222
+rate over last 5.8 h (24 samples): -44.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 1049 MB   samples: 1223
+rate over last 5.8 h (24 samples): -44.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1040 MB   samples: 1224
+rate over last 5.8 h (24 samples): -35.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1225
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.9 h
+  -> 500 MB FLOOR in 185.8 h
+free now: 1039 MB   samples: 1226
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.1 h
+  -> 500 MB FLOOR in 184.5 h
+free now: 1039 MB   samples: 1227
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 115.9 h
+  -> 500 MB FLOOR in 184.4 h
+free now: 1038 MB   samples: 1228
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 115.1 h
+  -> 500 MB FLOOR in 183.2 h
+free now: 1038 MB   samples: 1229
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.4 h
+  -> 500 MB FLOOR in 185.3 h
+free now: 1038 MB   samples: 1230
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 117.1 h
+  -> 500 MB FLOOR in 186.3 h
+free now: 1038 MB   samples: 1231
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 118.4 h
+  -> 500 MB FLOOR in 188.5 h
+free now: 1037 MB   samples: 1232
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.8 h
+  -> 500 MB FLOOR in 186.1 h
+free now: 1037 MB   samples: 1233
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 118.1 h
+  -> 500 MB FLOOR in 188.3 h
+free now: 1037 MB   samples: 1234
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 120.3 h
+  -> 500 MB FLOOR in 191.7 h
+free now: 1036 MB   samples: 1235
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.4 h
+  -> 500 MB FLOOR in 190.4 h
+free now: 1036 MB   samples: 1236
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 120.0 h
+  -> 500 MB FLOOR in 191.5 h
+free now: 1036 MB   samples: 1237
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.2 h
+  -> 500 MB FLOOR in 190.2 h
+free now: 1035 MB   samples: 1238
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.8 h
+  -> 500 MB FLOOR in 191.2 h
+free now: 1026 MB   samples: 1239
+rate over last 5.8 h (24 samples): +4.3 MB/h consumed
+  -> 700 MB warn  in 75.3 h
+  -> 500 MB FLOOR in 121.5 h
+free now: 1034 MB   samples: 1240
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.5 h
+  -> 500 MB FLOOR in 186.2 h
+free now: 1034 MB   samples: 1241
+rate over last 5.8 h (24 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 116.4 h
+  -> 500 MB FLOOR in 186.1 h
+free now: 1034 MB   samples: 1242
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.1 h
+  -> 500 MB FLOOR in 190.6 h
+free now: 1033 MB   samples: 1243
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.0 h
+  -> 500 MB FLOOR in 190.4 h
+free now: 1033 MB   samples: 1244
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 119.6 h
+  -> 500 MB FLOOR in 191.4 h
+free now: 1033 MB   samples: 1245
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 118.8 h
+  -> 500 MB FLOOR in 190.2 h
+free now: 1028 MB   samples: 1246
+rate over last 6.0 h (25 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 92.3 h
+  -> 500 MB FLOOR in 148.6 h
+free now: 1027 MB   samples: 1247
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 92.2 h
+  -> 500 MB FLOOR in 148.5 h
+free now: 1031 MB   samples: 1248
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 233.8 h
+  -> 500 MB FLOOR in 375.0 h
+free now: 1031 MB   samples: 1249
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 230.8 h
+  -> 500 MB FLOOR in 370.4 h
+free now: 1022 MB   samples: 1250
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 113.7 h
+  -> 500 MB FLOOR in 184.3 h
+free now: 1022 MB   samples: 1251
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 114.3 h
+  -> 500 MB FLOOR in 185.3 h
+free now: 1021 MB   samples: 1252
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 114.8 h
+  -> 500 MB FLOOR in 186.2 h
+free now: 1021 MB   samples: 1253
+rate over last 6.0 h (25 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 113.3 h
+  -> 500 MB FLOOR in 183.9 h
+free now: 1021 MB   samples: 1254
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 111.9 h
+  -> 500 MB FLOOR in 181.6 h
+free now: 1020 MB   samples: 1255
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 111.8 h
+  -> 500 MB FLOOR in 181.5 h
+free now: 1020 MB   samples: 1256
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 111.6 h
+  -> 500 MB FLOOR in 181.4 h
+free now: 1019 MB   samples: 1257
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 110.2 h
+  -> 500 MB FLOOR in 179.1 h
+free now: 1019 MB   samples: 1258
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 108.2 h
+  -> 500 MB FLOOR in 176.0 h
+free now: 1019 MB   samples: 1259
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 108.7 h
+  -> 500 MB FLOOR in 176.9 h
+free now: 1018 MB   samples: 1260
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 107.9 h
+  -> 500 MB FLOOR in 175.7 h
+free now: 1018 MB   samples: 1261
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 107.8 h
+  -> 500 MB FLOOR in 175.6 h
+free now: 1018 MB   samples: 1262
+rate over last 6.0 h (25 samples): +3.0 MB/h consumed
+  -> 700 MB warn  in 107.7 h
+  -> 500 MB FLOOR in 175.5 h
+free now: 1017 MB   samples: 1263
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 216.3 h
+  -> 500 MB FLOOR in 352.7 h
+free now: 1017 MB   samples: 1264
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 109.3 h
+  -> 500 MB FLOOR in 178.2 h
+free now: 1016 MB   samples: 1265
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 109.1 h
+  -> 500 MB FLOOR in 178.1 h
+free now: 1016 MB   samples: 1266
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 109.0 h
+  -> 500 MB FLOOR in 178.0 h
+free now: 1016 MB   samples: 1267
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 108.9 h
+  -> 500 MB FLOOR in 177.9 h
+free now: 1015 MB   samples: 1268
+rate over last 6.0 h (25 samples): +2.9 MB/h consumed
+  -> 700 MB warn  in 108.8 h
+  -> 500 MB FLOOR in 177.7 h
+free now: 1007 MB   samples: 1269
+rate over last 6.0 h (25 samples): +4.3 MB/h consumed
+  -> 700 MB warn  in 71.3 h
+  -> 500 MB FLOOR in 117.8 h
+free now: 1006 MB   samples: 1270
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 86.7 h
+  -> 500 MB FLOOR in 143.3 h
+free now: 1006 MB   samples: 1271
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 86.2 h
+  -> 500 MB FLOOR in 142.5 h
+free now: 1001 MB   samples: 1272
+rate over last 6.0 h (25 samples): +5.1 MB/h consumed
+  -> 700 MB warn  in 59.6 h
+  -> 500 MB FLOOR in 99.2 h
+free now: 1040 MB   samples: 1273
+rate over last 6.0 h (25 samples): -1.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1274
+rate over last 6.0 h (25 samples): -2.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1275
+rate over last 6.0 h (25 samples): -2.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1276
+rate over last 6.0 h (25 samples): -2.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 1038 MB   samples: 1277
+rate over last 6.0 h (25 samples): -2.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1038 MB   samples: 1278
+rate over last 6.0 h (25 samples): -2.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1038 MB   samples: 1279
+rate over last 6.0 h (25 samples): -2.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1042 MB   samples: 1280
+rate over last 6.0 h (25 samples): -3.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 1041 MB   samples: 1281
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1041 MB   samples: 1282
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 1041 MB   samples: 1283
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1041 MB   samples: 1284
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1040 MB   samples: 1285
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1040 MB   samples: 1286
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1035 MB   samples: 1287
+rate over last 5.8 h (24 samples): -3.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1288
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1039 MB   samples: 1289
+rate over last 5.8 h (24 samples): -3.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 1042 MB   samples: 1290
+rate over last 5.8 h (24 samples): -4.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 1042 MB   samples: 1291
+rate over last 5.8 h (24 samples): -4.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 58877 MB   samples: 1292
+rate over last 5.8 h (24 samples): -10063.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58877 MB   samples: 1293
+rate over last 5.8 h (24 samples): -10063.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58876 MB   samples: 1294
+rate over last 5.8 h (24 samples): -10063.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58876 MB   samples: 1295
+rate over last 5.8 h (24 samples): -10064.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58871 MB   samples: 1296
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58871 MB   samples: 1297
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58871 MB   samples: 1298
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58870 MB   samples: 1299
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58870 MB   samples: 1300
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58870 MB   samples: 1301
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58869 MB   samples: 1302
+rate over last 5.8 h (24 samples): -10057.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58869 MB   samples: 1303
+rate over last 5.8 h (24 samples): -10056.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58869 MB   samples: 1304
+rate over last 5.8 h (24 samples): -10056.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58868 MB   samples: 1305
+rate over last 5.8 h (24 samples): -10056.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58868 MB   samples: 1306
+rate over last 5.8 h (24 samples): -10056.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58868 MB   samples: 1307
+rate over last 6.0 h (25 samples): -9637.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58868 MB   samples: 1308
+rate over last 6.0 h (25 samples): -9637.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58867 MB   samples: 1309
+rate over last 6.0 h (25 samples): -9637.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58867 MB   samples: 1310
+rate over last 6.0 h (25 samples): -9637.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58867 MB   samples: 1311
+rate over last 6.0 h (25 samples): -9638.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58866 MB   samples: 1312
+rate over last 6.0 h (25 samples): -9637.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58866 MB   samples: 1313
+rate over last 6.0 h (25 samples): -9637.9 MB/h consumed
+  -> flat or growing; no projection
+free now: 58866 MB   samples: 1314
+rate over last 6.0 h (25 samples): -9637.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58865 MB   samples: 1315
+rate over last 6.0 h (25 samples): -9637.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58865 MB   samples: 1316
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29575.5 h
+  -> 500 MB FLOOR in 29677.2 h
+free now: 58865 MB   samples: 1317
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29575.4 h
+  -> 500 MB FLOOR in 29677.0 h
+free now: 58865 MB   samples: 1318
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29575.2 h
+  -> 500 MB FLOOR in 29676.9 h
+free now: 58864 MB   samples: 1319
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29326.6 h
+  -> 500 MB FLOOR in 29427.4 h
+free now: 58864 MB   samples: 1320
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49152.6 h
+  -> 500 MB FLOOR in 49321.7 h
+free now: 58864 MB   samples: 1321
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48469.7 h
+  -> 500 MB FLOOR in 48636.4 h
+free now: 58863 MB   samples: 1322
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49152.1 h
+  -> 500 MB FLOOR in 49321.2 h
+free now: 58863 MB   samples: 1323
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48469.2 h
+  -> 500 MB FLOOR in 48635.9 h
+free now: 58863 MB   samples: 1324
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48469.0 h
+  -> 500 MB FLOOR in 48635.7 h
+free now: 58863 MB   samples: 1325
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48468.8 h
+  -> 500 MB FLOOR in 48635.5 h
+free now: 58862 MB   samples: 1326
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49853.5 h
+  -> 500 MB FLOOR in 50024.9 h
+free now: 58862 MB   samples: 1327
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 50575.8 h
+  -> 500 MB FLOOR in 50749.8 h
+free now: 58862 MB   samples: 1328
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 50575.5 h
+  -> 500 MB FLOOR in 50749.4 h
+free now: 58862 MB   samples: 1329
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49852.7 h
+  -> 500 MB FLOOR in 50024.2 h
+free now: 58861 MB   samples: 1330
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 50575.0 h
+  -> 500 MB FLOOR in 50748.9 h
+free now: 58861 MB   samples: 1331
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 51318.6 h
+  -> 500 MB FLOOR in 51495.1 h
+free now: 58861 MB   samples: 1332
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 50574.6 h
+  -> 500 MB FLOOR in 50748.5 h
+free now: 58861 MB   samples: 1333
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 51318.2 h
+  -> 500 MB FLOOR in 51494.6 h
+free now: 58860 MB   samples: 1334
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 52083.8 h
+  -> 500 MB FLOOR in 52262.9 h
+free now: 58860 MB   samples: 1335
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 51317.6 h
+  -> 500 MB FLOOR in 51494.1 h
+free now: 58860 MB   samples: 1336
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 52083.2 h
+  -> 500 MB FLOOR in 52262.3 h
+free now: 58859 MB   samples: 1337
+rate over last 6.0 h (25 samples): +1.1 MB/h consumed
+  -> 700 MB warn  in 51317.0 h
+  -> 500 MB FLOOR in 51493.4 h
+free now: 58854 MB   samples: 1338
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29569.8 h
+  -> 500 MB FLOOR in 29671.5 h
+free now: 58854 MB   samples: 1339
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29822.4 h
+  -> 500 MB FLOOR in 29924.9 h
+free now: 58853 MB   samples: 1340
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29321.0 h
+  -> 500 MB FLOOR in 29421.8 h
+free now: 58853 MB   samples: 1341
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29569.4 h
+  -> 500 MB FLOOR in 29671.0 h
+free now: 58853 MB   samples: 1342
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29569.2 h
+  -> 500 MB FLOOR in 29670.9 h
+free now: 58844 MB   samples: 1343
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 17270.5 h
+  -> 500 MB FLOOR in 17329.9 h
+free now: 58848 MB   samples: 1344
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 22364.8 h
+  -> 500 MB FLOOR in 22441.7 h
+free now: 58848 MB   samples: 1345
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 22508.9 h
+  -> 500 MB FLOOR in 22586.4 h
+free now: 58848 MB   samples: 1346
+rate over last 6.0 h (25 samples): +2.6 MB/h consumed
+  -> 700 MB warn  in 22364.5 h
+  -> 500 MB FLOOR in 22441.5 h
+free now: 58847 MB   samples: 1347
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21853.9 h
+  -> 500 MB FLOOR in 21929.0 h
+free now: 58847 MB   samples: 1348
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21711.8 h
+  -> 500 MB FLOOR in 21786.5 h
+free now: 58847 MB   samples: 1349
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21433.4 h
+  -> 500 MB FLOOR in 21507.1 h
+free now: 58847 MB   samples: 1350
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21296.7 h
+  -> 500 MB FLOOR in 21370.0 h
+free now: 58846 MB   samples: 1351
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21433.1 h
+  -> 500 MB FLOOR in 21506.9 h
+free now: 58846 MB   samples: 1352
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21296.5 h
+  -> 500 MB FLOOR in 21369.7 h
+free now: 58845 MB   samples: 1353
+rate over last 5.8 h (24 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21161.6 h
+  -> 500 MB FLOOR in 21234.3 h
+free now: 58845 MB   samples: 1354
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20896.9 h
+  -> 500 MB FLOOR in 20968.8 h
+free now: 58845 MB   samples: 1355
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20896.8 h
+  -> 500 MB FLOOR in 20968.7 h
+free now: 58844 MB   samples: 1356
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20766.9 h
+  -> 500 MB FLOOR in 20838.3 h
+free now: 58844 MB   samples: 1357
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20638.6 h
+  -> 500 MB FLOOR in 20709.6 h
+free now: 58844 MB   samples: 1358
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20638.5 h
+  -> 500 MB FLOOR in 20709.5 h
+free now: 58844 MB   samples: 1359
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20766.5 h
+  -> 500 MB FLOOR in 20838.0 h
+free now: 58843 MB   samples: 1360
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20766.4 h
+  -> 500 MB FLOOR in 20837.8 h
+free now: 58843 MB   samples: 1361
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 29851.5 h
+  -> 500 MB FLOOR in 29954.2 h
+free now: 58842 MB   samples: 1362
+rate over last 5.8 h (24 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29587.2 h
+  -> 500 MB FLOOR in 29688.9 h
+free now: 58837 MB   samples: 1363
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20636.1 h
+  -> 500 MB FLOOR in 20707.1 h
+free now: 58837 MB   samples: 1364
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20509.4 h
+  -> 500 MB FLOOR in 20579.9 h
+free now: 58836 MB   samples: 1365
+rate over last 5.8 h (24 samples): +2.8 MB/h consumed
+  -> 700 MB warn  in 20509.2 h
+  -> 500 MB FLOOR in 20579.8 h
+free now: 58836 MB   samples: 1366
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41787.4 h
+  -> 500 MB FLOOR in 41931.1 h
+free now: 58836 MB   samples: 1367
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26531.5 h
+  -> 500 MB FLOOR in 26622.8 h
+free now: 58835 MB   samples: 1368
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26116.7 h
+  -> 500 MB FLOOR in 26206.6 h
+free now: 58836 MB   samples: 1369
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 28092.2 h
+  -> 500 MB FLOOR in 28188.9 h
+free now: 58836 MB   samples: 1370
+rate over last 5.8 h (24 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 27856.6 h
+  -> 500 MB FLOOR in 27952.4 h
+free now: 58835 MB   samples: 1371
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 28358.6 h
+  -> 500 MB FLOOR in 28456.2 h
+free now: 58835 MB   samples: 1372
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 28590.9 h
+  -> 500 MB FLOOR in 28689.3 h
+free now: 58835 MB   samples: 1373
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 28358.3 h
+  -> 500 MB FLOOR in 28455.9 h
+free now: 58834 MB   samples: 1374
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 28358.1 h
+  -> 500 MB FLOOR in 28455.7 h
+free now: 58834 MB   samples: 1375
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 28358.0 h
+  -> 500 MB FLOOR in 28455.6 h
+free now: 58838 MB   samples: 1376
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46510.7 h
+  -> 500 MB FLOOR in 46670.7 h
+free now: 58838 MB   samples: 1377
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46510.4 h
+  -> 500 MB FLOOR in 46670.4 h
+free now: 58838 MB   samples: 1378
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47138.7 h
+  -> 500 MB FLOOR in 47300.8 h
+free now: 58837 MB   samples: 1379
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47138.4 h
+  -> 500 MB FLOOR in 47300.6 h
+free now: 58837 MB   samples: 1380
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46509.6 h
+  -> 500 MB FLOOR in 46669.6 h
+free now: 58837 MB   samples: 1381
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47137.9 h
+  -> 500 MB FLOOR in 47300.0 h
+free now: 58836 MB   samples: 1382
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47137.6 h
+  -> 500 MB FLOOR in 47299.8 h
+free now: 58836 MB   samples: 1383
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46508.8 h
+  -> 500 MB FLOOR in 46668.8 h
+free now: 58836 MB   samples: 1384
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46508.5 h
+  -> 500 MB FLOOR in 46668.5 h
+free now: 58835 MB   samples: 1385
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47136.7 h
+  -> 500 MB FLOOR in 47298.9 h
+free now: 58835 MB   samples: 1386
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46507.9 h
+  -> 500 MB FLOOR in 46667.9 h
+free now: 58829 MB   samples: 1387
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45295.6 h
+  -> 500 MB FLOOR in 45451.5 h
+free now: 58829 MB   samples: 1388
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45295.4 h
+  -> 500 MB FLOOR in 45451.2 h
+free now: 58829 MB   samples: 1389
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44714.4 h
+  -> 500 MB FLOOR in 44868.3 h
+free now: 58828 MB   samples: 1390
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45294.9 h
+  -> 500 MB FLOOR in 45450.7 h
+free now: 58828 MB   samples: 1391
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45294.6 h
+  -> 500 MB FLOOR in 45450.5 h
+free now: 58833 MB   samples: 1392
+rate over last 6.0 h (25 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58832 MB   samples: 1393
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 99655.6 h
+  -> 500 MB FLOOR in 99998.4 h
+free now: 58832 MB   samples: 1394
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102586.0 h
+  -> 500 MB FLOOR in 102939.0 h
+free now: 58832 MB   samples: 1395
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102585.5 h
+  -> 500 MB FLOOR in 102938.4 h
+free now: 58831 MB   samples: 1396
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102584.9 h
+  -> 500 MB FLOOR in 102937.9 h
+free now: 58831 MB   samples: 1397
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102584.3 h
+  -> 500 MB FLOOR in 102937.3 h
+free now: 58831 MB   samples: 1398
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102583.7 h
+  -> 500 MB FLOOR in 102936.6 h
+free now: 58830 MB   samples: 1399
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 102583.2 h
+  -> 500 MB FLOOR in 102936.1 h
+free now: 58830 MB   samples: 1400
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42534.2 h
+  -> 500 MB FLOOR in 42680.5 h
+free now: 58830 MB   samples: 1401
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42534.0 h
+  -> 500 MB FLOOR in 42680.3 h
+free now: 58829 MB   samples: 1402
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42021.3 h
+  -> 500 MB FLOOR in 42165.9 h
+free now: 58829 MB   samples: 1403
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42021.0 h
+  -> 500 MB FLOOR in 42165.6 h
+free now: 58829 MB   samples: 1404
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42533.3 h
+  -> 500 MB FLOOR in 42679.6 h
+free now: 58829 MB   samples: 1405
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42533.1 h
+  -> 500 MB FLOOR in 42679.4 h
+free now: 58828 MB   samples: 1406
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42532.8 h
+  -> 500 MB FLOOR in 42679.2 h
+free now: 58828 MB   samples: 1407
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43057.7 h
+  -> 500 MB FLOOR in 43205.8 h
+free now: 58827 MB   samples: 1408
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43057.4 h
+  -> 500 MB FLOOR in 43205.5 h
+free now: 58827 MB   samples: 1409
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 43057.2 h
+  -> 500 MB FLOOR in 43205.3 h
+free now: 58827 MB   samples: 1410
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43595.1 h
+  -> 500 MB FLOOR in 43745.1 h
+free now: 58827 MB   samples: 1411
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58826 MB   samples: 1412
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58826 MB   samples: 1413
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58826 MB   samples: 1414
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58825 MB   samples: 1415
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45167.1 h
+  -> 500 MB FLOOR in 45322.5 h
+free now: 58825 MB   samples: 1416
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43978.2 h
+  -> 500 MB FLOOR in 44129.5 h
+free now: 58824 MB   samples: 1417
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43977.9 h
+  -> 500 MB FLOOR in 44129.2 h
+free now: 58824 MB   samples: 1418
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43977.6 h
+  -> 500 MB FLOOR in 44129.0 h
+free now: 58824 MB   samples: 1419
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43977.4 h
+  -> 500 MB FLOOR in 44128.7 h
+free now: 58824 MB   samples: 1420
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43977.2 h
+  -> 500 MB FLOOR in 44128.5 h
+free now: 58823 MB   samples: 1421
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43976.9 h
+  -> 500 MB FLOOR in 44128.3 h
+free now: 58818 MB   samples: 1422
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 25906.4 h
+  -> 500 MB FLOOR in 25995.5 h
+free now: 58817 MB   samples: 1423
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26108.7 h
+  -> 500 MB FLOOR in 26198.5 h
+free now: 58822 MB   samples: 1424
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43976.1 h
+  -> 500 MB FLOOR in 44127.4 h
+free now: 58822 MB   samples: 1425
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43975.9 h
+  -> 500 MB FLOOR in 44127.2 h
+free now: 58822 MB   samples: 1426
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45164.3 h
+  -> 500 MB FLOOR in 45319.7 h
+free now: 58822 MB   samples: 1427
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45782.9 h
+  -> 500 MB FLOOR in 45940.4 h
+free now: 58821 MB   samples: 1428
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45782.6 h
+  -> 500 MB FLOOR in 45940.2 h
+free now: 58821 MB   samples: 1429
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45782.4 h
+  -> 500 MB FLOOR in 45939.9 h
+free now: 58821 MB   samples: 1430
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45782.1 h
+  -> 500 MB FLOOR in 45939.7 h
+free now: 58820 MB   samples: 1431
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 46417.8 h
+  -> 500 MB FLOOR in 46577.5 h
+free now: 58820 MB   samples: 1432
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45781.6 h
+  -> 500 MB FLOOR in 45939.1 h
+free now: 58820 MB   samples: 1433
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45781.3 h
+  -> 500 MB FLOOR in 45938.9 h
+free now: 58819 MB   samples: 1434
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 45781.1 h
+  -> 500 MB FLOOR in 45938.6 h
+free now: 58814 MB   samples: 1435
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26312.5 h
+  -> 500 MB FLOOR in 26403.1 h
+free now: 58813 MB   samples: 1436
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26521.2 h
+  -> 500 MB FLOOR in 26612.5 h
+free now: 58813 MB   samples: 1437
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26521.1 h
+  -> 500 MB FLOOR in 26612.4 h
+free now: 58813 MB   samples: 1438
+rate over last 5.8 h (24 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26310.8 h
+  -> 500 MB FLOOR in 26401.4 h
+free now: 58817 MB   samples: 1439
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41023.6 h
+  -> 500 MB FLOOR in 41164.8 h
+free now: 58811 MB   samples: 1440
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 25827.2 h
+  -> 500 MB FLOOR in 25916.1 h
+free now: 58811 MB   samples: 1441
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 25637.2 h
+  -> 500 MB FLOOR in 25725.4 h
+free now: 58811 MB   samples: 1442
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 25637.0 h
+  -> 500 MB FLOOR in 25725.3 h
+free now: 58810 MB   samples: 1443
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 25636.9 h
+  -> 500 MB FLOOR in 25725.1 h
+free now: 58810 MB   samples: 1444
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 25826.7 h
+  -> 500 MB FLOOR in 25915.6 h
+free now: 58810 MB   samples: 1445
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 25826.5 h
+  -> 500 MB FLOOR in 25915.4 h
+free now: 58809 MB   samples: 1446
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42519.1 h
+  -> 500 MB FLOOR in 42665.4 h
+free now: 58809 MB   samples: 1447
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42518.9 h
+  -> 500 MB FLOOR in 42665.2 h
+free now: 58814 MB   samples: 1448
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42522.4 h
+  -> 500 MB FLOOR in 42668.8 h
+free now: 58814 MB   samples: 1449
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 43047.2 h
+  -> 500 MB FLOOR in 43195.3 h
+free now: 58813 MB   samples: 1450
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42009.7 h
+  -> 500 MB FLOOR in 42154.3 h
+free now: 58813 MB   samples: 1451
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41509.4 h
+  -> 500 MB FLOOR in 41652.2 h
+free now: 58813 MB   samples: 1452
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41509.2 h
+  -> 500 MB FLOOR in 41652.0 h
+free now: 58813 MB   samples: 1453
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41508.9 h
+  -> 500 MB FLOOR in 41651.8 h
+free now: 58812 MB   samples: 1454
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41508.7 h
+  -> 500 MB FLOOR in 41651.6 h
+free now: 58812 MB   samples: 1455
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41508.5 h
+  -> 500 MB FLOOR in 41651.4 h
+free now: 58812 MB   samples: 1456
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41508.2 h
+  -> 500 MB FLOOR in 41651.1 h
+free now: 58811 MB   samples: 1457
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 41508.0 h
+  -> 500 MB FLOOR in 41650.9 h
+free now: 58811 MB   samples: 1458
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42007.9 h
+  -> 500 MB FLOOR in 42152.5 h
+free now: 58811 MB   samples: 1459
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58810 MB   samples: 1460
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 112471.5 h
+  -> 500 MB FLOOR in 112858.5 h
+free now: 58810 MB   samples: 1461
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> 700 MB warn  in 112470.8 h
+  -> 500 MB FLOOR in 112857.9 h
+free now: 58810 MB   samples: 1462
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58809 MB   samples: 1463
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 46487.5 h
+  -> 500 MB FLOOR in 46647.5 h
+free now: 58804 MB   samples: 1464
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44695.0 h
+  -> 500 MB FLOOR in 44848.9 h
+free now: 58804 MB   samples: 1465
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 50525.2 h
+  -> 500 MB FLOOR in 50699.1 h
+free now: 58804 MB   samples: 1466
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 50524.9 h
+  -> 500 MB FLOOR in 50698.9 h
+free now: 58803 MB   samples: 1467
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 50524.7 h
+  -> 500 MB FLOOR in 50698.6 h
+free now: 58803 MB   samples: 1468
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 50524.5 h
+  -> 500 MB FLOOR in 50698.4 h
+free now: 58802 MB   samples: 1469
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47755.4 h
+  -> 500 MB FLOOR in 47919.8 h
+free now: 58802 MB   samples: 1470
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47755.1 h
+  -> 500 MB FLOOR in 47919.5 h
+free now: 58802 MB   samples: 1471
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47754.9 h
+  -> 500 MB FLOOR in 47919.3 h
+free now: 58807 MB   samples: 1472
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47758.9 h
+  -> 500 MB FLOOR in 47923.3 h
+free now: 58806 MB   samples: 1473
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47758.7 h
+  -> 500 MB FLOOR in 47923.0 h
+free now: 58806 MB   samples: 1474
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47758.4 h
+  -> 500 MB FLOOR in 47922.8 h
+free now: 58806 MB   samples: 1475
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47758.2 h
+  -> 500 MB FLOOR in 47922.5 h
+free now: 58805 MB   samples: 1476
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47757.9 h
+  -> 500 MB FLOOR in 47922.3 h
+free now: 58805 MB   samples: 1477
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47757.7 h
+  -> 500 MB FLOOR in 47922.1 h
+free now: 58805 MB   samples: 1478
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47757.5 h
+  -> 500 MB FLOOR in 47921.8 h
+free now: 58805 MB   samples: 1479
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47757.2 h
+  -> 500 MB FLOOR in 47921.6 h
+free now: 58804 MB   samples: 1480
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47756.9 h
+  -> 500 MB FLOOR in 47921.3 h
+free now: 58804 MB   samples: 1481
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48420.0 h
+  -> 500 MB FLOOR in 48586.6 h
+free now: 58804 MB   samples: 1482
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48422.1 h
+  -> 500 MB FLOOR in 48588.8 h
+free now: 58803 MB   samples: 1483
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49133.9 h
+  -> 500 MB FLOOR in 49303.0 h
+free now: 58803 MB   samples: 1484
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49133.7 h
+  -> 500 MB FLOOR in 49302.8 h
+free now: 58803 MB   samples: 1485
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49133.5 h
+  -> 500 MB FLOOR in 49302.6 h
+free now: 58803 MB   samples: 1486
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49133.2 h
+  -> 500 MB FLOOR in 49302.3 h
+free now: 58797 MB   samples: 1487
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 48416.1 h
+  -> 500 MB FLOOR in 48582.8 h
+free now: 58802 MB   samples: 1488
+rate over last 5.8 h (24 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58801 MB   samples: 1489
+rate over last 5.8 h (24 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58801 MB   samples: 1490
+rate over last 5.8 h (24 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58801 MB   samples: 1491
+rate over last 5.8 h (24 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58801 MB   samples: 1492
+rate over last 5.8 h (24 samples): +0.3 MB/h consumed
+  -> flat or growing; no projection
+free now: 58800 MB   samples: 1493
+rate over last 5.8 h (24 samples): +0.3 MB/h consumed
+  -> flat or growing; no projection
+free now: 58800 MB   samples: 1494
+rate over last 5.8 h (24 samples): +0.3 MB/h consumed
+  -> flat or growing; no projection
+free now: 58800 MB   samples: 1495
+rate over last 5.8 h (24 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47727.1 h
+  -> 500 MB FLOOR in 47891.4 h
+free now: 58799 MB   samples: 1496
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43387.5 h
+  -> 500 MB FLOOR in 43536.8 h
+free now: 58798 MB   samples: 1497
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42831.0 h
+  -> 500 MB FLOOR in 42978.4 h
+free now: 58798 MB   samples: 1498
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43387.0 h
+  -> 500 MB FLOOR in 43536.4 h
+free now: 58798 MB   samples: 1499
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43386.8 h
+  -> 500 MB FLOOR in 43536.2 h
+free now: 58798 MB   samples: 1500
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43386.6 h
+  -> 500 MB FLOOR in 43536.0 h
+free now: 58797 MB   samples: 1501
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43957.3 h
+  -> 500 MB FLOOR in 44108.6 h
+free now: 58797 MB   samples: 1502
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43386.1 h
+  -> 500 MB FLOOR in 43535.5 h
+free now: 58797 MB   samples: 1503
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43956.8 h
+  -> 500 MB FLOOR in 44108.1 h
+free now: 58796 MB   samples: 1504
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42829.4 h
+  -> 500 MB FLOOR in 42976.8 h
+free now: 58796 MB   samples: 1505
+rate over last 5.8 h (24 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 42827.1 h
+  -> 500 MB FLOOR in 42974.5 h
+free now: 58796 MB   samples: 1506
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43033.8 h
+  -> 500 MB FLOOR in 43181.9 h
+free now: 58795 MB   samples: 1507
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43033.5 h
+  -> 500 MB FLOOR in 43181.7 h
+free now: 58795 MB   samples: 1508
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43033.3 h
+  -> 500 MB FLOOR in 43181.5 h
+free now: 58795 MB   samples: 1509
+rate over last 6.0 h (25 samples): +1.4 MB/h consumed
+  -> 700 MB warn  in 43033.1 h
+  -> 500 MB FLOOR in 43181.2 h
+free now: 58794 MB   samples: 1510
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43032.9 h
+  -> 500 MB FLOOR in 43181.0 h
+free now: 58794 MB   samples: 1511
+rate over last 6.0 h (25 samples): +0.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58794 MB   samples: 1512
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44121.8 h
+  -> 500 MB FLOOR in 44273.7 h
+free now: 58793 MB   samples: 1513
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43570.1 h
+  -> 500 MB FLOOR in 43720.1 h
+free now: 58793 MB   samples: 1514
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43569.9 h
+  -> 500 MB FLOOR in 43719.9 h
+free now: 58793 MB   samples: 1515
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44121.2 h
+  -> 500 MB FLOOR in 44273.1 h
+free now: 58793 MB   samples: 1516
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44120.9 h
+  -> 500 MB FLOOR in 44272.8 h
+free now: 58792 MB   samples: 1517
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 44120.7 h
+  -> 500 MB FLOOR in 44272.6 h
+free now: 58792 MB   samples: 1518
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43569.0 h
+  -> 500 MB FLOOR in 43719.0 h
+free now: 58792 MB   samples: 1519
+rate over last 6.0 h (25 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43568.8 h
+  -> 500 MB FLOOR in 43718.8 h
+free now: 58791 MB   samples: 1520
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 47746.3 h
+  -> 500 MB FLOOR in 47910.7 h
+free now: 58791 MB   samples: 1521
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49792.5 h
+  -> 500 MB FLOOR in 49963.9 h
+free now: 58791 MB   samples: 1522
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49792.3 h
+  -> 500 MB FLOOR in 49963.8 h
+free now: 58791 MB   samples: 1523
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49792.1 h
+  -> 500 MB FLOOR in 49963.5 h
+free now: 58790 MB   samples: 1524
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49791.8 h
+  -> 500 MB FLOOR in 49963.3 h
+free now: 58790 MB   samples: 1525
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49090.3 h
+  -> 500 MB FLOOR in 49259.3 h
+free now: 58790 MB   samples: 1526
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49791.3 h
+  -> 500 MB FLOOR in 49962.7 h
+free now: 58790 MB   samples: 1527
+rate over last 6.0 h (25 samples): +1.2 MB/h consumed
+  -> 700 MB warn  in 49089.8 h
+  -> 500 MB FLOOR in 49258.8 h
+free now: 58786 MB   samples: 1528
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 33191.8 h
+  -> 500 MB FLOOR in 33306.1 h
+free now: 58785 MB   samples: 1529
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 33191.7 h
+  -> 500 MB FLOOR in 33306.0 h
+free now: 58785 MB   samples: 1530
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 33510.7 h
+  -> 500 MB FLOOR in 33626.1 h
+free now: 58785 MB   samples: 1531
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 33510.5 h
+  -> 500 MB FLOOR in 33625.9 h
+free now: 58785 MB   samples: 1532
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 33191.2 h
+  -> 500 MB FLOOR in 33305.4 h
+free now: 58784 MB   samples: 1533
+rate over last 6.0 h (25 samples): +1.7 MB/h consumed
+  -> 700 MB warn  in 33510.2 h
+  -> 500 MB FLOOR in 33625.5 h
+free now: 58778 MB   samples: 1534
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21510.4 h
+  -> 500 MB FLOOR in 21584.5 h
+free now: 58772 MB   samples: 1535
+rate over last 6.0 h (25 samples): +3.7 MB/h consumed
+  -> 700 MB warn  in 15766.2 h
+  -> 500 MB FLOOR in 15820.5 h
+free now: 58783 MB   samples: 1536
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32268.3 h
+  -> 500 MB FLOOR in 32379.4 h
+free now: 58783 MB   samples: 1537
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32569.7 h
+  -> 500 MB FLOOR in 32681.9 h
+free now: 58782 MB   samples: 1538
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32569.6 h
+  -> 500 MB FLOOR in 32681.7 h
+free now: 58782 MB   samples: 1539
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32267.8 h
+  -> 500 MB FLOOR in 32378.9 h
+free now: 58782 MB   samples: 1540
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32267.7 h
+  -> 500 MB FLOOR in 32378.8 h
+free now: 58782 MB   samples: 1541
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32267.5 h
+  -> 500 MB FLOOR in 32378.6 h
+free now: 58781 MB   samples: 1542
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32568.9 h
+  -> 500 MB FLOOR in 32681.1 h
+free now: 58781 MB   samples: 1543
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32568.8 h
+  -> 500 MB FLOOR in 32680.9 h
+free now: 58781 MB   samples: 1544
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32267.0 h
+  -> 500 MB FLOOR in 32378.1 h
+free now: 58780 MB   samples: 1545
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 31680.2 h
+  -> 500 MB FLOOR in 31789.3 h
+free now: 58780 MB   samples: 1546
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 31394.6 h
+  -> 500 MB FLOOR in 31502.7 h
+free now: 58780 MB   samples: 1547
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 31394.5 h
+  -> 500 MB FLOOR in 31502.6 h
+free now: 58779 MB   samples: 1548
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 31394.3 h
+  -> 500 MB FLOOR in 31502.4 h
+free now: 58779 MB   samples: 1549
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 31394.1 h
+  -> 500 MB FLOOR in 31502.2 h
+free now: 58779 MB   samples: 1550
+rate over last 5.8 h (24 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 31212.1 h
+  -> 500 MB FLOOR in 31319.5 h
+free now: 58778 MB   samples: 1551
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 46384.4 h
+  -> 500 MB FLOOR in 46544.1 h
+free now: 58778 MB   samples: 1552
+rate over last 5.8 h (24 samples): +1.3 MB/h consumed
+  -> 700 MB warn  in 43371.8 h
+  -> 500 MB FLOOR in 43521.2 h
+free now: 58709 MB   samples: 1553
+rate over last 5.8 h (24 samples): +13.3 MB/h consumed
+  -> 700 MB warn  in 4366.1 h
+  -> 500 MB FLOOR in 4381.1 h
+free now: 58709 MB   samples: 1554
+rate over last 5.8 h (24 samples): +13.3 MB/h consumed
+  -> 700 MB warn  in 4366.0 h
+  -> 500 MB FLOOR in 4381.1 h
+free now: 58708 MB   samples: 1555
+rate over last 5.8 h (24 samples): +13.3 MB/h consumed
+  -> 700 MB warn  in 4371.7 h
+  -> 500 MB FLOOR in 4386.8 h
+free now: 58708 MB   samples: 1556
+rate over last 5.8 h (24 samples): +13.3 MB/h consumed
+  -> 700 MB warn  in 4360.3 h
+  -> 500 MB FLOOR in 4375.3 h
+free now: 58707 MB   samples: 1557
+rate over last 5.8 h (24 samples): +12.3 MB/h consumed
+  -> 700 MB warn  in 4717.9 h
+  -> 500 MB FLOOR in 4734.2 h
+free now: 58707 MB   samples: 1558
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5139.6 h
+  -> 500 MB FLOOR in 5157.3 h
+free now: 58707 MB   samples: 1559
+rate over last 5.8 h (24 samples): +13.2 MB/h consumed
+  -> 700 MB warn  in 4383.1 h
+  -> 500 MB FLOOR in 4398.2 h
+free now: 58701 MB   samples: 1560
+rate over last 5.8 h (24 samples): +14.3 MB/h consumed
+  -> 700 MB warn  in 4057.4 h
+  -> 500 MB FLOOR in 4071.4 h
+free now: 58699 MB   samples: 1561
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 4013.4 h
+  -> 500 MB FLOOR in 4027.2 h
+free now: 58699 MB   samples: 1562
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 4008.5 h
+  -> 500 MB FLOOR in 4022.4 h
+free now: 58699 MB   samples: 1563
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 4008.5 h
+  -> 500 MB FLOOR in 4022.3 h
+free now: 58698 MB   samples: 1564
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 4008.5 h
+  -> 500 MB FLOOR in 4022.3 h
+free now: 58698 MB   samples: 1565
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 3998.9 h
+  -> 500 MB FLOOR in 4012.6 h
+free now: 58698 MB   samples: 1566
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 3998.8 h
+  -> 500 MB FLOOR in 4012.6 h
+free now: 58697 MB   samples: 1567
+rate over last 5.8 h (24 samples): +14.5 MB/h consumed
+  -> 700 MB warn  in 4003.6 h
+  -> 500 MB FLOOR in 4017.4 h
+free now: 58703 MB   samples: 1568
+rate over last 5.8 h (24 samples): +13.5 MB/h consumed
+  -> 700 MB warn  in 4287.0 h
+  -> 500 MB FLOOR in 4301.8 h
+free now: 58702 MB   samples: 1569
+rate over last 5.8 h (24 samples): +13.5 MB/h consumed
+  -> 700 MB warn  in 4287.0 h
+  -> 500 MB FLOOR in 4301.8 h
+free now: 58702 MB   samples: 1570
+rate over last 5.8 h (24 samples): +13.5 MB/h consumed
+  -> 700 MB warn  in 4287.0 h
+  -> 500 MB FLOOR in 4301.8 h
+free now: 58702 MB   samples: 1571
+rate over last 5.8 h (24 samples): +13.5 MB/h consumed
+  -> 700 MB warn  in 4287.0 h
+  -> 500 MB FLOOR in 4301.7 h
+free now: 58701 MB   samples: 1572
+rate over last 5.8 h (24 samples): +13.5 MB/h consumed
+  -> 700 MB warn  in 4281.4 h
+  -> 500 MB FLOOR in 4296.2 h
+free now: 58701 MB   samples: 1573
+rate over last 5.8 h (24 samples): +13.6 MB/h consumed
+  -> 700 MB warn  in 4275.7 h
+  -> 500 MB FLOOR in 4290.4 h
+free now: 58700 MB   samples: 1574
+rate over last 6.0 h (25 samples): +13.1 MB/h consumed
+  -> 700 MB warn  in 4438.8 h
+  -> 500 MB FLOOR in 4454.1 h
+free now: 58700 MB   samples: 1575
+rate over last 6.0 h (25 samples): +13.1 MB/h consumed
+  -> 700 MB warn  in 4438.8 h
+  -> 500 MB FLOOR in 4454.1 h
+free now: 58700 MB   samples: 1576
+rate over last 6.0 h (25 samples): +13.0 MB/h consumed
+  -> 700 MB warn  in 4461.5 h
+  -> 500 MB FLOOR in 4476.9 h
+free now: 58699 MB   samples: 1577
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 36631.1 h
+  -> 500 MB FLOOR in 36757.5 h
+free now: 58699 MB   samples: 1578
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 36249.3 h
+  -> 500 MB FLOOR in 36374.3 h
+free now: 58699 MB   samples: 1579
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 36249.2 h
+  -> 500 MB FLOOR in 36374.2 h
+free now: 58698 MB   samples: 1580
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 37020.2 h
+  -> 500 MB FLOOR in 37147.9 h
+free now: 58698 MB   samples: 1581
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 37020.1 h
+  -> 500 MB FLOOR in 37147.7 h
+free now: 58698 MB   samples: 1582
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 37019.8 h
+  -> 500 MB FLOOR in 37147.5 h
+free now: 58697 MB   samples: 1583
+rate over last 6.0 h (25 samples): +1.6 MB/h consumed
+  -> 700 MB warn  in 36629.9 h
+  -> 500 MB FLOOR in 36756.2 h
+free now: 58697 MB   samples: 1584
+rate over last 6.0 h (25 samples): +0.6 MB/h consumed
+  -> 700 MB warn  in 94048.9 h
+  -> 500 MB FLOOR in 94373.2 h
+free now: 58696 MB   samples: 1585
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58696 MB   samples: 1586
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58696 MB   samples: 1587
+rate over last 6.0 h (25 samples): +0.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58734 MB   samples: 1588
+rate over last 6.0 h (25 samples): -6.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58734 MB   samples: 1589
+rate over last 6.0 h (25 samples): -6.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58734 MB   samples: 1590
+rate over last 6.0 h (25 samples): -6.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58733 MB   samples: 1591
+rate over last 6.0 h (25 samples): -6.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58733 MB   samples: 1592
+rate over last 6.0 h (25 samples): -5.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 58732 MB   samples: 1593
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58732 MB   samples: 1594
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58732 MB   samples: 1595
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58731 MB   samples: 1596
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58731 MB   samples: 1597
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58731 MB   samples: 1598
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58730 MB   samples: 1599
+rate over last 6.0 h (25 samples): -5.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58722 MB   samples: 1600
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58721 MB   samples: 1601
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58721 MB   samples: 1602
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58721 MB   samples: 1603
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58720 MB   samples: 1604
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58720 MB   samples: 1605
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58720 MB   samples: 1606
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58719 MB   samples: 1607
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58719 MB   samples: 1608
+rate over last 6.0 h (25 samples): -3.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58719 MB   samples: 1609
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58719 MB   samples: 1610
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58718 MB   samples: 1611
+rate over last 6.0 h (25 samples): -3.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58718 MB   samples: 1612
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21356.3 h
+  -> 500 MB FLOOR in 21429.9 h
+free now: 58718 MB   samples: 1613
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21225.9 h
+  -> 500 MB FLOOR in 21299.1 h
+free now: 58709 MB   samples: 1614
+rate over last 6.0 h (25 samples): +4.1 MB/h consumed
+  -> 700 MB warn  in 14091.2 h
+  -> 500 MB FLOOR in 14139.8 h
+free now: 58708 MB   samples: 1615
+rate over last 6.0 h (25 samples): +4.1 MB/h consumed
+  -> 700 MB warn  in 14034.3 h
+  -> 500 MB FLOOR in 14082.7 h
+free now: 58708 MB   samples: 1616
+rate over last 5.8 h (24 samples): +4.2 MB/h consumed
+  -> 700 MB warn  in 13670.6 h
+  -> 500 MB FLOOR in 13717.7 h
+free now: 58708 MB   samples: 1617
+rate over last 5.8 h (24 samples): +4.2 MB/h consumed
+  -> 700 MB warn  in 13670.5 h
+  -> 500 MB FLOOR in 13717.6 h
+free now: 58707 MB   samples: 1618
+rate over last 5.8 h (24 samples): +4.3 MB/h consumed
+  -> 700 MB warn  in 13614.6 h
+  -> 500 MB FLOOR in 13661.5 h
+free now: 58707 MB   samples: 1619
+rate over last 5.8 h (24 samples): +4.3 MB/h consumed
+  -> 700 MB warn  in 13614.5 h
+  -> 500 MB FLOOR in 13661.5 h
+free now: 58707 MB   samples: 1620
+rate over last 5.8 h (24 samples): +4.2 MB/h consumed
+  -> 700 MB warn  in 13670.2 h
+  -> 500 MB FLOOR in 13717.4 h
+free now: 58657 MB   samples: 1621
+rate over last 5.8 h (24 samples): +12.8 MB/h consumed
+  -> 700 MB warn  in 4534.3 h
+  -> 500 MB FLOOR in 4549.9 h
+free now: 58657 MB   samples: 1622
+rate over last 5.8 h (24 samples): +12.8 MB/h consumed
+  -> 700 MB warn  in 4540.4 h
+  -> 500 MB FLOOR in 4556.1 h
+free now: 58657 MB   samples: 1623
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5119.3 h
+  -> 500 MB FLOOR in 5137.0 h
+free now: 58656 MB   samples: 1624
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5111.4 h
+  -> 500 MB FLOOR in 5129.0 h
+free now: 58656 MB   samples: 1625
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5119.2 h
+  -> 500 MB FLOOR in 5136.9 h
+free now: 58655 MB   samples: 1626
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5111.3 h
+  -> 500 MB FLOOR in 5129.0 h
+free now: 58655 MB   samples: 1627
+rate over last 5.8 h (24 samples): +11.3 MB/h consumed
+  -> 700 MB warn  in 5111.3 h
+  -> 500 MB FLOOR in 5129.0 h
+free now: 58655 MB   samples: 1628
+rate over last 5.8 h (24 samples): +11.4 MB/h consumed
+  -> 700 MB warn  in 5103.5 h
+  -> 500 MB FLOOR in 5121.1 h
+free now: 58648 MB   samples: 1629
+rate over last 5.8 h (24 samples): +12.4 MB/h consumed
+  -> 700 MB warn  in 4660.4 h
+  -> 500 MB FLOOR in 4676.5 h
+free now: 58648 MB   samples: 1630
+rate over last 5.8 h (24 samples): +12.5 MB/h consumed
+  -> 700 MB warn  in 4634.4 h
+  -> 500 MB FLOOR in 4650.4 h
+free now: 58647 MB   samples: 1631
+rate over last 5.8 h (24 samples): +12.6 MB/h consumed
+  -> 700 MB warn  in 4615.1 h
+  -> 500 MB FLOOR in 4631.1 h
+free now: 58652 MB   samples: 1632
+rate over last 5.8 h (24 samples): +11.6 MB/h consumed
+  -> 700 MB warn  in 4996.1 h
+  -> 500 MB FLOOR in 5013.4 h
+free now: 58652 MB   samples: 1633
+rate over last 5.8 h (24 samples): +11.6 MB/h consumed
+  -> 700 MB warn  in 4981.1 h
+  -> 500 MB FLOOR in 4998.3 h
+free now: 58651 MB   samples: 1634
+rate over last 5.8 h (24 samples): +11.7 MB/h consumed
+  -> 700 MB warn  in 4973.7 h
+  -> 500 MB FLOOR in 4990.8 h
+free now: 58651 MB   samples: 1635
+rate over last 5.8 h (24 samples): +11.7 MB/h consumed
+  -> 700 MB warn  in 4951.4 h
+  -> 500 MB FLOOR in 4968.5 h
+free now: 58650 MB   samples: 1636
+rate over last 5.8 h (24 samples): +11.7 MB/h consumed
+  -> 700 MB warn  in 4936.7 h
+  -> 500 MB FLOOR in 4953.8 h
+free now: 58649 MB   samples: 1637
+rate over last 5.8 h (24 samples): +10.3 MB/h consumed
+  -> 700 MB warn  in 5609.9 h
+  -> 500 MB FLOOR in 5629.2 h
+free now: 58649 MB   samples: 1638
+rate over last 5.8 h (24 samples): +10.4 MB/h consumed
+  -> 700 MB warn  in 5581.6 h
+  -> 500 MB FLOOR in 5600.9 h
+free now: 58648 MB   samples: 1639
+rate over last 5.8 h (24 samples): +10.4 MB/h consumed
+  -> 700 MB warn  in 5562.6 h
+  -> 500 MB FLOOR in 5581.8 h
+free now: 58647 MB   samples: 1640
+rate over last 6.0 h (25 samples): +10.1 MB/h consumed
+  -> 700 MB warn  in 5727.9 h
+  -> 500 MB FLOOR in 5747.7 h
+free now: 58647 MB   samples: 1641
+rate over last 6.0 h (25 samples): +10.2 MB/h consumed
+  -> 700 MB warn  in 5709.0 h
+  -> 500 MB FLOOR in 5728.7 h
+free now: 58646 MB   samples: 1642
+rate over last 6.0 h (25 samples): +10.2 MB/h consumed
+  -> 700 MB warn  in 5699.6 h
+  -> 500 MB FLOOR in 5719.3 h
+free now: 58646 MB   samples: 1643
+rate over last 6.0 h (25 samples): +10.2 MB/h consumed
+  -> 700 MB warn  in 5671.7 h
+  -> 500 MB FLOOR in 5691.3 h
+free now: 58645 MB   samples: 1644
+rate over last 6.0 h (25 samples): +10.3 MB/h consumed
+  -> 700 MB warn  in 5634.8 h
+  -> 500 MB FLOOR in 5654.3 h
+free now: 58644 MB   samples: 1645
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 26950.8 h
+  -> 500 MB FLOOR in 27043.9 h
+free now: 58644 MB   samples: 1646
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26140.0 h
+  -> 500 MB FLOOR in 26230.2 h
+free now: 58643 MB   samples: 1647
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 25752.5 h
+  -> 500 MB FLOOR in 25841.3 h
+free now: 58642 MB   samples: 1648
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 25192.3 h
+  -> 500 MB FLOOR in 25279.3 h
+free now: 58642 MB   samples: 1649
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 24656.0 h
+  -> 500 MB FLOOR in 24741.1 h
+free now: 58641 MB   samples: 1650
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 24311.0 h
+  -> 500 MB FLOOR in 24394.9 h
+free now: 58641 MB   samples: 1651
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 23811.2 h
+  -> 500 MB FLOOR in 23893.4 h
+free now: 58640 MB   samples: 1652
+rate over last 6.0 h (25 samples): +2.5 MB/h consumed
+  -> 700 MB warn  in 23489.1 h
+  -> 500 MB FLOOR in 23570.2 h
+free now: 58639 MB   samples: 1653
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 39060.1 h
+  -> 500 MB FLOOR in 39195.0 h
+free now: 58639 MB   samples: 1654
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 38625.8 h
+  -> 500 MB FLOOR in 38759.1 h
+free now: 58638 MB   samples: 1655
+rate over last 6.0 h (25 samples): +1.5 MB/h consumed
+  -> 700 MB warn  in 38200.9 h
+  -> 500 MB FLOOR in 38332.7 h
+free now: 58631 MB   samples: 1656
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16473.3 h
+  -> 500 MB FLOOR in 16530.2 h
+free now: 58631 MB   samples: 1657
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 16791.6 h
+  -> 500 MB FLOOR in 16849.5 h
+free now: 58630 MB   samples: 1658
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16710.7 h
+  -> 500 MB FLOOR in 16768.4 h
+free now: 58630 MB   samples: 1659
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16710.5 h
+  -> 500 MB FLOOR in 16768.2 h
+free now: 58629 MB   samples: 1660
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16710.3 h
+  -> 500 MB FLOOR in 16768.0 h
+free now: 58628 MB   samples: 1661
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16630.2 h
+  -> 500 MB FLOOR in 16687.6 h
+free now: 58628 MB   samples: 1662
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 16790.7 h
+  -> 500 MB FLOOR in 16848.7 h
+free now: 58627 MB   samples: 1663
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 16872.1 h
+  -> 500 MB FLOOR in 16930.3 h
+free now: 58633 MB   samples: 1664
+rate over last 6.0 h (25 samples): +2.4 MB/h consumed
+  -> 700 MB warn  in 24307.5 h
+  -> 500 MB FLOOR in 24391.5 h
+free now: 58633 MB   samples: 1665
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 24828.3 h
+  -> 500 MB FLOOR in 24914.0 h
+free now: 58633 MB   samples: 1666
+rate over last 6.0 h (25 samples): +2.3 MB/h consumed
+  -> 700 MB warn  in 25558.5 h
+  -> 500 MB FLOOR in 25646.7 h
+free now: 58632 MB   samples: 1667
+rate over last 6.0 h (25 samples): +2.2 MB/h consumed
+  -> 700 MB warn  in 26534.0 h
+  -> 500 MB FLOOR in 26625.6 h
+free now: 58632 MB   samples: 1668
+rate over last 6.0 h (25 samples): +2.1 MB/h consumed
+  -> 700 MB warn  in 27807.6 h
+  -> 500 MB FLOOR in 27903.6 h
+free now: 58632 MB   samples: 1669
+rate over last 6.0 h (25 samples): +2.0 MB/h consumed
+  -> 700 MB warn  in 29209.6 h
+  -> 500 MB FLOOR in 29310.4 h
+free now: 58632 MB   samples: 1670
+rate over last 6.0 h (25 samples): +1.9 MB/h consumed
+  -> 700 MB warn  in 30760.5 h
+  -> 500 MB FLOOR in 30866.7 h
+free now: 58632 MB   samples: 1671
+rate over last 6.0 h (25 samples): +1.8 MB/h consumed
+  -> 700 MB warn  in 32485.4 h
+  -> 500 MB FLOOR in 32597.6 h
+free now: 58638 MB   samples: 1672
+rate over last 6.0 h (25 samples): +0.7 MB/h consumed
+  -> 700 MB warn  in 86907.5 h
+  -> 500 MB FLOOR in 87207.5 h
+free now: 58625 MB   samples: 1673
+rate over last 6.0 h (25 samples): +2.7 MB/h consumed
+  -> 700 MB warn  in 21192.2 h
+  -> 500 MB FLOOR in 21265.3 h
+free now: 58619 MB   samples: 1674
+rate over last 6.0 h (25 samples): +3.7 MB/h consumed
+  -> 700 MB warn  in 15583.5 h
+  -> 500 MB FLOOR in 15637.4 h
+free now: 58619 MB   samples: 1675
+rate over last 6.0 h (25 samples): +3.6 MB/h consumed
+  -> 700 MB warn  in 16014.4 h
+  -> 500 MB FLOOR in 16069.7 h
+free now: 58619 MB   samples: 1676
+rate over last 6.0 h (25 samples): +3.5 MB/h consumed
+  -> 700 MB warn  in 16392.1 h
+  -> 500 MB FLOOR in 16448.7 h
+free now: 58619 MB   samples: 1677
+rate over last 6.0 h (25 samples): +3.4 MB/h consumed
+  -> 700 MB warn  in 16951.8 h
+  -> 500 MB FLOOR in 17010.3 h
+free now: 58619 MB   samples: 1678
+rate over last 6.0 h (25 samples): +3.3 MB/h consumed
+  -> 700 MB warn  in 17375.6 h
+  -> 500 MB FLOOR in 17435.6 h
+free now: 58619 MB   samples: 1679
+rate over last 6.0 h (25 samples): +3.2 MB/h consumed
+  -> 700 MB warn  in 17913.0 h
+  -> 500 MB FLOOR in 17974.8 h
+free now: 58631 MB   samples: 1680
+rate over last 6.0 h (25 samples): +0.0 MB/h consumed
+  -> flat or growing; no projection
+free now: 58664 MB   samples: 1681
+rate over last 5.8 h (24 samples): -5.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58663 MB   samples: 1682
+rate over last 5.8 h (24 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58662 MB   samples: 1683
+rate over last 5.8 h (24 samples): -5.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58662 MB   samples: 1684
+rate over last 5.8 h (24 samples): -5.8 MB/h consumed
+  -> flat or growing; no projection
+free now: 58661 MB   samples: 1685
+rate over last 5.8 h (24 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58660 MB   samples: 1686
+rate over last 5.8 h (24 samples): -5.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58660 MB   samples: 1687
+rate over last 5.8 h (24 samples): -4.7 MB/h consumed
+  -> flat or growing; no projection
+free now: 58659 MB   samples: 1688
+rate over last 5.8 h (24 samples): -4.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 58659 MB   samples: 1689
+rate over last 5.8 h (24 samples): -4.5 MB/h consumed
+  -> flat or growing; no projection
+free now: 58658 MB   samples: 1690
+rate over last 5.8 h (24 samples): -4.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58657 MB   samples: 1691
+rate over last 5.8 h (24 samples): -4.3 MB/h consumed
+  -> flat or growing; no projection
+free now: 58657 MB   samples: 1692
+rate over last 5.8 h (24 samples): -4.2 MB/h consumed
+  -> flat or growing; no projection
+free now: 58656 MB   samples: 1693
+rate over last 5.8 h (24 samples): -4.1 MB/h consumed
+  -> flat or growing; no projection
+free now: 58647 MB   samples: 1694
+rate over last 5.8 h (24 samples): -2.6 MB/h consumed
+  -> flat or growing; no projection
+free now: 58647 MB   samples: 1695
+rate over last 5.8 h (24 samples): -1.4 MB/h consumed
+  -> flat or growing; no projection
+free now: 58646 MB   samples: 1696
+rate over last 5.8 h (24 samples): -3.5 MB/h consumed
+  -> flat or growing; no projection

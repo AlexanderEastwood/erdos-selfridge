@@ -1,0 +1,10 @@
+k=142 SKIP (residual scan ~9.19e+09 > 6e+09)
+k=148 REFEREE-CONFIRMED wall=41.6s R=1.6e+07 cap=1e14
+k=154 SKIP (residual scan ~7.16e+09 > 6e+09)
+k=160 SKIP (residual scan ~1.11e+10 > 6e+09)
+k=166 SKIP (residual scan ~4.02e+10 > 6e+09)
+k=172 SKIP (residual scan ~1.69e+12 > 6e+09)
+k=178 SKIP (residual scan ~1.13e+12 > 6e+09)
+k=184 SKIP (residual scan ~1.85e+13 > 6e+09)
+k=190 SKIP (residual scan ~2.21e+12 > 6e+09)
+k=196 SKIP (residual scan ~5.24e+14 > 6e+09)

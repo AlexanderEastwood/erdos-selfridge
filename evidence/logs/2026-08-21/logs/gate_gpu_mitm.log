@@ -1,0 +1,10 @@
+  k=20 ok=11 bad=0 oor=0 0s
+  k=40 ok=31 bad=0 oor=0 0s
+  k=60 ok=51 bad=0 oor=0 0s
+  k=80 ok=71 bad=0 oor=0 0s
+  k=100 ok=91 bad=0 oor=0 1s
+  k=120 ok=111 bad=0 oor=0 2s
+  k=140 ok=131 bad=0 oor=0 9s
+
+GPU MITM gate k=10..140: solved=131 mismatches=[] out-of-range=[]
+GATE PASS

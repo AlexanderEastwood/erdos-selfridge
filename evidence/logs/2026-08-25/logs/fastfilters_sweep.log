@@ -1,0 +1,14 @@
+{"name": "ff4_control", "tune": {"fast_filters": 4}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 17.4568, "reps": [17.45679012345679, 17.48148148148148, 17.26829268292683]}
+{"name": "ff2", "tune": {"fast_filters": 2}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 18.1667, "reps": [14.718750000000002, 18.17948717948718, 18.166666666666664]}
+{"name": "ff6", "tune": {"fast_filters": 6}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 17.0602, "reps": [10.121428571428572, 17.060240963855424, 17.28048780487805]}
+{"name": "ff8", "tune": {"fast_filters": 8}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 16.869, "reps": [9.82638888888889, 17.26829268292683, 16.86904761904762]}
+{"name": "ff12", "tune": {"fast_filters": 12}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 16.4651, "reps": [9.61904761904762, 17.048192771084338, 16.46511627906977]}
+{"name": "ff16", "tune": {"fast_filters": 16}, "sieve": "gpu_sieve_v9.py", "correct": true, "speedup_vs_incumbent": 16.8571, "reps": [9.51006711409396, 16.857142857142858, 16.86904761904762]}
+
+# ranked:
+  18.1667x  ff2  correct=True
+  17.4568x  ff4_control  correct=True
+  17.0602x  ff6  correct=True
+  16.869x  ff8  correct=True
+  16.8571x  ff16  correct=True
+  16.4651x  ff12  correct=True

@@ -1,0 +1,223 @@
+[07:31:12] k=141 tune=None -> FOUND wall=0.49s
+[07:31:13] k=141 tune={'m_cap_factor': 0.005} -> FOUND wall=0.51s
+[07:31:13] k=142 tune=None -> FOUND wall=0.38s
+[07:31:13] k=142 tune={'m_cap_factor': 0.005} -> FOUND wall=0.41s
+[07:31:14] k=143 tune=None -> FOUND wall=0.37s
+[07:31:14] k=143 tune={'m_cap_factor': 0.005} -> FOUND wall=0.41s
+[07:31:25] k=144 tune=None -> FOUND wall=0.44s
+[07:31:25] k=144 tune={'m_cap_factor': 0.005} -> FOUND wall=0.37s
+[07:31:25] k=145 tune=None -> FOUND wall=0.37s
+[07:31:26] k=145 tune={'m_cap_factor': 0.005} -> FOUND wall=0.38s
+[07:31:26] k=146 tune=None -> FOUND wall=0.36s
+[07:31:27] k=146 tune={'m_cap_factor': 0.005} -> FOUND wall=0.3s
+[07:31:27] k=147 tune=None -> FOUND wall=0.37s
+[07:31:27] k=147 tune={'m_cap_factor': 0.005} -> FOUND wall=0.42s
+[07:31:28] k=148 tune=None -> FOUND wall=0.38s
+[07:31:28] k=148 tune={'m_cap_factor': 0.005} -> FOUND wall=0.36s
+[07:31:29] k=149 tune=None -> FOUND wall=0.43s
+[07:31:29] k=149 tune={'m_cap_factor': 0.005} -> FOUND wall=0.36s
+[07:31:29] k=150 tune=None -> FOUND wall=0.31s
+[07:31:30] k=150 tune={'m_cap_factor': 0.005} -> FOUND wall=0.31s
+[07:31:30] k=151 tune=None -> FOUND wall=0.38s
+[07:31:30] k=151 tune={'m_cap_factor': 0.005} -> FOUND wall=0.38s
+[07:31:31] k=152 tune=None -> FOUND wall=0.41s
+[07:31:31] k=152 tune={'m_cap_factor': 0.005} -> FOUND wall=0.58s
+[07:31:32] k=153 tune=None -> FOUND wall=0.6s
+[07:31:34] k=153 tune={'m_cap_factor': 0.005} -> FOUND wall=2.45s
+[07:31:35] k=154 tune=None -> FOUND wall=0.45s
+[07:31:35] k=154 tune={'m_cap_factor': 0.005} -> FOUND wall=0.53s
+[07:31:36] k=155 tune=None -> FOUND wall=0.37s
+[07:31:36] k=155 tune={'m_cap_factor': 0.005} -> FOUND wall=0.4s
+[07:31:37] k=156 tune=None -> FOUND wall=0.43s
+[07:31:37] k=156 tune={'m_cap_factor': 0.005} -> FOUND wall=0.55s
+[07:31:38] k=157 tune=None -> FOUND wall=0.64s
+[07:31:39] k=157 tune={'m_cap_factor': 0.005} -> FOUND wall=0.72s
+[07:31:39] k=158 tune=None -> FOUND wall=0.38s
+[07:31:39] k=158 tune={'m_cap_factor': 0.005} -> FOUND wall=0.43s
+[07:31:40] k=159 tune=None -> FOUND wall=0.38s
+[07:31:40] k=159 tune={'m_cap_factor': 0.005} -> FOUND wall=0.41s
+[07:31:41] k=160 tune=None -> FOUND wall=0.4s
+[07:31:41] k=160 tune={'m_cap_factor': 0.005} -> FOUND wall=0.4s
+[07:31:41] k=161 tune=None -> FOUND wall=0.38s
+[07:31:42] k=161 tune={'m_cap_factor': 0.005} -> FOUND wall=0.39s
+[07:31:42] k=162 tune=None -> FOUND wall=0.38s
+[07:31:43] k=162 tune={'m_cap_factor': 0.005} -> FOUND wall=0.4s
+[07:31:43] k=163 tune=None -> FOUND wall=0.47s
+[07:31:43] k=163 tune={'m_cap_factor': 0.005} -> FOUND wall=0.46s
+[07:31:44] k=164 tune=None -> FOUND wall=0.74s
+[07:31:45] k=164 tune={'m_cap_factor': 0.005} -> FOUND wall=0.77s
+[07:31:46] k=165 tune=None -> FOUND wall=0.62s
+[07:31:46] k=165 tune={'m_cap_factor': 0.005} -> FOUND wall=0.65s
+[07:31:47] k=166 tune=None -> FOUND wall=0.39s
+[07:31:47] k=166 tune={'m_cap_factor': 0.005} -> FOUND wall=0.43s
+[07:31:48] k=167 tune=None -> FOUND wall=0.72s
+[07:31:48] k=167 tune={'m_cap_factor': 0.005} -> FOUND wall=0.66s
+[07:31:49] k=168 tune=None -> FOUND wall=0.48s
+[07:31:49] k=168 tune={'m_cap_factor': 0.005} -> FOUND wall=0.41s
+[07:31:50] k=169 tune=None -> FOUND wall=0.52s
+[07:31:51] k=169 tune={'m_cap_factor': 0.005} -> FOUND wall=0.67s
+[07:31:51] k=170 tune=None -> FOUND wall=0.34s
+[07:31:51] k=170 tune={'m_cap_factor': 0.005} -> FOUND wall=0.51s
+[07:31:53] k=171 tune=None -> FOUND wall=1.3s
+[07:31:54] k=171 tune={'m_cap_factor': 0.005} -> FOUND wall=1.53s
+[07:31:57] k=172 tune=None -> FOUND wall=2.62s
+[07:32:00] k=172 tune={'m_cap_factor': 0.005} -> FOUND wall=2.93s
+[07:32:00] k=173 tune=None -> FOUND wall=0.57s
+[07:32:01] k=173 tune={'m_cap_factor': 0.005} -> FOUND wall=0.86s
+[07:32:02] k=174 tune=None -> FOUND wall=0.41s
+[07:32:02] k=174 tune={'m_cap_factor': 0.005} -> FOUND wall=0.44s
+[07:32:04] k=175 tune=None -> FOUND wall=1.77s
+[07:32:06] k=175 tune={'m_cap_factor': 0.005} -> FOUND wall=1.71s
+[07:32:07] k=176 tune=None -> FOUND wall=0.86s
+[07:32:08] k=176 tune={'m_cap_factor': 0.005} -> FOUND wall=1.25s
+[07:32:10] k=177 tune=None -> FOUND wall=1.74s
+[07:32:11] k=177 tune={'m_cap_factor': 0.005} -> FOUND wall=1.67s
+[07:32:12] k=178 tune=None -> FOUND wall=0.72s
+[07:32:13] k=178 tune={'m_cap_factor': 0.005} -> FOUND wall=0.7s
+[07:32:14] k=179 tune=None -> FOUND wall=0.98s
+[07:32:15] k=179 tune={'m_cap_factor': 0.005} -> FOUND wall=1.59s
+[07:32:17] k=180 tune=None -> FOUND wall=1.68s
+[07:32:21] k=180 tune={'m_cap_factor': 0.005} -> FOUND wall=4.49s
+[07:32:45] k=181 tune=None -> FOUND wall=23.6s
+[07:33:27] k=181 tune={'m_cap_factor': 0.005} -> FOUND wall=41.71s
+[07:33:29] k=182 tune=None -> FOUND wall=1.79s
+[07:33:31] k=182 tune={'m_cap_factor': 0.005} -> FOUND wall=2.44s
+[07:33:33] k=183 tune=None -> FOUND wall=2.2s
+[07:33:39] k=183 tune={'m_cap_factor': 0.005} -> FOUND wall=6.29s
+[07:33:41] k=184 tune=None -> FOUND wall=1.96s
+[07:33:47] k=184 tune={'m_cap_factor': 0.005} -> FOUND wall=5.31s
+[07:33:48] k=185 tune=None -> FOUND wall=1.66s
+[07:33:51] k=185 tune={'m_cap_factor': 0.005} -> FOUND wall=2.15s
+[07:33:55] k=186 tune=None -> FOUND wall=4.81s
+[07:34:00] k=186 tune={'m_cap_factor': 0.005} -> FOUND wall=4.75s
+[07:34:01] k=187 tune=None -> FOUND wall=0.44s
+[07:34:01] k=187 tune={'m_cap_factor': 0.005} -> FOUND wall=0.5s
+[07:34:02] k=188 tune=None -> FOUND wall=0.44s
+[07:34:02] k=188 tune={'m_cap_factor': 0.005} -> FOUND wall=0.5s
+[07:34:03] k=189 tune=None -> FOUND wall=1.01s
+[07:34:06] k=189 tune={'m_cap_factor': 0.005} -> FOUND wall=3.03s
+[07:34:09] k=190 tune=None -> FOUND wall=3.19s
+[07:34:13] k=190 tune={'m_cap_factor': 0.005} -> FOUND wall=4.16s
+[07:34:16] k=191 tune=None -> FOUND wall=2.36s
+[07:34:20] k=191 tune={'m_cap_factor': 0.005} -> FOUND wall=3.98s
+[07:34:30] k=192 tune=None -> FOUND wall=9.82s
+[07:34:43] k=192 tune={'m_cap_factor': 0.005} -> FOUND wall=13.67s
+[07:36:34] k=193 tune=None -> FOUND wall=110.47s
+[07:39:03] k=193 tune={'m_cap_factor': 0.005} -> FOUND wall=149.52s
+[07:40:45] k=194 tune=None -> FOUND wall=10.75s
+[07:41:09] k=194 tune={'planner': 'knapsack'} -> FOUND wall=23.96s
+[07:41:13] k=195 tune=None -> FOUND wall=4.28s
+[07:41:20] k=195 tune={'planner': 'knapsack'} -> FOUND wall=7.02s
+[07:41:24] k=196 tune=None -> FOUND wall=3.6s
+[07:41:27] k=196 tune={'planner': 'knapsack'} -> FOUND wall=3.29s
+[07:41:38] k=197 tune=None -> FOUND wall=10.3s
+[07:42:01] k=197 tune={'planner': 'knapsack'} -> FOUND wall=23.99s
+[07:42:50] k=198 tune=None -> FOUND wall=48.1s
+[07:44:59] k=198 tune={'planner': 'knapsack'} -> FOUND wall=129.42s
+[07:45:31] k=199 tune=None -> FOUND wall=32.18s
+[07:45:36] k=199 tune={'planner': 'knapsack'} -> FOUND wall=4.42s
+[07:59:00] k=200 tune=None -> FOUND wall=804.79s
+[08:05:02] k=201 tune=None -> FOUND wall=361.16s
+[08:08:37] k=202 tune=None -> FOUND wall=215.68s
+[08:17:15] k=202 tune=None -> FOUND wall=183.57s
+[08:21:40] k=202 tune={'planner': 'knapsack'} -> FOUND wall=265.01s
+[08:22:06] k=203 tune=None -> FOUND wall=25.66s
+[08:22:21] k=203 tune={'planner': 'knapsack'} -> FOUND wall=14.85s
+[08:24:32] k=204 tune=None -> FOUND wall=131.76s
+[08:27:46] k=204 tune={'planner': 'knapsack'} -> FOUND wall=193.66s
+[08:29:00] k=205 tune=None -> FOUND wall=73.59s
+[08:30:37] k=205 tune={'planner': 'knapsack'} -> FOUND wall=97.8s
+[08:32:05] k=206 tune=None -> FOUND wall=87.15s
+[08:34:02] k=206 tune={'planner': 'knapsack'} -> FOUND wall=117.55s
+[08:34:29] k=207 tune=None -> FOUND wall=26.75s
+[08:34:46] k=207 tune={'planner': 'knapsack'} -> FOUND wall=16.77s
+[08:38:11] k=208 tune=None -> FOUND wall=205.88s
+[09:01:16] k=208 tune=None -> FOUND wall=142.98s
+[09:06:44] k=208 tune={'planner': 'knapsack'} -> FOUND wall=327.96s
+[09:07:10] k=209 tune=None -> FOUND wall=25.87s
+[09:08:39] k=209 tune={'planner': 'knapsack'} -> FOUND wall=88.67s
+[09:09:37] k=210 tune=None -> FOUND wall=58.12s
+[09:10:44] k=210 tune={'planner': 'knapsack'} -> FOUND wall=67.31s
+[09:11:40] k=211 tune=None -> FOUND wall=55.67s
+[09:13:31] k=211 tune={'planner': 'knapsack'} -> FOUND wall=110.75s
+[09:13:31] k=212 tune=None -> NO_OUTPUT wall=0.57s
+[09:15:41] k=213 tune=None -> FOUND wall=129.22s
+[09:20:04] k=213 tune={'planner': 'knapsack'} -> FOUND wall=263.07s
+[09:20:08] k=214 tune=None -> FOUND wall=4.24s
+[09:20:09] k=214 tune={'planner': 'knapsack'} -> NO_OUTPUT wall=0.58s
+[09:20:09] k=215 tune=None -> FOUND wall=0.83s
+[09:20:10] k=215 tune={'planner': 'knapsack'} -> FOUND wall=1.03s
+[09:20:39] k=216 tune=None -> FOUND wall=28.64s
+[09:21:27] k=216 tune={'planner': 'knapsack'} -> FOUND wall=47.79s
+[09:21:32] k=217 tune=None -> FOUND wall=4.87s
+[09:22:07] k=217 tune={'planner': 'knapsack'} -> FOUND wall=35.34s
+[09:22:13] k=218 tune=None -> FOUND wall=6.18s
+[09:22:30] k=218 tune={'planner': 'knapsack'} -> FOUND wall=17.1s
+[09:22:31] k=219 tune=None -> FOUND wall=1.05s
+[09:22:33] k=219 tune={'planner': 'knapsack'} -> FOUND wall=1.4s
+[09:22:35] k=220 tune=None -> FOUND wall=2.64s
+[09:22:39] k=220 tune={'planner': 'knapsack'} -> FOUND wall=3.69s
+[09:22:40] k=221 tune=None -> NO_OUTPUT wall=0.6s
+[09:22:41] k=222 tune=None -> FOUND wall=0.77s
+[09:22:42] k=222 tune={'planner': 'knapsack'} -> FOUND wall=1.23s
+[09:22:44] k=223 tune=None -> FOUND wall=2.46s
+[09:22:47] k=223 tune={'planner': 'knapsack'} -> FOUND wall=2.36s
+[09:22:48] k=224 tune=None -> FOUND wall=1.17s
+[09:22:49] k=224 tune={'planner': 'knapsack'} -> FOUND wall=1.08s
+[09:22:53] k=225 tune=None -> FOUND wall=4.63s
+[09:22:56] k=225 tune={'planner': 'knapsack'} -> FOUND wall=2.04s
+[09:23:21] k=226 tune=None -> FOUND wall=25.36s
+[09:24:03] k=226 tune={'planner': 'knapsack'} -> FOUND wall=42.53s
+[09:24:14] k=227 tune=None -> FOUND wall=10.5s
+[09:25:01] k=227 tune={'planner': 'knapsack'} -> FOUND wall=46.57s
+[09:25:36] k=228 tune=None -> FOUND wall=35.17s
+[09:25:38] k=212 tune=None -> FOUND wall=116.01s
+[09:26:16] k=228 tune={'planner': 'knapsack'} -> FOUND wall=39.96s
+[09:26:30] k=229 tune=None -> FOUND wall=14.47s
+[09:26:34] k=229 tune={'planner': 'knapsack'} -> FOUND wall=3.79s
+[09:27:31] k=230 tune=None -> FOUND wall=57.29s
+[09:28:27] k=212 tune={'planner': 'knapsack'} -> FOUND wall=168.42s
+[09:29:17] k=230 tune={'planner': 'knapsack'} -> FOUND wall=106.19s
+[09:31:18] k=231 tune=None -> FOUND wall=120.95s
+[09:39:05] k=231 tune={'planner': 'knapsack'} -> FOUND wall=466.82s
+[09:40:37] k=232 tune=None -> FOUND wall=91.47s
+[09:41:39] k=221 tune=None -> FOUND wall=9.3s
+[09:42:06] k=221 tune={'planner': 'knapsack'} -> FOUND wall=27.53s
+[09:43:55] k=232 tune={'planner': 'knapsack'} -> FOUND wall=198.17s
+[09:45:44] k=233 tune=None -> FOUND wall=108.82s
+[09:48:28] k=233 tune={'planner': 'knapsack'} -> FOUND wall=164.01s
+[09:49:06] k=234 tune=None -> FOUND wall=38.08s
+[09:49:51] k=234 tune={'planner': 'knapsack'} -> FOUND wall=44.75s
+[09:50:01] k=235 tune=None -> FOUND wall=10.62s
+[09:50:36] k=235 tune={'planner': 'knapsack'} -> FOUND wall=34.93s
+[09:51:00] k=236 tune=None -> FOUND wall=23.62s
+[09:51:39] k=236 tune={'planner': 'knapsack'} -> FOUND wall=38.88s
+[09:51:40] k=237 tune=None -> FOUND wall=1.24s
+[09:51:42] k=237 tune={'planner': 'knapsack'} -> FOUND wall=1.97s
+[09:52:37] k=238 tune=None -> FOUND wall=55.16s
+[09:56:04] k=238 tune={'planner': 'knapsack'} -> FOUND wall=206.59s
+[09:56:56] k=239 tune=None -> FOUND wall=52.35s
+[09:58:01] k=239 tune={'planner': 'knapsack'} -> FOUND wall=64.92s
+[09:59:05] k=240 tune=None -> FOUND wall=63.73s
+[09:59:17] k=240 tune={'planner': 'knapsack'} -> FOUND wall=12.08s
+[10:00:01] k=241 tune=None -> FOUND wall=44.6s
+[10:01:42] k=241 tune={'planner': 'knapsack'} -> FOUND wall=101.16s
+[10:04:18] k=242 tune=None -> FOUND wall=155.71s
+[10:10:05] k=242 tune={'planner': 'knapsack'} -> FOUND wall=347.29s
+[10:10:20] k=243 tune=None -> FOUND wall=14.88s
+[10:10:39] k=243 tune={'planner': 'knapsack'} -> FOUND wall=18.19s
+[10:11:39] k=244 tune=None -> FOUND wall=59.96s
+[10:12:32] k=244 tune={'planner': 'knapsack'} -> FOUND wall=53.45s
+[10:23:02] k=245 tune=None -> FOUND wall=629.68s
+[10:28:43] k=246 tune=None -> FOUND wall=341.2s
+[10:31:03] k=247 tune=None -> FOUND wall=139.76s
+[10:41:00] k=247 tune={'planner': 'knapsack'} -> FOUND wall=596.92s
+[10:47:44] k=248 tune=None -> FOUND wall=404.55s
+[10:49:08] k=249 tune=None -> FOUND wall=83.43s
+[10:49:15] k=249 tune={'planner': 'knapsack'} -> FOUND wall=7.8s
+[11:01:21] k=250 tune=None -> FOUND wall=725.17s
+[11:12:34] k=251 tune=None -> FOUND wall=673.88s
+[11:32:48] k=252 tune=None -> FOUND wall=1213.17s
+[11:43:32] k=253 tune=None -> FOUND wall=643.86s
+[11:59:05] k=254 tune=None -> FOUND wall=933.58s
+[12:35:15] k=255 tune=None -> FOUND wall=2170.32s

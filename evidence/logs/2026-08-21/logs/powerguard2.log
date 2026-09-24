@@ -1,0 +1,1 @@
+# psu=/sys/class/hwmon/hwmon7/power1_input ceiling=700.0W resume_at=640.0W pattern='bin/python (harness/run_k|sieve/gpu_sieve_v[0-9])\\.py [0-9]'

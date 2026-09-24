@@ -1,0 +1,4 @@
+# cost-ordered, 21 feasible: [(65, '7.5e+02'), (69, '1.0e+03'), (61, '1.1e+03'), (77, '9.7e+03'), (97, '1.3e+04'), (73, '1.7e+04')] ...
+k=65 REFEREE-CONFIRMED wall=125.7s R=1.2e+08 cap=1e15
+k=69 REFEREE-CONFIRMED wall=132.3s R=1.2e+08 cap=1e16
+k=61 REFEREE-CONFIRMED wall=26.8s R=2.8e+07 cap=1e15

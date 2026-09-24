@@ -1,0 +1,1 @@
+{"name": "ff4_control", "tune": {"fast_filters": 4}, "sieve": "gpu_sieve_v9.py", "correct": false, "speedup_vs_incumbent": null, "reps": []}

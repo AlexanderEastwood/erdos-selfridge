@@ -1,0 +1,2 @@
+reference OK (k<=60)
+GPU sieve OK (k<=140)

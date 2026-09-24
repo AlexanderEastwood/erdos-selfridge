@@ -1,4 +1,12 @@
 .venv/
 __pycache__/
 *.pyc
+
+# The working run tree is not published wholesale; the curated subset lives in
+# evidence/logs/ (see evidence/logs/README.md for what is included and why).
 overnight/
+
+# AI terminal session captures: never publish. They are ANSI-escape recordings of
+# working sessions, not search evidence, and they carry contact and network details.
+claude_session*.log
+*_session_*.log

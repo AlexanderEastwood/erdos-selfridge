@@ -1,0 +1,6 @@
+{"name": "v4_singlesync_chunk30", "tune": null, "sieve": "gpu_sieve_v4.py", "correct": true, "speedup_vs_incumbent": 1.3114, "reps": [1.326345609065156, 1.2650602409638556, 1.379310344827586, 1.3114374034003091, 1.3100537221795856]}
+{"name": "v4_singlesync_chunk28", "tune": {"chunk_log2": 28}, "sieve": "gpu_sieve_v4.py", "correct": true, "speedup_vs_incumbent": 1.3176, "reps": [1.3679169992019156, 1.123456790123457, 1.3176320814767664, 1.3136882129277567, 1.538109756097561]}
+
+# ranked:
+  1.3176x  v4_singlesync_chunk28  correct=True
+  1.3114x  v4_singlesync_chunk30  correct=True

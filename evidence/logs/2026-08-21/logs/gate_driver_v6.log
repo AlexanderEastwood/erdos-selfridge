@@ -1,0 +1,7 @@
+run_k.py driver: 60/60 match b-file, mismatches=[], DISAGREEMENTS=[], missing=[]
+resume path: ok=[{'k': 26, 'first_pass': 'EXHAUSTED_BLOCKS', 'ckpt_block': 2, 'resumed_and_found_in_block': 5, 'restarts': 1}, {'k': 30, 'first_pass': 'EXHAUSTED_BLOCKS', 'ckpt_block': 2, 'resumed_and_found_in_block': 9, 'restarts': 1}, {'k': 36, 'first_pass': 'EXHAUSTED_BLOCKS', 'ckpt_block': 2, 'resumed_and_found_in_block': 12, 'restarts': 1}, {'k': 57, 'first_pass': 'EXHAUSTED_BLOCKS', 'ckpt_block': 2, 'resumed_and_found_in_block': 7, 'restarts': 1}, {'k': 60, 'first_pass': 'EXHAUSTED_BLOCKS', 'ckpt_block': 2, 'resumed_and_found_in_block': 6, 'restarts': 1}] bad=[]
+DRIVER GATE PASS
+
+real	0m18.784s
+user	2m23.114s
+sys	0m10.658s

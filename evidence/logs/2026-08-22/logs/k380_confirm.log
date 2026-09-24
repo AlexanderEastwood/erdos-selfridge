@@ -1,0 +1,27 @@
+# banned [3] -> wheel [[2, 9], [7, 2], [11, 1], [23, 2], [43, 1], [79, 1], [97, 1], [127, 1], [131, 1], [137, 1], [191, 1], [193, 1], [197, 1], [199, 1], [211, 1]]
+k=380 t=0   4.00%  idx=5.297842e+13/1.324238e+15 surv=1 checked=5.2978e+13 rate=4.415e+11/s elapsed=0.03h block_eta=0.80h
+k=380 t=0   7.96%  idx=1.054618e+14/1.324238e+15 surv=1 checked=1.0546e+14 rate=4.394e+11/s elapsed=0.07h block_eta=0.77h
+k=380 t=0  11.91%  idx=1.576672e+14/1.324238e+15 surv=2 checked=1.5767e+14 rate=4.380e+11/s elapsed=0.10h block_eta=0.74h
+k=380 t=0  15.85%  idx=2.098779e+14/1.324238e+15 surv=2 checked=2.0988e+14 rate=4.372e+11/s elapsed=0.13h block_eta=0.71h
+k=380 t=0  19.79%  idx=2.620875e+14/1.324238e+15 surv=2 checked=2.6209e+14 rate=4.368e+11/s elapsed=0.17h block_eta=0.68h
+k=380 t=0  23.73%  idx=3.142960e+14/1.324238e+15 surv=3 checked=3.1430e+14 rate=4.365e+11/s elapsed=0.20h block_eta=0.64h
+k=380 t=0  27.68%  idx=3.665035e+14/1.324238e+15 surv=3 checked=3.6650e+14 rate=4.363e+11/s elapsed=0.23h block_eta=0.61h
+k=380 t=0  31.64%  idx=4.189451e+14/1.324238e+15 surv=3 checked=4.1895e+14 rate=4.364e+11/s elapsed=0.27h block_eta=0.58h
+k=380 t=0  35.62%  idx=4.716325e+14/1.324238e+15 surv=3 checked=4.7163e+14 rate=4.367e+11/s elapsed=0.30h block_eta=0.54h
+k=380 t=0  39.59%  idx=5.243189e+14/1.324238e+15 surv=3 checked=5.2432e+14 rate=4.369e+11/s elapsed=0.33h block_eta=0.51h
+k=380 t=0  43.57%  idx=5.770020e+14/1.324238e+15 surv=3 checked=5.7700e+14 rate=4.371e+11/s elapsed=0.37h block_eta=0.47h
+k=380 t=0  47.55%  idx=6.296723e+14/1.324238e+15 surv=3 checked=6.2967e+14 rate=4.373e+11/s elapsed=0.40h block_eta=0.44h
+k=380 t=0  51.53%  idx=6.823479e+14/1.324238e+15 surv=3 checked=6.8235e+14 rate=4.374e+11/s elapsed=0.43h block_eta=0.41h
+k=380 t=0  55.51%  idx=7.350267e+14/1.324238e+15 surv=3 checked=7.3503e+14 rate=4.375e+11/s elapsed=0.47h block_eta=0.37h
+k=380 t=0  59.48%  idx=7.876981e+14/1.324238e+15 surv=3 checked=7.8770e+14 rate=4.376e+11/s elapsed=0.50h block_eta=0.34h
+k=380 t=0  63.46%  idx=8.403920e+14/1.324238e+15 surv=3 checked=8.4039e+14 rate=4.377e+11/s elapsed=0.53h block_eta=0.31h
+k=380 t=0  67.44%  idx=8.931095e+14/1.324238e+15 surv=3 checked=8.9311e+14 rate=4.378e+11/s elapsed=0.57h block_eta=0.27h
+k=380 t=0  71.42%  idx=9.458334e+14/1.324238e+15 surv=3 checked=9.4583e+14 rate=4.379e+11/s elapsed=0.60h block_eta=0.24h
+k=380 t=0  75.41%  idx=9.985606e+14/1.324238e+15 surv=3 checked=9.9856e+14 rate=4.380e+11/s elapsed=0.63h block_eta=0.21h
+k=380 t=0  79.39%  idx=1.051283e+15/1.324238e+15 surv=3 checked=1.0513e+15 rate=4.380e+11/s elapsed=0.67h block_eta=0.17h
+k=380 t=0  83.37%  idx=1.104002e+15/1.324238e+15 surv=3 checked=1.1040e+15 rate=4.381e+11/s elapsed=0.70h block_eta=0.14h
+k=380 t=0  87.35%  idx=1.156721e+15/1.324238e+15 surv=3 checked=1.1567e+15 rate=4.381e+11/s elapsed=0.73h block_eta=0.11h
+k=380 t=0  91.33%  idx=1.209440e+15/1.324238e+15 surv=3 checked=1.2094e+15 rate=4.382e+11/s elapsed=0.77h block_eta=0.07h
+k=380 t=0  95.31%  idx=1.262161e+15/1.324238e+15 surv=3 checked=1.2622e+15 rate=4.382e+11/s elapsed=0.80h block_eta=0.04h
+k=380 t=0  99.29%  idx=1.314881e+15/1.324238e+15 surv=3 checked=1.3149e+15 rate=4.383e+11/s elapsed=0.83h block_eta=0.01h
+{"k": 380, "status": "FOUND", "g": "10462825184429793014317942235516", "block": 0, "engine": "gpu_sieve_v8", "block_audit": [{"t": 0, "residues_enumerated": 1324238243328000, "kernel_survivors": 3, "after_n_gt_k_plus_1": 2, "passed_ref_is_good": 2, "survivors_n": ["380", "10462825184429793014317942235516", "31308222042473219761075761917309"], "sha256_survivors": "c1d7c5b500ebe27e8bd3ce6196ca122d0c26cde076eae4e8188691897a8a3a28"}], "surv_hash_recipe": "sha256 of the UTF-8 bytes of '\\n'.join(decimal(n) for n in sorted(survivors)), no trailing newline; the empty list hashes to sha256(b'')", "blocks_scanned": 1, "survivors_in_block": 3, "all_good_in_block": ["10462825184429793014317942235516", "31308222042473219761075761917309"], "residues_checked": 1324238243328000, "wall": 3021.3306064605713, "restarts": 0, "plan": {"k": 380, "wheel": [[23, 2], [211, 1], [137, 1], [199, 1], [79, 1], [197, 1], [131, 1], [7, 2], [2, 9], [97, 1], [43, 1], [193, 1], [11, 1], [191, 1], [127, 1]], "wheel_primes": [23, 211, 137, 199, 79, 197, 131, 7, 2, 97, 43, 193, 11, 191, 127], "split_primes": [[211, 1, 2], [137, 1, 2], [199, 1, 2], [79, 1, 2], [197, 1, 2], [131, 1, 2], [7, 2, 4], [97, 1, 2], [43, 1, 2], [193, 1, 2], [11, 1, 3], [191, 1, 2], [127, 1, 2]], "N_bits": 105, "M_bits": 105, "M": "33432564968187208796838834293248", "N": "33432564968187208796838834293248", "n_filters": 73, "residues_per_block": 1324238243328000, "density_wheel": 3.9609232632556915e-17, "density_rest": 1.7235543354997967e-16, "expected_g": 1.4648008796197968e+32, "E_g": 1.4648008796197968e+32, "expected_blocks": 4.381359554714481, "N_over_E": 0.22823965655226092, "expected_residue_checks": 5801963880123453.0, "expected_checks_true": 6489248134469619.0}, "engine_module": "gpu_sieve_v8", "engine_file": "sieve/gpu_sieve_v8.py", "engine_commit": "0be7e21", "tag": "confirm", "banned": "3"}

@@ -1,0 +1,22 @@
+{"name": "incumbent_control", "tune": null, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 1.0, "reps": [0.9992498124531133, 1.0, 1.0014981273408239]}
+{"name": "sandbox_control", "tune": null, "sieve": "incumbent_copy.py", "correct": true, "speedup_vs_incumbent": 1.0, "reps": [1.0, 0.9985029940119761, 1.0]}
+{"name": "rest_cache_log", "tune": null, "sieve": "rest_cache_log.py", "correct": true, "speedup_vs_incumbent": 1.0, "reps": [1.0, 1.0014981273408239, 1.0]}
+{"name": "rest_q075", "tune": null, "sieve": "rest_q075.py", "correct": true, "speedup_vs_incumbent": 0.9955, "reps": [0.9955290611028316, 0.9910913140311803, 0.9963609898107714]}
+{"name": "rest_sqrt", "tune": null, "sieve": "rest_sqrt.py", "correct": true, "speedup_vs_incumbent": 0.9633, "reps": [0.9505571030640669, 0.9633286318758816, 0.9634060520760027]}
+{"name": "threads512", "tune": {"threads": 512}, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 1.0029, "reps": [1.048799380325329, 1.002865329512894, 1.0014326647564469]}
+{"name": "threads128", "tune": {"threads": 128}, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 1.0079, "reps": [1.007913669064748, 1.0057553956834533, 1.0680388793596343]}
+{"name": "threads1024", "tune": {"threads": 1024}, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 0.9546, "reps": [0.9552486187845303, 0.954470652770159, 0.9545951859956235]}
+{"name": "chunk26", "tune": {"chunk_log2": 26}, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 0.6198, "reps": [0.628736046092906, 0.6198318149964962, 0.6163163519771999]}
+{"name": "chunk30", "tune": {"chunk_log2": 30}, "sieve": "gpu_sieve_v3.py", "correct": true, "speedup_vs_incumbent": 1.2232, "reps": [1.2232267037552156, 1.221990257480863, 1.2261656228253306]}
+
+# ranked:
+  1.2232x  chunk30  correct=True
+  1.0079x  threads128  correct=True
+  1.0029x  threads512  correct=True
+  1.0x  incumbent_control  correct=True
+  1.0x  sandbox_control  correct=True
+  1.0x  rest_cache_log  correct=True
+  0.9955x  rest_q075  correct=True
+  0.9633x  rest_sqrt  correct=True
+  0.9546x  threads1024  correct=True
+  0.6198x  chunk26  correct=True

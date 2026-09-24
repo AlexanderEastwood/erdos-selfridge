@@ -1,0 +1,6 @@
+A. default-path identity, k=100..400: 301 planned, 0 differ
+B. target_g plans well-formed, 286 k with a known g in 100..400: 0 problems
+C. negative control: target_g changes the plan for 27/29 k -- A's comparison is live
+D. ban=[23] + target_g, wired as run_k.py does: 12 k checked, 0 problems
+
+VERDICT: PASS -- CPU-only; the GPU gate (gate.py 140 / 200) is still owed before v10 is used.

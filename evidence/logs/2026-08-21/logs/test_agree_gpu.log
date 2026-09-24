@@ -1,0 +1,6 @@
+reference OK (k<=60)
+GPU sieve OK (k<=140)
+
+real	0m5.083s
+user	0m5.426s
+sys	0m0.876s

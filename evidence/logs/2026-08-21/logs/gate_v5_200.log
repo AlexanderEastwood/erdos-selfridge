@@ -1,0 +1,6 @@
+gpu_sieve_v5.py: 200/200 results, mismatches=[], DISAGREEMENTS=[]
+GATE PASS
+
+real	0m7.345s
+user	0m7.074s
+sys	0m1.216s

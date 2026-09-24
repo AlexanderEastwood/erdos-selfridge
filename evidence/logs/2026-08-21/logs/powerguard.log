@@ -1,0 +1,4 @@
+# psu=/sys/class/hwmon/hwmon7/power1_input ceiling=700.0W resume_at=640.0W pattern='bin/python (harness/run_k|sieve/gpu_sieve_v[0-9])\\.py [0-9]'
+[08:53:49] !! 722W > 700.0W for 3 samples -> KILL [516214]
+[10:23:37] !! 702W > 700.0W for 3 samples -> KILL [647164]
+[13:34:00] !! 722W > 700.0W for 3 samples -> KILL [663283]
